@@ -1,0 +1,3 @@
+/*Icons*/
+#menu-posts-wmfslider div.wp-menu-image:before { content: "\f233"!important; }
+#menu-posts-wmfgallery div.wp-menu-image:before { content: "\f161"!important; }

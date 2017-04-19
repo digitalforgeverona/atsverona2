@@ -1,0 +1,47 @@
+/*
++---------------------------------------------------------------+
+|	e107 website system
+|
+|	©Steve Dunstan 2001-2005
+|	http://e107.org
+|	jalist@e107.org
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
+|	
+|	Tema Shadow - by Alf - http://www.frock.it
++---------------------------------------------------------------+
+*/
+
+Note.
+
+Il tema SHADOW è un tema "minimalista" destinato all'ulteriore, eventuale, personalizzazione da parte dell'Utente ed orientato ad un'utilizzo di "Pagine Personali" per siti di presentazione.
+Sono comunque definite le classi per il sistema di "News" "Forum" e "Commenti" in caso di destinazione d'uso quali blog, forum, etc...
+
+Il tema è basato sull'utilizzo delle librerie "MooTools" e "Shadowbox" , per il rendering dei menu e delle Pagine Personali.
+L'amministratore, e solo lui, ha a disposizione , nella schermata di home page, un pulsante che apre/chiude i blocchi menu laterali impostati da pannello di amministrazione.
+
+
+Installazione.
+
+Scompattare il file shadow.zip e caricare la cartella "Shadow" all'interno della cartella e107_themes del proprio sito.
+E' INDISPENSABILE settare , da Preferenze del menu di Amministrazione, la pagina "home.php" come pagina principale del sito inserendo la path completa (ad es. http://www.tuosito.it/e107_themes/Shadow/Pagine/home.php).
+La cartella "imgoriginali" contiene i vettoriali per la personalizzazione di alcune immagini da parte dell'Utente; non è pertanto necessario il suo caricamento sul server.
+
+
+Personalizzazione.
+
+Il menu di navigazione è contenuto nel file "home.php". I commenti alle varie sezioni del menu indicano chiaramente a quale link si riferiscono e li possono essere apportate tutte le modifiche desiderate.
+ATTENZIONE! Non rimuovere l'attributo "rel='shadowbox'" dai link a meno che non si voglia disattivare l'effetto "shadowbox";
+Non modificare le classi "_tab" a meno di non farlo anche nel Javascript richiamato, pena il mancato funzionamento della libreria "Shadowbox".
+
+I tempi d'esecuzione delle animazioni del menu possono essere gestiti editando il file "menu.js" nella directory "JS" , così come i parametri dimensionali delle "box" di menu congiuntamente alle classi definite nel file "style.css" (#box e #..._tab).
+
+
+Alf
+http://www.frock.it
+
+
+
+
+

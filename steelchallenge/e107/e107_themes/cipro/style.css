@@ -1,0 +1,1015 @@
+/*
+Theme Name: Cipro
+Theme URI: http://www.staradrael.net/
+Description: Based on Nebula flavoured Rin by Khaled Abou Alfa
+Version: 1.0
+Author: Star Adrael
+Author URI: http://www.vunoraa.com/
+/*
+Content  ---------------------------------------------------------------------->
+Version 1.0 released 8th March 2008.
+
+A: Universal Elements
+
+B: Structure
+   1: Header & Navigation
+   2: Main Body (Index)
+   3: Main Body (Posts)
+   4. Post Additional Structure
+   5: Page Navigation
+   6: Sidebar
+   7: Comments
+   8: Comments Form
+   9: Footer
+   10: Credits
+
+C: Site Typography
+   1: General
+   2: Main Body
+   3: Page Navigation
+   4: Comments
+   5: Comment Form
+   6: Credits
+   7: Search/Archives/Categories Results Pages 
+   8: Comment Edit Buttons
+   9: Snippets formatting
+   10: Sidebar and Resources formatting
+   11: Tags, Images Positioning in posts
+
+D: Hacks for IE
+------------------------------------------------------------------------------->
+*/
+
+
+/* 
+A: Universal Elements >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+body {
+ background: #E5E5E5 url(images/bkg.jpg);
+ margin:  0;
+ padding: 0;
+ text-align: center; /* IE hack Part 1 */ 
+}
+
+
+/*
+B: Structure >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. Header & Navigation ------------------------------------------------------>*/
+#hnav {
+ width: 750px;
+ margin: 8px auto;
+ height: 23px;
+ background-color: transparent;
+ border: 0px solid #CC9933;
+}
+
+#header {
+ float: left;
+ width: 235px;
+ margin: 0px;
+ padding: 0px;
+ text-align: left;
+ height: 20px;
+}
+
+#sitelinkswrapper {
+	height: 22px;
+ margin: 8px auto;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+ width: 750px;
+ background: #2D2D2D url(images/bar.jpg);
+ border: #CC9933 1px solid;
+}
+
+#hmenu {
+ margin: 2px 5px 0 0;
+ text-transform:lowercase;
+ text-align: right;
+ float: right;
+ width: 100%;
+ font-family: Verdana,  Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ font-weight: bold;
+ background-color: transparent;
+}
+
+#masthead {
+ background: url(images/masthead.jpg);
+ width: 750px;
+ height: 135px;
+ margin: 0 auto;
+ padding: 0;
+ border: #CC9933 1px solid;
+}
+
+
+/*
+2. Main Body (Index) -------------------------------------------------------->*/
+#container {
+ width: 750px;
+ margin: 0px auto;
+ background: #F5EBD7 url(images/sub_menu.jpg) repeat-x;
+ font-family: Verdana,  Arial, Helvetica, sans-serif;
+ font-size: .70em;
+ text-align: left; /* IE hack Part 2 */
+ border: 1px solid #CC9933;
+}
+
+#topcontentdouble {
+ float: right;
+ width: 500px;
+ height: 27px;
+ background: #f5f6f7 url(images/header_whole2.gif) repeat-x top;
+ margin: 9px 10px 0 0;
+ display: inline;
+ border-left: #9B68C2 1px solid;
+ border-right: #9B68C2 1px solid;
+ border-top: #9B68C2 1px solid;
+}
+
+#content {
+ float: right;
+ width: 500px;
+ background: #fff;
+ margin:  0 10px 0 0;
+ display: inline;
+ border-left: #9B68C2 1px solid;
+ border-right: #9B68C2 1px solid;
+}
+
+#bottomcontentdouble {
+ display: inline;
+ float: right;
+ width: 500px;
+ background: #f5f6f7 url(images/bottom_whole2.gif) repeat-x bottom;
+ margin: 0 10px 9px 0;
+ height: 27px;
+ border-left: #9B68C2 1px solid;
+ border-right: #9B68C2 1px solid;
+ border-bottom: #9B68C2 1px solid;
+}
+
+.post {
+ margin: 0 20px 80px 10px;
+}
+
+
+/*
+3. Main Body (Posts) -------------------------------------------------------->*/
+#topcontent {
+ width: 730px;
+ background: #f5f6f7 url(images/header_whole.gif) no-repeat top;
+ margin: 9px auto 0 auto;
+ height: 27px;
+}
+
+#singlecontent {
+ width: 730px;
+ background: #ffffff;
+ padding-top:0;
+ margin:  0 auto;
+}
+
+.singlepost {
+ margin: 0px 105px 80px 105px;
+}
+
+#bottomcontent {
+ width: 730px;
+ background: #f5f6f7 url(images/bottom_whole.gif) no-repeat top;
+ margin: 0px auto 0px auto;
+ padding-bottom: 9px;
+ height: 27px;
+}
+
+
+/*
+4. Additional Post Structure -----------------------------------------------> */
+.meta {
+ font-size: .9em;
+ line-height: 18px;
+}
+
+.feedback {
+ float: right;
+ font-size: 1.0em;
+ line-height: 35px;
+}
+
+.author {
+ width: 200px;
+ float: right;
+ text-align: right;
+}
+
+
+/*
+5. Page Navigation ---------------------------------------------------------> */
+.postnavigation {
+ height: 45px;
+}
+
+.left {
+ float: left;
+ padding-left: 105px;
+}
+
+.right {
+ float: right;
+ padding-right: 105px;
+}
+
+.leftdouble {
+ float: left;
+ padding-left: 10px;
+}
+
+.rightdouble {
+ float: right;
+ padding-right: 10px;
+}
+
+
+/*
+6. Sidebar -----------------------------------------------------------------> */
+#sidebar {
+ position: relative;
+ float: left;
+ width: 225px;
+ margin: 0 0 0 10px;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 1.0em;
+ text-align: left; /* IE hack Part 2 */
+ display: inline;
+}
+
+#sidebar ul {
+ position: relative;
+}
+
+#sidebar ul li {
+ list-style-type: none;
+ list-style-image: none;
+}
+
+#sidebar ul, #sidebar ul li {
+ margin: 0;
+ padding: 0;
+}
+
+#sidebar ul li ul{
+ background: #fff;
+ margin: 0 5px 0 0;
+ padding: 10px 5PX 15px 5px;
+ border-left: #CC9933 1px solid;
+ border-right: #CC9933 1px solid;
+ border-bottom: #CC9933 1px solid;
+}
+
+#sidebar h2 {
+ background: url(images/menubar.jpg) repeat-x top;
+ height: 12px;
+ margin: 10px 5px 0 0px;
+ padding:  2px 0 4px 5px;
+ color: #fff;
+ border: 1px solid #9B68C2;
+}
+
+#sidebar ul li ul li{
+ margin: 4px 10px 4px 10px;
+ display: block;
+ background: url(images/bullet.jpg) no-repeat;
+ padding: 0 0 0 18px;
+}
+
+#sidebar ul li ul li a{
+ display: block;
+ height:1%; /* IE WIN */
+}
+
+#sidebar ul li ul li a:hover{
+ background: #F0F0F0;
+ text-decoration: none;
+}
+
+#sidebar ul li ul li ul {
+ margin: 0;
+ padding: 0;
+}
+
+
+/*
+7. Comments ----------------------------------------------------------------> */
+#response {
+ margin: 0px 10px;
+}
+
+#commentlist {
+ padding: 0px 10px 0px 10px;
+ margin: 0 10px;
+ color: #7b7b7b;
+ list-style-type: none; 
+ text-align: justify;
+}
+
+#commentlist li  p{
+ padding: 0px;
+ margin: 8px 0px 0px 0px;
+}
+
+.commentname {
+ width: 220px;
+ float: left;
+ font-size: 0.9em;
+ margin: 0;
+ padding: 0  0 2px 0;
+}
+
+.commentinfo{
+ width: 250px;
+ float: right;
+ text-align: right;
+}
+
+.commenttext {
+ clear: both;
+ padding-top: 0px;
+ margin: 0 0 70px 0;
+ border-top: 1px solid #e4ebef;
+ text-align: left;
+ line-height:16px;
+}
+
+
+/*
+8. Comment Form ------------------------------------------------------------> */
+h2#postcomment {
+ background: #FFFFFF url(images/comments.gif) no-repeat center top; 
+ margin: 40px 0px 0px 0px;
+ padding: 0 0 20px 10px;
+}
+
+#commentform {
+ background: #f5f6f7; 
+ padding: 1px 20px;
+ margin: 0px;
+}
+
+#commentboxes {
+ width: 200px;
+ float: left;
+ color: #7b7b7b;
+ font-size: 0.9em;
+}
+
+p.instructions {
+ margin: 14px 0 0 200px;
+ color: #7b7b7b;
+ font-size: 0.9em;
+ text-align: justify;
+ border-left: 1px solid #d5d7db;
+ padding-left: 15px;
+ position: relative;
+}
+
+#inputbox {
+ clear: both;
+ color: #7b7b7b;
+ font-size: 0.9em;
+}
+
+.button {	
+	border: #9900CC 1px solid;
+	color: #fff;
+ background-color: #9B68C2;
+	font: 9px verdana, tahoma, arial, helvetica, sans-serif;
+	text-align:center;
+}
+
+#commentsbottom {
+ background: #FFFFFF url(images/commentsdown.gif) no-repeat center top; 
+ margin: 0;
+ padding: 0;
+ height: 22px;
+}
+
+
+/*
+9. Footer ------------------------------------------------------------------> */
+#menu {
+ width: 750px;
+ height: 45px;
+ background: #F0F0F0 url(images/sub_menu.jpg) repeat-x top; border-top: 1px solid #d1d4d9;
+ border: 1px solid #CC9933;
+}
+
+#searchform {
+ float: left;
+ margin-top: 12px;
+ padding-left: 20px;
+}
+
+#topimage {
+ margin: 2px 0 0 0; 
+ cursor: pointer;
+ width: 60px;
+ height: 40px;
+ background: url(images/topbutton.gif) no-repeat top;
+ float: right;
+ padding: 3px 9px 0 0;
+}
+
+#topimage a{
+ display: block;
+ height: 100%;
+ overflow: hidden;
+ text-decoration: none;
+}
+
+
+/*
+10. Credits ----------------------------------------------------------------> */
+#footer {
+ margin: 10px auto;
+ width: 750px;
+ font-size: .8em;
+}
+
+#footer p {
+ margin-top: 0;
+}
+
+.clearer {
+ clear: both;
+ line-height: 0px;
+}
+
+
+/*
+C: Typography >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. General ------------------------------------------------------------------>*/
+a {
+ color: #CC9933;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+a:hover {
+ color: #9B68C2;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+top a {
+ border: 0;
+ text-decoration: none;
+}
+
+blockquote {
+ background: #f5f6f7;
+ padding: 10px 20px;
+}
+
+code {
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ font-size: 1.0em;
+}
+
+h1 a {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ color: #9B68C2;
+}
+
+h2 {
+ color: #9B68C2;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.1em;
+ margin: 40px 0 0 10px;
+}
+
+.singlepost h2{
+ margin-top: 0px;
+}
+
+h3 {
+	font: 13px tahoma, verdana, helvetica, arial, sans-serif;
+	color: #000;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 5px;
+ border-bottom: #CC9933 2px solid;
+}
+
+
+/*
+2. Site Navigation ---------------------------------------------------------> */
+#blogtitle {
+ margin: 0;
+ padding: 5px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: normal;
+ font-size: 0.7em;
+}
+
+#blogtitle a{
+ font-weight: bold;
+}
+
+#blogtitle a:hover{
+ color: #bfbfbf;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+#top {
+ display: inline;
+ list-style-type: none;
+}
+
+#hnav ul li{
+ display: inline;
+}
+
+#hnav ul li a {
+ color: #919191;
+ text-decoration: none;
+ padding: 5px 0px 5px 30px;
+ font-size: 0.7em;
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ font-weight: normal;
+}
+
+#hnav ul li a:hover {
+ color: #bfbfbf;
+}
+
+
+/*
+3. Main Body ---------------------------------------------------------------> */
+.post, .singlepost{
+ color: #3f3f3f;
+ text-align: left;
+}
+
+.posted {
+ color: #555555;
+}
+
+.title {
+ text-align: left;
+ height: 20px;
+ color: #000;
+ display: block;
+ text-decoration: none;
+ font-size: 1.6em;
+ padding-top: 8px;
+ padding-bottom: 3px;
+ border-bottom: #9B68C2 2px solid;
+}
+
+.title a:hover {
+ color: #005D93;
+}
+
+.storycontent {
+ border-bottom: 1px solid #BBBBBB;
+ padding: 0 0 5px 0;
+ font: 1.1em Arial, Helvetica, sans-serif;
+ line-height: 18px;
+}
+
+.singlepost p {
+ margin-top: 0;
+}
+
+.singlepages p {
+ color: #3f3f3f;
+ text-align: left;
+ margin: 0 105px 80px 105px;
+ line-height: 20px;
+ font: 1.2em Arial, Helvetica, sans-serif;
+}
+
+.storycontent a {
+ text-decoration: none;
+}
+
+.storycontent a:hover {
+ text-decoration: underline;
+}
+
+.storycontent a:visited {
+ color: #000000;
+}
+
+
+/*
+4. Site Navigation ---------------------------------------------------------> */
+.left a{
+ color: #990000;
+ font-size: 0.9em;
+}
+
+.right a{
+ font-size: 0.9em;
+ color: #990000;
+}
+
+.leftdouble a{
+ color: #990000;
+ font-size: 0.9em;
+}
+
+.rightdouble a{
+ font-size: 0.9em;
+ color: #990000;
+}
+
+
+/*
+5. Comments ----------------------------------------------------------------> */
+.commentauthor {
+ font-weight: bold;
+ font-size: 1.2em;
+ padding: 0 0 2px 0;
+ margin: 0;
+ color: #000000;
+}
+
+.commentauthor a{
+ font-weight: bold;
+ margin: 0;
+ padding: 0 20px 0 0;
+ background: url(images/icon.jpg) no-repeat top right;
+}
+
+.commentdate {
+ font-size: 0.8em;
+ text-align: right;
+ line-height: 18px;
+ padding: 0;
+ margin: 0;
+}
+
+#nocomment, #commentsclosed {
+ text-align: center;
+ color: #7b7b7b;
+ font-size: 1.1em;
+}
+
+
+/*
+6. Comments Form -----------------------------------------------------------> */
+#comment  {
+ width: 465px;
+}
+
+#comment, #author, #url, #email, #press{
+ background: #e7e9ed;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.1em;
+ color: #7b7b7b;
+ padding: 1px 2px 1px 1px;
+}
+
+#comment, #author, #url, #email{
+ border: 1px solid #d5d7db;
+}
+
+#comment:hover, #author:hover, #url:hover, #email:hover{
+ border: 1px solid #7b7b7b;
+}
+
+#comment:focus, #author:focus, #url:focus, #email:focus{
+ background: #FFFFFF;
+ border: 1px solid #000000;
+ color: #7b7b7b;
+ padding: 1px 2px 1px 1px;
+}
+
+#commentboxes p {
+ margin: 0;
+ padding-bottom: 0.9em;
+}
+
+h2#comments{
+ margin-bottom:40px;
+}
+
+p.feeds {
+ float: right;
+ margin-top: -1.8em;
+ font-size: 0.9em;
+}
+
+p.feeds a, p.feeds a:hover  {
+ text-decoration: none;
+}
+
+p.feeds a:hover {
+ color: #000000;
+}
+
+#inputbox {
+ clear: both;
+ color: #7b7b7b;
+ font-size: 0.9em;
+}
+
+#inputbox a {
+ color: #7b7b7b;
+}
+
+#inputbox a:hover {
+ color: #FFFFFF;
+}
+
+p.inputbox {
+ margin: 0;
+ padding-bottom: 10px;
+}
+
+p.pages {
+ margin: 0;
+ padding: 0 40px 40px 40px;
+ text-align: center;
+}
+
+p.pages a {
+ color: #005D93;
+}
+
+
+/*
+7. Credits -----------------------------------------------------------------> */
+p.credits {
+ padding: 0px 0px;
+ text-align: center;
+ margin: 10px 0px; 
+ color: #9e9e9e;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.8em;
+}
+
+p.wordpress {
+ margin: 0;
+ padding: 0;
+ border-bottom: 1px solid #d5d7db;
+}
+
+
+/*
+8. Search/Archives/Categories Results Pages --------------------------------> */
+.searchresult {
+ padding: 30px 0 0 0;
+ margin:0;
+}
+
+.searchresult a{
+ color: #000000; 
+}
+
+.searchinfo {
+ font-size: .9em;
+ line-height: 18px;
+ padding: 0 0 2px 0;
+ color: #000000;
+ margin: 0 ;
+}
+
+.searchdetails {
+ font-size: .9em;
+ line-height: 18px;
+ padding: 0 0 2px 0;
+ color: #000000;
+ margin: 0 ;
+ border-bottom: 1px solid #BBBBBB;
+}
+
+
+/*
+9. 'Comment Edit' Buttons --------------------------------------------------> */
+#ed_toolbar {
+ background: #d5d7db; 
+ border: 1px solid #d5d7db;
+ padding-left: 5px;
+}
+
+#ed_bold {
+ background: url(images/bold.gif) no-repeat top;
+ height: 22px;
+ width: 22px;
+ border: 0px none;
+}
+
+#ed_italic {
+ background: url(images/italic.gif) no-repeat top;
+ height: 22px;
+ width: 22px;
+ border: 0px none;
+ margin-left: 5px;
+}
+
+#ed_link {
+ background: url(images/link.gif) no-repeat top;
+ height: 22px;
+ width: 22px;
+ border: 0px none;
+ margin-left: 5px;
+}
+
+#ed_close{
+ background: url(images/close.gif) no-repeat top;
+ height: 22px;
+ width: 22px;
+ border: 0px none;
+ margin-left: 25px;
+}
+
+
+/*
+10. Calander for Archives --------------------------------------------------> */
+#wp-calendar {
+ empty-cells: show;
+ margin: 10px auto 0;
+ width: 520px;
+}
+
+#wp-calendar #next a {
+ padding-right: 10px;
+ text-align: right;
+ background-color:  #fff;
+}
+
+#wp-calendar #prev a {
+ padding-left: 10px;
+ text-align: left;
+ background-color:  #fff;
+}
+
+#wp-calendar a {
+ display: block;
+ background-color: #E0EAEF;
+}
+
+#wp-calendar caption {
+ text-align: center;
+ width: 100%;
+}
+
+#wp-calendar td{
+ padding: 3px 0;
+ text-align: center;
+}
+
+#wp-calendar  th {
+ padding: 3px 0;
+ text-align: center;
+ background-color: #f5f6f7;
+}
+
+
+/*
+D: Hacks for IE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+The following is the fix for 3-pixel-jog bug in IE. Hide from IE5-mac. Only
+IE-win sees this. */
+
+* html #content {
+ /*margin-right: 7px;*/
+}
+
+* html #sidebar {
+ height: 1%;
+}
+/* End hide from IE5/mac */
+
+
+/* This piece of code is for clearing the floats without structural markup Don't
+modify it ------------------------------------------------------------------> */
+
+.clearfix:after {
+ content: ".";
+ display: block; 
+ height: 0; 
+ clear: both; 
+ visibility: hidden;
+}
+
+.clearfix {
+ display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+ height: 1%;
+}
+.clearfix {
+ display: block;
+}
+/* End hide from IE-mac */
+
+
+/* BEGIN E107 CORE CLASSES 
+ copied from kubrick theme */
+
+.spacer {
+	padding: 2px 0 2px 0;
+}
+
+
+.indent{
+	border: 1px solid #06c;
+}
+
+
+.smalltext {
+	font-size: 9px;
+}
+
+.mediumtext {
+	font-size: 12px;
+}
+
+.tbox{
+	background-color: #FFFFFF;
+	border: #CC9933 1px solid;
+	color: #000;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+td {
+	font-size: 11px;
+	padding: 5px;
+	border: #E5E5E5 1px solid; 
+	text-align:left;
+}
+
+.fborder {
+	border: #ededed 1px solid;
+	background-color: transparent;
+	
+}
+
+.forumheader{
+	background-color: #F0F0F0;
+	font-size: 12px;
+	color:#000;
+	padding: 4px;
+	border: 1px solid #ededed;
+}
+
+.forumheader2{
+	background-color: transparent;
+	font-size: 10px;
+	color:#000;
+	padding: 4px;
+	border: #ededed 1px solid;
+}
+
+.forumheader3{
+	background-color: transparent;
+	font-size: 10px;
+	color:#000;
+	padding: 4px;
+	border: #ededed 1px solid;
+
+}
+
+.forumborder{
+	border:  #000080 1px solid;
+	background-color: transparent;
+}
+
+.fcaption {
+	border: #ededed 1px solid;
+	padding: 4px;
+	background-color: #d9d7da;
+	font-size: 12px;
+	color:#fff;
+	font-weight:bold;
+
+}
+.fcaption a{
+	color:#fff;
+}
+
+.fixfuckedie {
+	width: 95%;
+}
+
+#chatbox {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.helpbox {
+	color:#000;
+	font: 9px tahoma, verdana, arial, helvetica, sans-serif;
+	border: 0px none red;
+	background-color: transparent;
+}

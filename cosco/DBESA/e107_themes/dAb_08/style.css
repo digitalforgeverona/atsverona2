@@ -1,0 +1,611 @@
+/***************** dAb_08 Theme v1.2 by roofdog78 *****************/
+
+body{
+background: #000;
+margin:0;
+padding:0;
+font: 12px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+}
+
+a {
+color: #70A401;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+color: #FFF;
+text-decoration: none;
+font-weight: bold;
+}
+
+blockquote {
+background: #000;
+padding: 15px;
+margin: 5px 0;
+}
+
+b{font-size: 110%;}
+em{color: #70A401;}
+
+#maincontainer{
+background: #000;
+width: 100%;
+margin: 0 auto;
+}
+
+#topsection{
+background: url(images/header_bg.png) repeat-x;
+height: 164px;
+padding: 0 15px 0 20px;
+}
+
+#title {
+float: left;
+padding-top: 30px;
+}
+
+#title a{
+color: #70A401;
+font: 28px Arial, Verdana;
+font-weight: bold;
+}
+
+#title a:hover{
+color: #70A401;
+font: 28px Arial, Verdana;
+font-weight: bold;
+}
+
+#navmenu {
+clear: both;
+width: 100%;
+}
+
+#contentwrapper{
+float: left;
+width: 96%;
+margin: 0 2% 0 2%;
+}
+
+#contentcolumn{
+margin: 20px 210px 0 210px;
+color: #FFF;
+}
+
+#contentcolumn_l{
+margin: 20px 0px 0 210px;
+padding: 10px 0px 10px 10px;
+color: #FFF;
+}
+
+#contentcolumn_r{
+margin: 20px 210px 0 0;
+padding: 10px 10px 10px 0px;
+color: #FFF;
+}
+
+#contentcolumn_m{
+margin: 20px 0 0 0;
+padding: 10px 0px 10px 0px;
+color: #FFF;
+}
+
+#leftcolumn{
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: -100%;
+float: left;
+width: 200px;
+background: #000;
+font: 11px arial, verdana, tahoma, helvetica, sans-serif;
+color: #FFF;
+padding-left: 10px;
+}
+
+#rightcolumn{
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: -210px;
+float: left;
+width: 200px;
+background: #000;
+font: 11px arial, verdana, tahoma, helvetica, sans-serif;
+color: #FFF;
+}
+
+
+
+#footer{
+clear: left;
+width: 100%;
+height: 70px;
+background: url(images/footer.png) repeat-x;
+color: #FFF;
+padding: 15px 0 0 0;
+font: 12px Arial, verdana, tahoma, helvetica, sans-serif;
+text-align: center;
+}
+
+.left_footer{
+float: left;
+width: 55%;
+color: #FFF;
+text-align: left;
+padding: 0px 0px 10px 20px;
+font: 12px Arial, verdana, tahoma, helvetica, sans-serif;
+}
+
+.licence{
+float: right;
+width: 25%;
+color: #FFF;
+text-align: right;
+padding: 0px 20px 10px 0px;
+font: 12px Arial, verdana, tahoma, helvetica, sans-serif;
+}
+
+#footer a{
+text-decoration: none;
+color: #70A401;
+font-weight: bold;
+}
+
+/*****************login menu*************/
+
+#loginmenu {
+background: url(images/loginbox.png) no-repeat;
+width:180px;
+height:164px;
+float:right;
+color: #70A401;
+text-align: center;
+font-weight: bold;
+}
+
+img {
+border: 0px;
+}
+
+#loginmenu .tbox{
+width: 90px;
+font: 11px Arial;
+margin: 0 3px 2px 0;
+color: #000;
+background-color: #FFF;
+border: 1px solid #000;
+padding: 0 0 0 3px;
+}
+
+.loginbutton {
+background: url(images/login.png);
+border: 0px #000 solid;
+vertical-align: top;
+padding-top: 0;
+width: 51px;
+height: 58px;
+cursor: pointer;
+}
+
+/***************** Content Tables*********/
+
+.caption_table {
+margin-bottom: 15px;
+}
+
+.news_table {
+margin-bottom: 15px;
+width: 100%;
+}
+
+.caption {
+width: 100%;
+}
+
+.caption .left { 
+background: url('images/topleft.png') no-repeat;
+background-color: #272727;
+float: left;
+height: 36px;
+width: 29px;
+margin-right: -3px;
+}
+
+.caption .right {
+background: url('images/topright.png') no-repeat;
+background-color: #272727;
+float: right;
+height: 36px;
+width: 29px;
+margin-left: -3px;
+}
+.caption .center {
+background-image: url('images/top.png');
+height: 29px;
+padding-top: 7px;
+color: #70A401;
+font: 13px Arial bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+.caption .news_center {
+background-image: url('images/top.png');
+height: 29px;
+padding-top: 7px;
+color: #FFF;
+font: 13px Arial bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+.news_summary {
+background: #272727;
+color: #70A401;
+font: 12px Arial;
+text-align: center;
+}
+
+.content {
+background: #272727;
+padding: 10px 8px 9px 8px;
+color: #FFF;
+font: 12px Arial;
+text-align: left;
+}
+
+.miocentro{
+overflow:auto;
+height: 300px;
+background: #272727;
+padding: 10px 8px 9px 8px;
+color: #FFF;
+font: 12px Arial;
+text-align: left;
+} 
+
+.news_content {
+background-color: #272727;
+padding: 10px 10px 0px 10px;
+color: #FFF;
+font: 12px Arial;
+text-align: left;
+}
+
+.bottom .left {
+background: url('images/bottomleft.png') no-repeat;
+float: left;
+height: 29px;
+width: 29px;
+}
+.bottom .right {
+background: url('images/bottomright.png') no-repeat;
+float: right;
+height: 29px;
+width: 29px;
+}
+.bottom .center {
+background-image: url('images/bottom.png');
+height: 29px;
+}
+
+.news_image {
+float:left;
+margin-right:15px;
+margin-bottom: 8px;
+}
+
+/***************** Menus ****************/
+
+.menu_table {
+background-color: #000;
+margin-bottom: 10px;
+}
+
+.menu_caption {
+background: #000 url(images/menu_caption.png) no-repeat;
+padding: 6px 0;
+color: #70A401;
+font: 12px Arial bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+.menu_content {
+background-color: #171717;
+padding: 10px 8px 9px 8px;
+color: #FFF;
+font: 12px Arial;
+text-align: left;
+}
+
+.menu_bottom {
+background: #000 url(images/menu_bot.png) no-repeat;
+}
+
+/***************** Core classes ***********/
+
+.smalltext, .smallblacktext, .tbox, .button, .button:hover, .nextprev, .helpbox {
+font: normal 11px Arial, Verdana, Tahoma, sans-serif;
+text-align: left;
+color: #FFF;
+}
+
+h1 {
+font: 15px Arial, Verdana;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+color: #FFF;
+}
+
+h2 {
+font: 13px Arial, Verdana;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+color: #FFF;
+}
+
+h3 {
+font: 16px Arial, Verdana;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+color: #FFF;
+}
+
+.indent {
+border: #000 0px dashed;
+padding: 3px;
+margin: 0px;
+background-color: #272727;
+}
+
+.button {
+color: #FFF;
+font-weight: bold;
+border: 1px solid #888888;
+background-image : url(images/button.png);
+text-align: center;
+}
+
+.button:hover {
+color: #70A401;
+font-weight: bold;
+cursor: pointer;
+border: 1px solid #70A401;
+background-image : url(images/button.png);
+text-align: center;
+}
+
+.nextprev {
+border: 0px;
+text-align: center;
+padding: 2px;
+background-color: #000;
+}
+
+.nextprev2 {
+border: 0px;
+text-align: center;
+padding: 2px;
+background-color: #000;
+}
+
+code {
+border:0px dashed #000;
+background-color:#272727;
+padding:8px;
+margin:14px
+}
+
+.tbox, .helpbox{	
+font-size: 11px;
+font-family: Arial, Lucida Sans, Tahoma, Sans-Serif;
+color: #FFF;
+background-color: #272727;
+border: 1px solid #000;
+padding: 3px 3px 3px 3px;
+width: auto;
+}
+
+#chatbox .tbox, .helpbox{	
+font-size: 11px;
+font-family: Arial, Lucida Sans, Tahoma, Sans-Serif;
+margin: 3px 0 5px 0;
+color: #FFF;
+background-color: #272727;
+border: 1px solid #000;
+padding: 3px 3px 3px 3px;
+width: 95%;
+}
+
+#chatbox .button {
+margin-bottom: 7px;
+text-align: center;
+}
+
+#commentform .tbox, #commentform .helpbox{
+width: 350px; 
+background-color:#000;
+border: 1px solid #171717; 
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+}
+
+ul {
+	padding-left: 8px;
+}
+  
+.fborder, .border{
+border-collapse: collapse;
+border-spacing: 0px;
+}
+
+.forumheader, .forumheader2, .forumheader3, .forumheader4, .fcaption, .finfobar {
+padding: 3px;
+background-color: #272727;
+border-bottom: 1px solid #171717;
+}
+
+.forumheader, .forumheader4, .finfobar {
+background-color: #272727;
+}
+
+.forumheader5 {
+cursor: pointer;
+}
+
+.fcaption, .forumheader2, .forumheader3 {
+text-align: left;
+}
+
+.forumheader {
+font-weight: bold;
+font-size: 13px;
+padding: 9px;
+background-color: #171717;
+}
+
+.forumheader2 a{
+font-weight: bold;
+}
+
+td.forumheader4 {
+background-color: #272727;
+border: 1px #171717 solid;
+}
+
+th.forumheader6 {
+background-color: #272727;
+border: 1px #171717 solid;
+color:#70A401;
+font-size: 300%;
+font-weight:bold;
+}
+
+td.forumheader7 {
+background-color: #000000;
+border: 1px #171717 solid;
+color:#FFFFFF;
+font-size: 200%;
+font-weight:bold;
+}
+
+/* MENU STYLES */
+
+div.menuBar, div.menuBar a.menuButton, div.menuButton, div.menuButton_over, div.menu, div.menu a.menuItem {
+ font-size: 11px;
+}
+
+div.menuBar {
+padding: 0;
+text-align: left;
+clear: both;
+}
+
+div.emenuBar {
+text-align: left;
+}
+
+/* main level links */
+
+div.menuBar a.menuButton, div.menuButton, div.menuButton_over {
+float: left;
+width: 110px;
+height: 22px;
+margin: 0px 1px 0px 1px;
+padding: 7px 0px 0px 0px;
+text-align: center;
+text-transform: uppercase;
+font-size: 11px;
+color: #FFF;
+background: url(images/tab_off.png) no-repeat center;
+font-weight: bold;
+text-decoration: none;
+   }
+  
+/* main level links hover */  
+
+div.menuBar a.menuButton:hover, div.menuButton:hover, div.menuButton_over {
+background: url(images/tab_hov.png) no-repeat center;
+color: #70A401;
+text-decoration: none;
+}
+
+/* main level links active */
+
+div.menuBar a.menuButtonActive, div.menuButtonActive, div.menuButtonActive:hover, 
+div.menuBar a.menuButtonActive:hover {
+backgro'nd: url(images/tab_act.png) no-repeat center;
+color: #70A401;
+}
+
+/* sublinks styles */
+
+/* sublink container */
+
+div.menu {
+left: 0px;
+padding: 1px 1px 1px 1px;
+position: absolute;
+top: 0px;
+visibility: hidden;
+z-index: 101;
+}
+
+/* sublinks main style */
+
+div.menu a.menuItem {
+color: #000;
+cursor: pointer;
+display: block;
+padding: 4px 11px 4px 0px;
+text-transform: uppercase;
+text-align: left;
+font-size: 11px;
+text-decoration: none;
+white-space: nowrap;
+background: #FFF;
+font-weight: bold;
+}
+
+/* sublinks hover style */
+
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight {
+color: #FFF;
+font-weight: bold;
+background: #000;
+}
+
+div.menu a.menuItem span.menuItemBuffer {
+padding: 0px 2px 0px 2px;
+color: #ffffff;
+}
+
+div.menu a.menuItem:hover span.menuItemBuffer {
+padding: 0px 2px 0px 2px;
+color: #000000;
+}
+
+div.menu a.menuItem span.menuItemText {
+padding: 0px 0px 0px 18px;
+}
+
+div.menu a.menuItem span.menuItemArrow {
+margin-right: -.75em;
+}
+
+div.menu div.menuItemSep {
+border-top: 1px solid #a5a5a5;
+border-bottom: 1px solid #ffffff;
+margin: 4px 2px;
+}
+
+a.menuItem.header {
+border-bottom: 1px solid #b3b3b3;
+}

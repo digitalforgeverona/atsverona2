@@ -1,0 +1,315 @@
+/* Bfheroes TEMPLATE CSS */
+
+body {
+  background: #6599FF;
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* LINKS */
+
+a:link {color:#000000; text-decoration: none;} 
+a:visited {color:#000000; text-decoration: none;} 
+a:hover,a:active {color:#cc0000; text-decoration: underline;}
+
+#top a:link {color:#000000; text-decoration: none; font-weight: bold; border-bottom:none;}
+#top a:visited {color:#000000; text-decoration: none;font-weight: bold;} 
+#top a:hover, #top a:active {color:#cc0000; text-decoration: underline;font-weight: bold;}
+
+#footer  a:link {color:#000000; text-decoration: none; font-weight: bold; border-bottom:none;} 
+#footer  a:visited {color:#000000; text-decoration: none;font-weight: bold;} 
+#footer  a:hover, #footer  a:active {color:#cc0000; text-decoration: none;font-weight: bold;}
+
+/* LISTS */
+
+#content ul { padding-left: 0px; margin-left: 20px; color: #444444; line-height: 18px; margin-top: 10px;margin-bottom:10px;}
+#content li { list-style-type: square;  padding:0px;}
+
+/* TYPOGRAPHY */
+
+p { margin: 0px; padding: 0px; margin-bottom: 10px; }
+
+h1 { font-size: 17px; line-height: 20px;color: #266A2E; margin:0px; padding: 0px; margin-bottom: 5px; }
+h2 { font-size: 17px; line-height: 20px;color: #266A2E; margin:0px; padding: 0px; margin-bottom: 5px; }
+h3 { font-size: 17px; line-height: 19px;color: #266A2E; margin:0px; padding: 0px; margin-bottom: 5px; }
+h4 { font-size: 14px; line-height: 17px;color: #266A2E; margin:0px; padding: 0px; margin-bottom: 5px; }
+h5 { font-size: 12px; color: #266A2E; margin:0px; padding: 0px; margin-bottom: 5px; letter-spacing: 2px; }
+
+#header h1 { font-size: 28px; line-height: 32px; letter-spacing: -1px; color: #266A2E; margin:0px; padding: 0px;  padding-top: 25px;margin-bottom: 5px; padding-left:35px;}
+#header h2 { font-size: 14px; line-height: 16px; letter-spacing: 1px; color: #266A2E; margin:0px; padding: 0px;  padding-top: 0px;margin-bottom: 5px; padding-left:35px;}
+
+/* CONTAINERS */
+
+#wrapper {
+  width:1006px;
+  margin: 0 auto;
+  background:  url('images/content.gif') top left repeat-y;
+  padding: 0px;
+}
+
+#top {
+  width: 1006px;
+  height: 280px;
+  background:  url('images/logo.gif') top left no-repeat;
+  padding: 0px;
+}
+
+#top p {
+  text-align:left;
+  padding-left: 35px;
+  padding-top: 9px;
+  padding-bottom:0px;
+  line-height: 12px;
+  font-size:12px
+}
+
+#menu {   
+  width: 905px;  
+  height: 30px; 
+  margin: 0 auto;
+  clear:both;
+}
+
+#content {  
+  padding: 0px; margin: 0px;
+  border: 0px dashed #cccccc;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  clear:both;
+  text-align: left;
+  padding-left: 35px;
+}
+
+#content #inside {
+  width:870px;
+  text-align: left;
+}
+
+#content #inside #left {
+  float: left;
+  width: 180px;
+  padding-bottom: 15px;
+}
+
+#content #inside #middle {
+  margin-left: 15px;
+  float:left;;
+  width: 470px;
+}
+
+#middlecustom {
+  margin-left: 15px;
+  float:left;;
+  width: 650px;
+}
+
+#content #inside #right {
+  margin-left: 15px;
+  float:left;
+  width: 180px;
+}
+
+#footer {
+  width: 1006px;
+  height: 80px;
+  background: #004A80 url('images/footer.gif') bottom left no-repeat;
+}
+
+#footer p {
+  text-align:center;
+  padding-left: 20px;
+  padding-top: 17px;
+  padding-bottom:0px;
+  line-height: 16px;
+  font-size:12px;
+  color: #DDDDDD;
+}
+
+#bottom {
+  width:1006px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align:center;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom:0px;
+  line-height: 16px;
+  font-size:12px
+}
+
+/* NAVIGATION */
+
+#navcontainer .navlist
+{
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background:url(images/link.gif) no-repeat ;
+  color: #cc0000;
+  float: left;
+  width: 100%;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 14px; font-weight: bold;
+  display: inline;
+}
+
+#navcontainer a
+{
+  padding:16px 15px;
+  background-color: #transparent;
+  color: #transparent;
+  text-decoration: none;
+  float: left; 
+  border-right: 1px solid #transparent;
+}
+
+#navcontainer a:hover
+{
+  background:url(images/link2.gif) no-repeat ;
+  color: #cc0000;
+}
+
+
+
+
+/* IMAGE PLACEMENT */
+
+.float_left {
+  float:left;
+  border: 0px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.float_right {
+  float:right;
+  border: 0px;
+  margin-left: 10px;
+  margin-bottom: 5px;  
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+/* OTHER */
+
+.spacer {
+  clear:both;
+}
+
+
+
+
+
+/* Added by bfhero for e107 */
+
+.defaulttext {
+   background: none;
+   font: 10px verdana, arial, sans-serif; 
+   color: #000; 
+}
+
+.mediumtext {
+   font: 10px verdana, arial, sans-serif;
+	color:#000;
+}
+
+.smalltext {
+   font: 9px verdana, arial, sans-serif;
+	color:#000;
+}
+
+.smallblacktext {
+	font: 9px verdana, arial, sans-serif;
+	color:#000;
+}
+
+.footertext {
+	font: 9px verdana, arial, sans-serif;
+	color:#266A2E;
+}
+
+.tbox.chatbox {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fborder {
+	background-color: #266A2E;
+}
+
+.tbox{
+	background-color: #266A2E;
+	border: #000000 1px solid;
+	color: #000000;
+	font: 10px verdana, arial, sans-serif;
+}
+
+.button{
+	background-color: #266A2E;
+	border: #000 1px solid;
+	color: #000000;
+	font: 9px verdana, arial, sans-serif;
+	text-align:center;
+}
+
+.nextprev{
+	background-color: #266A2E;
+/*	border: #000 1px solid; */
+	color: #000000;
+	font: 9px verdana, arial, sans-serif;
+	text-align:center;
+	padding : 2px;
+}
+
+.np{
+	background-color: #266A2E;
+	border: #000000 1px solid;
+	color: #000000;
+	font: 9px verdana, arial, sans-serif;
+	text-align:center;
+	padding : 2px;
+}
+
+.forumheader{
+	background-color: #266A2E;
+	font: 12px verdana, arial, sans-serif;
+	color: #000000;
+	padding: 4px;
+	border: 2px solid #C3BDBD;
+}
+
+.forumheader2{
+	background-color: #266A2E;
+	font: 12px verdana, arial, sans-serif;
+	color:#000000;
+	padding: 4px;
+	border: #C3BDBD 1px solid;
+}
+
+.forumheader3{
+	background-color: #266A2E;
+	font: 11px verdana, arial, sans-serif;
+	color:#000000;
+	padding: 4px;
+	border: #C3BDBD 1px solid;
+}
+
+.forumborder{
+	border: #transparent 1px solid;
+}
+
+.helpbox {
+	width: 350px;
+	font: 9px verdana, arial, sans-serif;
+}

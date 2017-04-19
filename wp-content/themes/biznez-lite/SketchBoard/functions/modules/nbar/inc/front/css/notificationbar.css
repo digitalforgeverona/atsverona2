@@ -1,0 +1,114 @@
+/*- Notification Bar Front End Style
+--------------------------------------*/
+.notification_push{position:relative;display:none;}
+#notificationbar{padding: 0 0 4px;left: 0;position: fixed;width: 100%;z-index:999999;}
+#notificationbar .nbar_wrapper{padding-top:8px;padding-bottom:4px;display:none;position:relative;}
+#notificationbar a{outline:none;border:0;}
+#notificationbar .nbar_topwrap{text-align:center;height:31px;}
+#notificationbar .nbar_topwrap .nbar_topitem .nbar_extclick{display:inline;cursor:pointer;}
+#notificationbar .nbar_topwrap .nbar_topitem{display:inline;margin:0 3px;}
+#notificationbar .nbar_topwrap .nbar_msg{position:relative;*top:-9px;}
+#notificationbar .nbar_topwrap .nbar_button{border: 2px solid #FFFFFF;border-radius:0px;font-family: verdana;font-weight: bold;line-height: 30px;padding: 6px 20px;text-decoration: none;text-transform: uppercase;*zoom:1;*line-height: 14px;}
+#notificationbar .nbar_topwrap .nbar_sociallinks{font-size: 0; height: 30px; left: 10px; line-height: 30px; position: absolute; top: 9px; top:7px\9; *top:5px; } 	
+#notificationbar .nbar_topwrap .nbar_sociallinks a{display:inline;padding:15px;font-size:0;margin: 0 2px;background-position:bottom;background-repeat:no-repeat;*zoom:1;}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.fb{background-image:url('../icons/facebook.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.fb:hover{background-image:url('../icons/facebook-h.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.tw{background-image:url('../icons/twitter.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.tw:hover{background-image:url('../icons/twitter-h.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.ld{background-image:url('../icons/linkedin.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.ld:hover{background-image:url('../icons/linkedin-h.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.gp{background-image:url('../icons/googlepluse.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.gp:hover{background-image:url('../icons/googlepluse-h.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.rss{background-image:url('../icons/rss.png');position: relative;top: 0px;}
+#notificationbar .nbar_topwrap .nbar_sociallinks a.rss:hover{background-image:url('../icons/rss-h.png');}
+#notificationbar .nbar_topwrap .nbar_sociallinks .fblike{border:none; overflow:hidden;width:85px;height:21px;margin-left: 3px;margin-top: 6px;position: absolute;}
+
+#notificationbar .nbar_extendmsg {border-top:1px solid #eaeaea;display:none;position: relative;top: 8px;}
+#notificationbar .nbar_extendmsg .nbar_exmsg{width:960px;margin:0 auto;position: relative;top: 15px;padding-bottom:30px;}
+#notificationbar .nbar_extendmsg .nbar_extendmsg_txt{word-wrap: break-word; margin-bottom: 5px;}
+#notificationbar .nbar_extendmsg .nbar_extendmsg_btn{margin-top:5px;border: 1px solid #FFFFFF;border-radius: 2px 2px 2px 2px;font-family: verdana;font-weight: bold;line-height: 30px;padding: 4px 15px;text-decoration: none;text-transform: uppercase;}
+#notificationbar .nbar_extendmsg .nbar_extendmsg_btn:hover{border: 2px solid #FFFFFF;}
+#notificationbar .nbar_extendmsg .nbar_extendmsg_img{border-style:solid;}
+#notificationbar .nbar_extendmsg.template-1 .nbar_extendmsg_wrap{width:700px;float:left;}
+#notificationbar .nbar_extendmsg.template-1 .nbar_extendmsg_img{float:right;}
+#notificationbar .nbar_extendmsg.template-2 .nbar_extendmsg_wrap{width:700px;float:right;}
+#notificationbar .nbar_extendmsg.template-2 .nbar_extendmsg_img{float:left;}
+#notificationbar .nbar_extendmsg.template-3{text-align:center;}
+#notificationbar .nbar_extendmsg.template-3 .nbar_extendmsg_wrap{display:block;}
+#notificationbar .nbar_extendmsg.template-3 .nbar_extendmsg_img{display:inline;margin-bottom:10px;}
+#notificationbar .nbar_extinfo{bottom: 5px;color: #FFFFFF; font-size: 12px; font-weight: bold; margin-bottom: 5px; margin-left: 10px; position: absolute; text-align: left;} 
+#notificationbar  a.nbar_close{border:0;background-image: url("../../images/sprite1.png");background-position: 0 58px;height:19px;position: absolute;right: 10px;top: 13px;width: 18px;z-index: 999999;}
+#notificationbar  a.nbar_close:hover {background-position: 0 77px;}
+
+#notificationbar  a.nbar_plusminus{border:0;background-image: url("../../images/plus_minus1.png");background-position:0 0;height:24px;position: absolute;right: 40px;top: 12px;width: 24px;z-index: 999999;}
+#notificationbar  a.nbar_plusminus.active{background-position:bottom;}
+
+a#nbar_downArr{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 50px 50px 0;
+border-color: transparent #007bff transparent transparent;
+_border-color: #000000 #007bff #000000 #000000;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+line-height:24px !important;color: #FFFFFF; cursor: pointer; font: 400 20px/20px 'Open Sans',sans-serif;position: absolute; right: 0!important; text-align: center; text-shadow: none; z-index: 9999;text-indent: 30px; text-decoration: none;
+}
+a#nbar_downArr.bottom{line-height:64px !important;
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 0 50px 50px;
+border-color: transparent transparent #007bff transparent;
+_border-color: #000000 #000000 #007bff #000000;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  text-indent: -30px; 
+  text-decoration: none;
+}
+
+/*-- Responsive Structure
+----------------------------------*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 599px){
+	#notificationbar .nbar_topwrap .nbar_sociallinks { font-size: 0; height: auto; left: 0; line-height: 30px; position: relative; top: 0; } 
+	#notificationbar .nbar_topwrap .nbar_sociallinks .fblike { border: medium none; display: inline; height: 25px; margin-left: 3px; margin-top: 0; overflow: hidden; position: relative; top: 14px; width: 50px; } 	
+	#notificationbar .nbar_topwrap .nbar_topitem{display:block;}
+	#notificationbar .nbar_topwrap .nbar_button{padding:0;margin:12px auto 0;width:50%}
+	#notificationbar .nbar_topwrap{height:auto;}
+	#notificationbar .nbar_topwrap .nbar_msg{line-height: 15px;margin: 0 60px;}
+	#notificationbar a.nbar_close{top:10px;}
+	#notificationbar .nbar_extendmsg ,#notificationbar a.nbar_plusminus{display:none!important;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	#notificationbar .nbar_topwrap .nbar_sociallinks { font-size: 0; height: auto; left: 0; line-height: 30px; position: relative; top: 0; } 
+	#notificationbar .nbar_topwrap .nbar_sociallinks .fblike { border: medium none; display: inline; height: 25px; margin-left: 3px; margin-top: 0; overflow: hidden; position: relative; top: 14px; width: 50px; } 	
+	#notificationbar .nbar_topwrap .nbar_topitem{display:block;}
+	#notificationbar .nbar_topwrap .nbar_button{padding:0;margin:12px auto 0;width:50%}
+	#notificationbar .nbar_topwrap{height:auto;}
+	#notificationbar .nbar_topwrap .nbar_msg{line-height: 15px;margin: 0 75px;}
+	#notificationbar a.nbar_close{top:10px;}
+	#notificationbar .nbar_extendmsg .nbar_exmsg{width:100%;text-align:center;}
+	#notificationbar a.nbar_plusminus{left:10px;top:10px;}
+	#notificationbar .nbar_exttm{display:none;}
+	#notificationbar .nbar_extendmsg .nbar_extendmsg_txt{margin:0 50px;}
+	#notificationbar .nbar_extendmsg .nbar_extendmsg_img{float:none!important;}
+	#notificationbar .nbar_extinfo{position:relative;}
+	#notificationbar .nbar_extendmsg .nbar_extendmsg_wrap{width:auto!important;float:none!important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	#notificationbar .nbar_topwrap .nbar_sociallinks { font-size: 0; height: auto; left: 0; line-height: 30px; position: relative; top: 0; } 
+	#notificationbar .nbar_topwrap .nbar_sociallinks .fblike { border: medium none; display: inline; height: 25px; margin-left: 3px; margin-top: 0; overflow: hidden; position: relative; top: 14px; width: 50px; } 	
+	#notificationbar .nbar_topwrap .nbar_topitem{display:block;}
+	#notificationbar .nbar_topwrap .nbar_button{padding:0;margin:12px auto 0;width:30%}
+	#notificationbar .nbar_topwrap{height:auto;}
+	#notificationbar .nbar_topwrap .nbar_msg{line-height: 15px;margin: 0 75px;}
+	#notificationbar a.nbar_close{top:10px;}
+	#notificationbar .nbar_extendmsg .nbar_exmsg{width:100%;text-align:center;}
+	#notificationbar a.nbar_plusminus{left:10px;top:10px;}
+	#notificationbar .nbar_exttm{display:none;}
+	#notificationbar .nbar_extendmsg .nbar_extendmsg_txt{margin:0 50px;}
+	#notificationbar .nbar_extendmsg .nbar_extendmsg_img{float:none!important;}
+	#notificationbar .nbar_extinfo{position:relative;}
+	#notificationbar .nbar_extendmsg .nbar_extendmsg_wrap{width:auto!important;float:none!important;}
+}

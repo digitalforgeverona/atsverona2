@@ -1,0 +1,1673 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sarraty\n"
+"POT-Creation-Date: 2014-04-29 16:25+0100\n"
+"PO-Revision-Date: 2014-04-29 16:43+0100\n"
+"Last-Translator: marco <reasonable1967@gmail.com>\n"
+"Language-Team: asalah\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11 ../404.php:29
+msgid "Not found"
+msgstr "Mostra tutte"
+
+#: ../archive.php:13 ../archive.php:41
+#, fuzzy, php-format
+msgid "Daily Archives: %s"
+msgstr "Prodotto"
+
+#: ../archive.php:15 ../archive.php:43
+#, fuzzy, php-format
+msgid "Monthly Archives: %s"
+msgstr "Prodotto"
+
+#: ../archive.php:15 ../archive.php:43
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:17 ../archive.php:45
+#, fuzzy, php-format
+msgid "Yearly Archives: %s"
+msgstr "Prodotto"
+
+#: ../archive.php:17 ../archive.php:45
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:19 ../archive.php:47
+msgid "Archives"
+msgstr ""
+
+#: ../author.php:18 ../author.php:31
+#, fuzzy
+msgid "All posts by: "
+msgstr "Altre"
+
+#: ../category.php:11 ../category.php:29
+#, fuzzy, php-format
+msgid "Category Archives: %s"
+msgstr "Categoria"
+
+#: ../comments.php:10
+msgid "Pingback: "
+msgstr ""
+
+#: ../comments.php:10
+msgid "Edit"
+msgstr ""
+
+#: ../comments.php:28
+#, fuzzy
+msgid "Reply"
+msgstr "Lascia una risposta"
+
+#: ../comments.php:43
+#, fuzzy
+msgid "Comments"
+msgstr "."
+
+#: ../comments.php:46
+#, fuzzy
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "."
+
+#: ../comments.php:65 ../comments.php:79
+#, fuzzy
+msgid "Comment navigation"
+msgstr "Commento"
+
+#: ../comments.php:66 ../comments.php:80
+#, fuzzy
+msgid "&larr; Older Comments"
+msgstr "."
+
+#: ../comments.php:67 ../comments.php:81
+#, fuzzy
+msgid "Newer Comments &rarr;"
+msgstr "."
+
+#: ../comments.php:91
+#, fuzzy
+msgid "Comments are closed."
+msgstr "."
+
+#: ../comments.php:95
+#, fuzzy
+msgid "Leave A Reply!"
+msgstr "Lascia una risposta"
+
+#: ../comments.php:101
+#, fuzzy, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lascia una risposta"
+
+#: ../comments.php:102
+#, fuzzy
+msgid "Cancel Reply"
+msgstr "Lascia una risposta"
+
+#: ../comments.php:103
+#, fuzzy
+msgid "Post Comment"
+msgstr "Commento"
+
+#: ../comments.php:105
+#, fuzzy, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Commento"
+
+#: ../comments.php:106
+#, fuzzy, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr "Prodotto"
+
+#: ../comments.php:107
+#, fuzzy
+msgid "Your email address will not be published."
+msgstr "Il tuo indirizzo mail deve essere nome@dominio.xxx"
+
+#: ../content-none.php:12
+#, fuzzy
+msgid "Nothing Found"
+msgstr "Mostra tutte"
+
+#: ../content-none.php:18
+#, fuzzy, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Primo"
+
+#: ../content-none.php:22
+#, fuzzy
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Non ho trovato risultati, prova di nuovo con differenti chiavi di ricerca"
+
+#: ../content-none.php:27
+#, fuzzy
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "la pagina che cerchi non esiste"
+
+#: ../content.php:45
+#, fuzzy
+msgid "Go to post"
+msgstr "Continua..."
+
+#: ../content.php:60 ../page-templates/woocommerce.php:84
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content.php:61 ../page-templates/woocommerce.php:85
+msgid "Pages:"
+msgstr ""
+
+#: ../footer.php:73
+msgid "Scroll To Top"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:80
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:195 ../framework/tgm/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:196 ../framework/tgm/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:197 ../framework/tgm/class-tgm-plugin-activation.php:157
+#, fuzzy, php-format
+msgid "Installing Plugin: %s"
+msgstr "Prodotto"
+
+#: ../functions.php:198
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:209 ../framework/tgm/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:210 ../framework/tgm/class-tgm-plugin-activation.php:171
+#: ../framework/tgm/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:211
+#, fuzzy, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Mostra tutte"
+
+#: ../functions.php:258
+msgid "Blog sidebar"
+msgstr ""
+
+#: ../functions.php:260
+msgid "This sidebar id is: \"sidebar-blog\" to be used in sidebar shortcode"
+msgstr ""
+
+#: ../functions.php:270
+#, fuzzy
+msgid "Footer Area One"
+msgstr "Un commento"
+
+#: ../functions.php:272
+msgid "This sidebar id is: \"sidebar-1\" to be used in sidebar shortcode"
+msgstr ""
+
+#: ../functions.php:280
+msgid "Footer Area Two"
+msgstr ""
+
+#: ../functions.php:282
+msgid "This sidebar id is: \"sidebar-2\" to be used in sidebar shortcode"
+msgstr ""
+
+#: ../functions.php:290
+msgid "Footer Area Three"
+msgstr ""
+
+#: ../functions.php:292
+msgid "This sidebar id is: \"sidebar-3\" to be used in sidebar shortcode"
+msgstr ""
+
+#: ../functions.php:300
+msgid "Footer Area four"
+msgstr ""
+
+#: ../functions.php:302
+msgid "This sidebar id is: \"sidebar-4\" to be used in sidebar shortcode"
+msgstr ""
+
+#: ../functions.php:318
+msgid "This custom sidebar id is: \""
+msgstr ""
+
+#: ../functions.php:339 ../index.php:13
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:479
+#, fuzzy
+msgid "0 Comments"
+msgstr "."
+
+#: ../functions.php:485
+msgid "By"
+msgstr ""
+
+#: ../functions.php:497
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:498
+msgid "Facebook"
+msgstr ""
+
+#: ../functions.php:499
+msgid "Google Plus"
+msgstr ""
+
+#: ../functions.php:500
+msgid "Dribbble"
+msgstr ""
+
+#: ../functions.php:501
+msgid "Linkedin"
+msgstr ""
+
+#: ../functions.php:599 ../functions.php:654 ../inc/posts.php:51
+#: ../inc/posts.php:73
+msgid "Posted on"
+msgstr ""
+
+#: ../functions.php:650 ../inc/posts.php:48 ../inc/posts.php:69
+#, fuzzy
+msgid "Read More..."
+msgstr "Leggi di più"
+
+#: ../header.php:26
+#, fuzzy, php-format
+msgid "Page %s"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../header.php:99 ../header.php:262
+msgid "Mail"
+msgstr ""
+
+#: ../header.php:103 ../header.php:266
+msgid "Phone"
+msgstr ""
+
+#: ../product-searchform.php:3
+#, fuzzy
+msgid "Search for products"
+msgstr "Cerca"
+
+#: ../search.php:11 ../search.php:29
+#, fuzzy, php-format
+msgid "Search Results for: %s"
+msgstr "Cerca"
+
+#: ../searchform.php:3
+#, fuzzy
+msgid "Search the blog"
+msgstr "Cerca"
+
+#: ../single-project.php:98
+msgid "Project Overview"
+msgstr "Descrizione"
+
+#: ../single-project.php:106 ../inc/postoptions.php:703
+#, fuzzy
+msgid "Project Details"
+msgstr "Prodotto"
+
+#: ../single-project.php:111 ../inc/posttypes/wp-pricing-table/index.php:365
+#: ../inc/widgets/postlist.php:76 ../inc/widgets/project.php:95
+#, fuzzy
+msgid "Date"
+msgstr "Data"
+
+#: ../single-project.php:124
+msgid "Client"
+msgstr ""
+
+#: ../single-project.php:136 ../inc/widgets/postlist.php:84
+#: ../inc/widgets/project.php:105
+#, fuzzy
+msgid "Tags"
+msgstr "Continua..."
+
+#: ../single-project.php:148
+msgid "Live Preview"
+msgstr ""
+
+#: ../single-project.php:152
+#, fuzzy
+msgid "Project URL"
+msgstr "News"
+
+#: ../single-project.php:193
+#, fuzzy
+msgid "All Projects"
+msgstr "Mostra tutte"
+
+#: ../tag.php:11 ../tag.php:31
+#, fuzzy, php-format
+msgid "Tag Archives: %s"
+msgstr "Prodotto"
+
+#: ../taxonomy-tagportfolio.php:105 ../inc/posttypes/portfolio.php:272
+#: ../inc/posttypes/portfolio.php:398 ../inc/widgets/project.php:53
+#: ../page-templates/portfolio.php:149
+#, fuzzy
+msgid "View more ..."
+msgstr "Ancora"
+
+#: ../admin/classes/class.options_machine.php:605
+#, fuzzy
+msgid "Last Backup : "
+msgstr "Ultimo"
+
+#: ../admin/front-end/options.php:43 ../admin/front-end/options.php:67
+#, fuzzy
+msgid "Save All Changes"
+msgstr "Mostra tutte"
+
+#: ../admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: ../framework/aqua/blocks/aq-column-block.php:20
+#: ../framework/aqua/blocks/aq-column-block.php:41
+#, fuzzy
+msgid "Drag block items into this column box"
+msgstr "Cerca"
+
+#: ../framework/aqua/classes/class-aq-block.php:36
+msgid ""
+"function AQ_Block::block should not be accessed directly. Output generated "
+"by the "
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-block.php:57
+msgid "There are no options for this block."
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:24
+#: ../framework/aqua/classes/class-aq-page-builder.php:25
+#: ../framework/aqua/functions/aqpb_config.php:14
+#: ../framework/aqua/functions/aqpb_config.php:15
+#, fuzzy
+msgid "Page Builder"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:26
+#: ../framework/aqua/functions/aqpb_config.php:16
+#, fuzzy
+msgid "aq-page-builder"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:268
+#, fuzzy
+msgid ""
+"Drag block items from the left into this area to begin building your "
+"template."
+msgstr "Cerca"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:500
+msgid "This template is empty"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:668
+#, fuzzy
+msgid "Please select your template first!"
+msgstr "Primo"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:685
+#, fuzzy, php-format
+msgid "You don't have any template yet. Let's %s create %s one!"
+msgstr "Un commento"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:690
+#, fuzzy
+msgid "Choose Your Page Template"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:724
+#, fuzzy
+msgid "For more information:"
+msgstr "Ancora"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:725
+#, fuzzy
+msgid ""
+"<a href=\"http://aquagraphite.com/api/documentation/aqua-page-builder\" "
+"target=\"_blank\">Documentation</a>"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:726
+#, fuzzy
+msgid ""
+"<a href=\"http://aquagraphite.com/api/changelog/aqua-page-builder\" target="
+"\"_blank\">Changelog</a>"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:732
+#, fuzzy
+msgid "Overview"
+msgstr "Descrizione"
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:101
+#, fuzzy
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Non ho trovato risultati, prova di nuovo con differenti chiavi di ricerca"
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:105
+#, fuzzy
+msgid "An unknown error occurred"
+msgstr "Errore 404"
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:119
+#, fuzzy
+msgid "Correcting plugin folder name & activating plugin..."
+msgstr "Nome"
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:128
+#, fuzzy
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "Prego digitare un messaggio"
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:129
+msgid "Plugin reactivated successfully."
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_blocks.php:222
+#, fuzzy
+msgid "Drag block items into this box"
+msgstr "Cerca"
+
+#: ../framework/aqua/functions/aqpb_config.php:21
+#, fuzzy
+msgid ""
+"The page builder allows you to create custom page templates which you can "
+"later use for your pages."
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/functions/aqpb_config.php:22
+#, fuzzy
+msgid ""
+"To use the page builder, start by adding a new template. You can drag and "
+"drop the blocks on the left into the building area on the right of the "
+"screen. Each block has its own unique configuration which you can manually "
+"configure to suit your needs"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/functions/aqpb_config.php:23
+#, fuzzy
+msgid "Please refer to the"
+msgstr "Prego digitare un messaggio"
+
+#: ../framework/aqua/functions/aqpb_config.php:23
+#, fuzzy
+msgid " documentation page "
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/functions/aqpb_config.php:23
+#, fuzzy
+msgid "for more information on how to use this feature."
+msgstr "Ancora"
+
+#: ../framework/aqua/view/view-builder-page.php:19
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:67
+#: ../framework/aqua/view/view-builder-page.php:90
+msgid "The "
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:67
+#, fuzzy
+msgid " page template has been successfully created"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/view/view-builder-page.php:75
+#, fuzzy
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr "Prodotto"
+
+#: ../framework/aqua/view/view-builder-page.php:90
+#, fuzzy
+msgid " page template has been updated"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/aqua/view/view-builder-page.php:102
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:130
+#, fuzzy
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr "Il tuo indirizzo mail deve essere nome@dominio.xxx"
+
+#: ../framework/aqua/view/view-builder-page.php:197
+#, fuzzy
+msgid "Template Name"
+msgstr "Nome"
+
+#: ../framework/aqua/view/view-builder-page.php:206
+msgid "Create Template"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:206
+#: ../framework/aqua/view/view-builder-page.php:263
+msgid "Save Template"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:220
+msgid "Delete Template"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:247
+#, fuzzy
+msgid ""
+"To create a custom page template, give it a name above and click Create "
+"Template. Then choose blocks like text, widgets or tabs &amp; toggles from "
+"the left column to add to this template. You can drag and drop the blocks to "
+"put them in the order you want. Click on the small arrow at the corner of "
+"each block to reveal additional configuration options. You can also resize "
+"each block by clicking on either side of the block (Note that some blocks "
+"are not resizable) When you have finished building your custom page "
+"template, make sure you click the Save Template button."
+msgstr "la pagina che cerchi non esiste"
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+#, fuzzy
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Prego digitare un messaggio"
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+#, fuzzy
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Prego digitare un messaggio"
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:279
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:290
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:172
+#: ../framework/tgm/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:173
+#, fuzzy, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Mostra tutte"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1275
+#, fuzzy, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr "Titolo"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1824
+#, fuzzy, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1949
+#, fuzzy
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Non ho trovato risultati, prova di nuovo con differenti chiavi di ricerca"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1950
+#, fuzzy, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1950
+#: ../framework/tgm/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Mostra dettagli"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1950
+#: ../framework/tgm/class-tgm-plugin-activation.php:1959
+#, fuzzy
+msgid "Hide Details"
+msgstr "Mostra dettagli"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1951
+#, fuzzy
+msgid "All installations and activations have been completed."
+msgstr "Mostra tutte"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1952
+#, fuzzy, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1956
+#, fuzzy
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Non ho trovato risultati, prova di nuovo con differenti chiavi di ricerca"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1957
+#, fuzzy, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1958
+#, fuzzy, php-format
+msgid "The installation of %1$s failed."
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1959
+#, fuzzy, php-format
+msgid "%1$s installed successfully."
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1960
+#, fuzzy
+msgid "All installations have been completed."
+msgstr "Mostra tutte"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1961
+#, fuzzy, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Prodotto"
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/postoptions.php:10
+#, fuzzy, php-format
+msgid "%s - Post Options."
+msgstr "Continua..."
+
+#: ../inc/postoptions.php:13
+#, fuzzy, php-format
+msgid "%s - Project Options."
+msgstr "Prodotto"
+
+#: ../inc/postoptions.php:15
+#, fuzzy, php-format
+msgid "%s - Project Details."
+msgstr "Prodotto"
+
+#: ../inc/postoptions.php:17
+#, fuzzy, php-format
+msgid "%s - Tetimonial Details."
+msgstr "Prodotto"
+
+#: ../inc/postoptions.php:19
+#, fuzzy, php-format
+msgid "%s - Clients Details."
+msgstr "Prodotto"
+
+#: ../inc/postoptions.php:21
+#, fuzzy, php-format
+msgid "%s - Team Member Details."
+msgstr "Prodotto"
+
+#: ../inc/postoptions.php:23
+#, fuzzy, php-format
+msgid "%s - Product Options."
+msgstr "Prodotto"
+
+#: ../inc/postoptions.php:90 ../inc/postoptions.php:401
+#: ../inc/postoptions.php:672
+msgid "Layout"
+msgstr ""
+
+#: ../inc/postoptions.php:111 ../inc/postoptions.php:422
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../inc/postoptions.php:429 ../inc/postoptions.php:683
+#, fuzzy
+msgid "Page Title"
+msgstr "Titolo"
+
+#: ../inc/postoptions.php:439 ../inc/postoptions.php:693
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/postoptions.php:449
+#, fuzzy
+msgid "Post Title"
+msgstr "Titolo"
+
+#: ../inc/postoptions.php:458
+msgid "Meta Info"
+msgstr ""
+
+#: ../inc/postoptions.php:468
+#, fuzzy
+msgid "Author Box"
+msgstr "Autore"
+
+#: ../inc/postoptions.php:478
+#, fuzzy
+msgid "Author Name in Meta"
+msgstr "Autore"
+
+#: ../inc/postoptions.php:488
+#, fuzzy
+msgid "Post Share"
+msgstr "Condividi su Facebook"
+
+#: ../inc/postoptions.php:499
+#, fuzzy
+msgid "Post Tags Cloud"
+msgstr "Continua..."
+
+#: ../inc/postoptions.php:509
+#, fuzzy
+msgid "Post date position"
+msgstr "Data"
+
+#: ../inc/postoptions.php:521
+#, fuzzy
+msgid "Post Comments"
+msgstr "."
+
+#: ../inc/postoptions.php:544 ../inc/postoptions.php:733
+#, fuzzy
+msgid "Custom page title background URL"
+msgstr "Titolo"
+
+#: ../inc/postoptions.php:550 ../inc/postoptions.php:746
+#, fuzzy
+msgid "Page banner video background - mp4"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../inc/postoptions.php:556 ../inc/postoptions.php:752
+#, fuzzy
+msgid "Page banner video background - m4v"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../inc/postoptions.php:562 ../inc/postoptions.php:758
+#, fuzzy
+msgid "Page banner video background - webm"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../inc/postoptions.php:568 ../inc/postoptions.php:764
+#, fuzzy
+msgid "Page banner video background - ogv/ogg"
+msgstr "la pagina che cerchi non esiste"
+
+#: ../inc/postoptions.php:576 ../inc/postoptions.php:739
+#, fuzzy
+msgid "Page title banner padding"
+msgstr "Titolo"
+
+#: ../inc/postoptions.php:713
+#, fuzzy
+msgid "Project Social Like"
+msgstr "News"
+
+#: ../inc/postoptions.php:723
+msgid "Other Projects"
+msgstr ""
+
+#: ../inc/postoptions.php:772
+#, fuzzy
+msgid "Project Date"
+msgstr "Data"
+
+#: ../inc/postoptions.php:777
+#, fuzzy
+msgid "Client Name"
+msgstr "Nome"
+
+#: ../inc/postoptions.php:782 ../inc/postoptions.php:966
+msgid "Client URL"
+msgstr ""
+
+#: ../inc/postoptions.php:787
+#, fuzzy
+msgid "Project Preview URL"
+msgstr "News"
+
+#: ../inc/postoptions.php:792
+#, fuzzy
+msgid "Project Preview Text"
+msgstr "News"
+
+#: ../inc/postoptions.php:839
+#, fuzzy
+msgid "Author Name"
+msgstr "Autore"
+
+#: ../inc/postoptions.php:844
+#, fuzzy
+msgid "Author Job"
+msgstr "Autore"
+
+#: ../inc/postoptions.php:848
+#, fuzzy
+msgid "Author Company"
+msgstr "Autore"
+
+#: ../inc/postoptions.php:853
+#, fuzzy
+msgid "Author Url"
+msgstr "Autore"
+
+#: ../inc/postoptions.php:886
+msgid "Position"
+msgstr ""
+
+#: ../inc/postoptions.php:891
+msgid "Facebook URL"
+msgstr ""
+
+#: ../inc/postoptions.php:896
+msgid "Twitter URL"
+msgstr ""
+
+#: ../inc/postoptions.php:901
+msgid "Skill 1"
+msgstr ""
+
+#: ../inc/postoptions.php:906
+msgid "Skill 1 Percent"
+msgstr ""
+
+#: ../inc/postoptions.php:911
+msgid "Skill 2"
+msgstr ""
+
+#: ../inc/postoptions.php:916
+msgid "Skill 2 Percent"
+msgstr ""
+
+#: ../inc/postoptions.php:921
+msgid "Skill 3"
+msgstr ""
+
+#: ../inc/postoptions.php:926
+msgid "Skill 3 Percent"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:6
+msgctxt "post type general name"
+msgid "Clients"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:7
+msgctxt "post type singular name"
+msgid "Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:8
+msgctxt "Client"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:9
+msgid "Add New Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:10
+msgid "Edit Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:11
+msgid "New Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:12
+msgid "View Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:13
+#, fuzzy
+msgid "Search Client"
+msgstr "Cerca"
+
+#: ../inc/posttypes/clients.php:14
+#, fuzzy
+msgid "No Client found"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/clients.php:15
+#, fuzzy
+msgid "No clients found in Trash"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/clients.php:37 ../inc/posttypes/portfolio.php:40
+#: ../inc/posttypes/team.php:40 ../inc/posttypes/testimonials.php:38
+#, fuzzy
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Continua..."
+
+#: ../inc/posttypes/clients.php:38 ../inc/posttypes/portfolio.php:41
+#: ../inc/posttypes/team.php:41 ../inc/posttypes/testimonials.php:39
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:39 ../inc/posttypes/portfolio.php:42
+#: ../inc/posttypes/team.php:42 ../inc/posttypes/testimonials.php:40
+#, fuzzy
+msgid "Search Types"
+msgstr "Cerca"
+
+#: ../inc/posttypes/clients.php:40 ../inc/posttypes/portfolio.php:43
+#: ../inc/posttypes/team.php:43 ../inc/posttypes/testimonials.php:41
+#, fuzzy
+msgid "All Tags"
+msgstr "Continua..."
+
+#: ../inc/posttypes/clients.php:41 ../inc/posttypes/portfolio.php:44
+#: ../inc/posttypes/team.php:44 ../inc/posttypes/testimonials.php:42
+msgid "Parent Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:42 ../inc/posttypes/portfolio.php:45
+#: ../inc/posttypes/team.php:45 ../inc/posttypes/testimonials.php:43
+msgid "Parent Tag:"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:43 ../inc/posttypes/portfolio.php:46
+#: ../inc/posttypes/team.php:46 ../inc/posttypes/testimonials.php:44
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Continua..."
+
+#: ../inc/posttypes/clients.php:44 ../inc/posttypes/portfolio.php:47
+#: ../inc/posttypes/team.php:47 ../inc/posttypes/testimonials.php:45
+msgid "Update Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:45 ../inc/posttypes/portfolio.php:48
+#: ../inc/posttypes/team.php:48 ../inc/posttypes/testimonials.php:46
+msgid "Add New Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:46 ../inc/posttypes/portfolio.php:49
+#: ../inc/posttypes/team.php:49 ../inc/posttypes/testimonials.php:47
+#, fuzzy
+msgid "New Tag Name"
+msgstr "Nome"
+
+#: ../inc/posttypes/clients.php:65
+#, fuzzy, php-format
+msgid "client updated. <a href=\"%s\">View client</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/clients.php:66 ../inc/posttypes/portfolio.php:69
+#: ../inc/posttypes/team.php:69 ../inc/posttypes/testimonials.php:67
+msgid "Custom field updated."
+msgstr ""
+
+#: ../inc/posttypes/clients.php:67 ../inc/posttypes/portfolio.php:70
+#: ../inc/posttypes/team.php:70 ../inc/posttypes/testimonials.php:68
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../inc/posttypes/clients.php:68
+msgid "client updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/clients.php:70
+#, fuzzy, php-format
+msgid "client restored to revision from %s"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/clients.php:71
+#, fuzzy, php-format
+msgid "client published. <a href=\"%s\">View Client</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/clients.php:72
+msgid "client saved."
+msgstr ""
+
+#: ../inc/posttypes/clients.php:73
+#, fuzzy, php-format
+msgid "client submitted. <a target=\"_blank\" href=\"%s\">Preview Client</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/clients.php:74
+#, fuzzy, php-format
+msgid ""
+"client scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Client</a>"
+msgstr "Prodotto"
+
+#. translators: Publish box date format, see http://php.net/date
+#: ../inc/posttypes/clients.php:76 ../inc/posttypes/portfolio.php:79
+#: ../inc/posttypes/team.php:79 ../inc/posttypes/testimonials.php:77
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:77
+#, fuzzy, php-format
+msgid ""
+"client draft updated. <a target=\"_blank\" href=\"%s\">Preview client</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/portfolio.php:7
+msgctxt "post type general name"
+msgid "Projects"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:8
+msgctxt "post type singular name"
+msgid "Project"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:9
+msgctxt "project"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:10
+#, fuzzy
+msgid "Add New Project"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:11
+#, fuzzy
+msgid "Edit Project"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:12
+#, fuzzy
+msgid "New Project"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:13
+#, fuzzy
+msgid "View Project"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:14
+#, fuzzy
+msgid "Search Projects"
+msgstr "Cerca"
+
+#: ../inc/posttypes/portfolio.php:15
+#, fuzzy
+msgid "No projects found"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/portfolio.php:16
+#, fuzzy
+msgid "No projects found in Trash"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/portfolio.php:68
+#, fuzzy, php-format
+msgid "Project updated. <a href=\"%s\">View project</a>"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:71
+#, fuzzy
+msgid "Project updated."
+msgstr "News"
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/portfolio.php:73
+#, fuzzy, php-format
+msgid "Project restored to revision from %s"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/portfolio.php:74
+#, fuzzy, php-format
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:75
+#, fuzzy
+msgid "Project saved."
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:76
+#, fuzzy, php-format
+msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:77
+#, fuzzy, php-format
+msgid ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview project</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/portfolio.php:80
+#, fuzzy, php-format
+msgid ""
+"Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "News"
+
+#: ../inc/posttypes/portfolio.php:136
+msgid "Show All"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/team.php:7
+#, fuzzy
+msgctxt "post type general name"
+msgid "Team Members"
+msgstr "Cerca"
+
+#: ../inc/posttypes/team.php:8
+#, fuzzy
+msgctxt "post type singular name"
+msgid "Team Members"
+msgstr "Cerca"
+
+#: ../inc/posttypes/team.php:9
+msgctxt "Member"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/team.php:10
+msgid "Add New Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:11
+msgid "Edit Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:12
+msgid "New Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:13
+msgid "View Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:14
+#, fuzzy
+msgid "Search Member"
+msgstr "Cerca"
+
+#: ../inc/posttypes/team.php:15
+#, fuzzy
+msgid "No Members found"
+msgstr "Cerca"
+
+#: ../inc/posttypes/team.php:16
+#, fuzzy
+msgid "No members found in Trash"
+msgstr "Cerca"
+
+#: ../inc/posttypes/team.php:68
+#, fuzzy, php-format
+msgid "Member updated. <a href=\"%s\">View member</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/team.php:71
+msgid "Member updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/team.php:73
+#, fuzzy, php-format
+msgid "Member restored to revision from %s"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/team.php:74
+#, fuzzy, php-format
+msgid "Member published. <a href=\"%s\">View member</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/team.php:75
+msgid "Member saved."
+msgstr ""
+
+#: ../inc/posttypes/team.php:76
+#, fuzzy, php-format
+msgid "Member submitted. <a target=\"_blank\" href=\"%s\">Preview member</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/team.php:77
+#, fuzzy, php-format
+msgid ""
+"Member scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview member</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/team.php:80
+#, fuzzy, php-format
+msgid ""
+"Member draft updated. <a target=\"_blank\" href=\"%s\">Preview member</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/testimonials.php:7
+msgctxt "post type general name"
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:8
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:9
+msgctxt "Testimonial"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:10
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:11
+msgid "Edit testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:12
+msgid "New testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:13
+msgid "View testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:14
+#, fuzzy
+msgid "Search Testimonials"
+msgstr "Cerca"
+
+#: ../inc/posttypes/testimonials.php:15
+#, fuzzy
+msgid "No testimonials found"
+msgstr "Cerca"
+
+#: ../inc/posttypes/testimonials.php:16
+#, fuzzy
+msgid "No testimonials found in Trash"
+msgstr "Cerca"
+
+#: ../inc/posttypes/testimonials.php:18
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:66
+#, fuzzy, php-format
+msgid "Testimonial updated. <a href=\"%s\">View Testimonial</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/testimonials.php:69
+msgid "Testimonial updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/testimonials.php:71
+#, fuzzy, php-format
+msgid "Testimonial restored to revision from %s"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/testimonials.php:72
+#, fuzzy, php-format
+msgid "Testimonial published. <a href=\"%s\">View Testimonial</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/testimonials.php:73
+msgid "Testimonial saved."
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:74
+#, fuzzy, php-format
+msgid ""
+"Testimonial submitted. <a target=\"_blank\" href=\"%s\">Preview Testimonial</"
+"a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/testimonials.php:75
+#, fuzzy, php-format
+msgid ""
+"Testimonial scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Testimonial</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/testimonials.php:78
+#, fuzzy, php-format
+msgid ""
+"Testimonial draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Testimonial</a>"
+msgstr "Prodotto"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:21
+#: ../inc/posttypes/wp-pricing-table/index.php:32
+msgctxt ""
+msgid "Pricing Tables"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:22
+msgctxt ""
+msgid "Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:23
+#: ../inc/posttypes/wp-pricing-table/index.php:138
+msgctxt ""
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:24
+msgctxt ""
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:25
+msgctxt ""
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:26
+msgctxt ""
+msgid "New Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:27
+msgctxt ""
+msgid "View Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:28
+#, fuzzy
+msgctxt ""
+msgid "Search Pricing Tables"
+msgstr "Cerca"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:29
+#, fuzzy
+msgctxt ""
+msgid "No Pricing Tables found"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:30
+#, fuzzy
+msgctxt ""
+msgid "No Pricing Tables found in Trash"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:31
+msgctxt ""
+msgid "Parent Pricing Table:"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:136
+#: ../inc/posttypes/wp-pricing-table/index.php:147
+msgctxt ""
+msgid "Pricing Packages"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:137
+msgctxt ""
+msgid "Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:139
+msgctxt ""
+msgid "Add New Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:140
+msgctxt ""
+msgid "Edit Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:141
+msgctxt ""
+msgid "New Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:142
+msgctxt ""
+msgid "View Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:143
+#, fuzzy
+msgctxt ""
+msgid "Search Pricing Packages"
+msgstr "Cerca"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:144
+#, fuzzy
+msgctxt ""
+msgid "No Pricing Packages found"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:145
+#, fuzzy
+msgctxt ""
+msgid "No Pricing Packages found in Trash"
+msgstr "Mostra tutte"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:146
+msgctxt ""
+msgid "Parent Pricing Package:"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:363
+msgid "Pricing Table No"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:364
+#, fuzzy
+msgid "Pricing Table Name"
+msgstr "Nome"
+
+#: ../inc/posttypes/wp-pricing-table/index.php:386
+msgid "Unknown"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:444
+msgid "Buy Now"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:51
+#, fuzzy
+msgid "Post List"
+msgstr "Continua..."
+
+#: ../inc/widgets/postlist.php:56 ../inc/widgets/project.php:83
+#: ../inc/widgets/tweets.php:57
+#, fuzzy
+msgid "Title"
+msgstr "Titolo"
+
+#: ../inc/widgets/postlist.php:60
+msgid "Thumbnail"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:63
+msgid "Show"
+msgstr "Mostra"
+
+#: ../inc/widgets/postlist.php:65
+msgid "Hide"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:69 ../inc/widgets/tweets.php:65
+#, fuzzy
+msgid "Number Of Posts"
+msgstr "Altre"
+
+#: ../inc/widgets/postlist.php:73 ../inc/widgets/project.php:88
+#, fuzzy
+msgid "Post Order"
+msgstr "Continua..."
+
+#: ../inc/widgets/postlist.php:78
+#, fuzzy
+msgid "Comment Count"
+msgstr "Commento"
+
+#: ../inc/widgets/postlist.php:80 ../inc/widgets/project.php:101
+msgid "Random"
+msgstr ""
+
+#: ../inc/widgets/project.php:78
+msgid "Project"
+msgstr "Progetto"
+
+#: ../inc/widgets/tweets.php:52
+msgid "Tweets"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:61
+msgid "Username"
+msgstr ""

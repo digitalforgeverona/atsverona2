@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^steelchallenge\.atsverona\.it$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.steelchallenge\.atsverona\.it$
+RewriteRule ^/?$ "http\:\/\/steelchallenge\.atsverona\.it\/e107\/" [R=301,L]
+

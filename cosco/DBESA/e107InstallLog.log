@@ -1,0 +1,45 @@
+[ 1332252692, 12-03-20 14:11:32]
+
+Installation 1 [ Language Selection ]: --- Inititated ---
+		Lingua selezionata: Italian
+Installazione 1 [ Selezione Lingua ]: --- Completo ---
+
+Installazione 2 [ Dettagli Server MySQL ]: --- Avviato ---
+			<pre>Array
+(
+    [db] =&gt; esagonale_it_dbesa
+    [user] =&gt; ujguas10_main
+    [server] =&gt; 89.31.72.136
+    [prefix] =&gt; e107_
+    [db_utf8] =&gt; 1
+    [createdb] =&gt; 
+    [password] =&gt; esagonale
+)
+</pre>
+Installazione 2 [ Dettagli Server MySQL ]: --- Completo ---
+
+Installazione 3 [ Verifica Connessione MySQL e Creazione Database ]: --- Avviato ---
+
+Installazione 3 [ Verifica Connessione MySQL e Creazione Database ]: --- Completo ---
+
+Installazione 4 [ Controllo Versioni PHP & MySQL / Controllo Permessi File ]: --- Avviato ---
+
+Installazione 4 [ Controllo Versioni PHP & MySQL / Controllo Permessi File ]: --- Completo ---
+
+Installazione 5 [ Dettagli Admministratore ]: --- Avviato ---
+
+Installazione 5 [ Dettagli Admministratore ]: --- Completo ---
+
+Installazione 6 [ Conferma Installazione ]: --- Avviato ---
+
+Installazione 6 [ Conferma Installazione ]: --- Avviato ---
+
+Installazione 7 [ Completamento Installazione ]: --- Avviato ---
+	The e107_config.php config file is written successfully
+All tables created
+Sample custom menu added
+User record added
+Database manipulation complete
+	Database content successfully created
+
+Installazione 7 [ Completamento Installazione ]: --- Completo ---

@@ -1,0 +1,303 @@
+/* ************************************************
+        TEMA Shadow  v.1.0     by Alf  http://www.frock.it        
+***************************************************/ 
+
+body {padding: 0;font-size: 13px;font-family: Helvetica, Arial;color: #4B4B4B;text-align: center;background-color:#fff;margin-top:10px;}
+
+a img {vertical-align: middle;border: none;background:#fff;}
+
+a {color: #0073bc;text-decoration: none;font-weight: normal;}
+
+a:hover {color:#FA600C;}
+
+.tbox.loginc{width: 120px;background:#fff;border:1px solid #cecaca;color:#717A3A;font-weight:bold;}
+
+.helpbox {font-size: 14px ;width:95%;color:#515151;}
+
+.tbox {font-size: 14px ;width:95%;color:#337467;}
+
+.tbox.search {font-size: 14px ;width: 200px;color:#337467;}
+
+.tbox.comment{width: 388px;font: 10px verdana, arial, sans-serif, helvetica;color: #B40123;background-color:#F6FDE6;border-left: 1px solid #A3A3A3;border-bottom: 1px solid #e1e1e1;border-right: 1px solid #e1e1e1;border-top: 1px solid #A3A3A3;}
+
+.button {border-top: 1px solid #f2f2f2;border-bottom: 1px solid #cecaca;border-left: 1px solid #f2f2f2;border-right: 1px solid #cecaca;color: #4B6F6F;font:10px verdana, arial, sans-serif, helvetica;text-align:center;letter-spacing:-1px;background-color:#E7E7E7;height:16px;font-weight: bold;}
+
+.nextprev{background:url('images/gotopage.gif') no-repeat;text-align:left;padding: 0 0 2px 18px;width: 200px;margin:0 auto 0 auto;}
+
+
+#menulaterale {width:190px;float:right;}
+#pagina {width:800px; margin:0 auto;height: auto !important;height: 500px;min-height: 500px;overflow:hidden;}
+#paginahome{width:800px; margin:0 auto;height: auto !important;height: 500px;min-height: 500px;overflow:hidden;}
+#paginashadow {width:80%; margin:0 auto;height: auto !important;height: 500px;min-height: 500px;overflow:hidden;font-size:16px;}
+#contenuti {width:800px;text-align:justify;}
+#contenutihome {width:610px;float:left;}
+#contenutishadow {width:100%;text-align:justify;}
+#aprichiudi {text-align:right;}
+#aprichiudi a {color:#fff;}
+#aprichiudi a:hover{color:#cecaca;font-size:12px;background:#fff;}
+.caption{color:#fff;font-weight:bold;font-size:16px;padding:3px;background:#f0f0f0;border:1px double #d8d8d8;width:80%;}
+/* **************************
+		menu 1
+		**********************/
+.caption1{width:164px;font-weight:bold;color:#fff;background:#cecaca;text-align:left;padding: 4px 3px 4px 3px;margin:3px;}
+
+.padder1{width:170px;color:#717A3A;text-align:left;padding: 3px;}
+
+/* **************************
+		menu iniziale
+		**********************/
+		
+#menu {width:570px;margin:45px auto 0 auto;text-align:left;border-left:5px solid #4183c4;}	
+#box{margin:10px 5px 0 25px;padding:5px; background:#f0f0f0;border:1px double #d8d8d8;color:#717A3A;font-weight:normal;font-size:14px;text-align:justify;}	
+
+#pagina1_tab,#pagina2_tab,#pagina3_tab,#cerca_tab,#contatti_tab,#logged_tab {
+	width: 500px;
+	height: 30px;
+	margin-left:10px;
+	overflow: hidden;
+	font-size:20px ;
+	font-weight:bold;
+	color:#4183c4;
+}
+
+#pagina1_tab span, #pagina1_tab a {
+	display: block;
+	padding: 0 3px;
+	cursor:default;
+}
+
+
+#pagina2_tab  span, #pagina2_tab  a {
+	display: block;
+	padding: 0 3px;
+}
+
+
+#pagina3_tab  span, #pagina3_tab  a {
+	display: block;
+	padding: 0 3px;
+}
+
+#cerca_tab  span, #cerca_tab  a {
+	display: block;
+	padding: 0 3px;
+}
+
+#contatti_tab  span, #contatti_tab  a {
+	display: block;
+	padding: 0 3px;
+}
+
+#logged_tab  span, #logged_tab  a {
+	display: block;
+	padding: 0 3px;
+}
+
+#logged_tab a:hover {
+	background: #fff ;
+}
+
+/***************************************************/ 
+
+.fborder {
+	border: #c1c1c1 1px solid;
+}
+.forumheader{
+	background-color: #4183c4;
+	font-size: 16px;
+	font-weight:bold;
+	color:#fff;
+	padding: 4px;
+	border: 1px solid #ececf2;
+}
+.forumheader a{
+	color:#fff;
+}
+.forumheader2{
+	background-color: #EFEFEF;
+	font-size: 12px;
+	color:#515151;
+	padding: 6px;
+	border: #C3BDBD 1px solid;
+}
+
+.forumheader3{
+	background-color: #fafafa;
+	font-size:13px;
+	color:#515151;
+	padding: 4px;
+	border: #ececf2 1px solid;
+	text-align:justify;
+}
+
+.fborder{
+	border: #f2f2f2 1px solid;
+}
+
+.fcaption {
+	border: #f0f2f4 1px solid;
+	padding: 2px 0 2px 0;
+	background-color: #B5C5D4;
+	font: 12px verdana, tahoma, arial, helvetica, sans-serif;
+	color:#616060;
+}
+
+.finfobar{
+	background-color: #CCC8C8;
+	color:#414040;
+	padding: 4px;
+	border: 1px solid #C3BDBD;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-size:11px;
+	font-family:verdana, tahoma, arial, helvetica, sans-serif
+}
+
+.helpbox {
+	color:#515151;
+	font: 9px tahoma, verdana, arial, helvetica, sans-serif;
+	border: 0px none red;
+	background-color: transparent;
+}
+
+.nforumholder {
+	border: 1px solid #345487;
+	padding: 0px;
+	background-color: #fff;
+}
+
+.nforumcaption {
+	background-image: url(images/nforumcaption.png);
+	padding: 8px 4px 8px 4px;
+	font: 12px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #fff;
+}
+
+.nforumcaption2 {
+	background-image: url(images/nforumcaption2.png);
+	padding: 8px 0px 8px 4px;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #414040;
+	font-weight: bold;
+}
+
+.nforumcaption3 {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #E4EAF2;
+	font: 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.nforumthread {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #EEF2F7;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.nforumthread2 {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #D1DCEB;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.nforumreplycaption {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #E2EDF2;
+	font: 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.nforumreply {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #EDF4F7;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.nforumreply2 {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #CFE0EB;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+.nforumdisclaimer {
+	font: 9px verdana, tahoma, arial, helvetica, sans-serif;
+	color:#5d6e75;
+}
+
+.nforumview1 {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #E4EAF2;
+	font-size: 10px;
+}
+
+.nforumview2 {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #DFE6EF;
+	font-size: 10px ;
+}
+
+.nforumview3 {
+	padding: 4px;
+	background-color: #BCD0ED;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #263448;
+}
+
+.nforumview4 {
+	padding: 4px;
+	background-color: #E4EAF2;
+	font: 9px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #3A4F6C;
+}
+
+a.forumlink{
+	color: #fff;
+	text-decoration: none;
+}
+
+a.forumlink:hover {
+	color: #FD6D1F;
+	text-decoration: underline;
+}
+#newscontenitore {width:99%; height:auto;font:12px Arial, Helvetica, sans-serif; text-align:left;color:#ADAAAA;border-top:1px solid #E5E3E3;border-left:1px solid #E5E3E3;border-right:1px solid #cecaca;border-bottom:1px solid #cecaca;padding:5px 3px 5px 3px;background:url('images/bknews.jpg');}
+
+#titolo {width:80%;float:left;min-height:45px;font-size:20px ;font-weight:bold;color:#31648F;padding:0 4px 0 0;}
+#sommario {width:80%;float:left;color:#888888;}
+
+#datautore {width:126px;float:right;background: url('images/dataora.gif') no-repeat;height:50px;}
+#dataora {width:76px;float:right;height:20px;padding:5px 0 0 50px;color:#762C2C;}
+#autore {width:76px;float:right;height:20px;padding:5px 0 0 50px;}
+
+#news {width:99%;height:auto;text-align:justify;font-size: 15px ;color: #107C73;clear:both;padding-top:10px;background:#fff;}
+#newsimg {float:right;margin:0px 1px 2px 6px;}
+#newsimg img{width:200px;}
+#shadow-container {position: relative;left: 3px;top: 3px;margin-right: 3px;margin-bottom: 3px;}
+#shadow-container .shadow2,#shadow-container .shadow3,#shadow-container .container {position: relative;left: -1px;top: -1px;}
+#shadow-container .shadow1 {background: #F1F0F1;}
+#shadow-container .shadow2 {background: #DBDADB;}
+#shadow-container .shadow3 {background: #B8B6B8;}
+#shadow-container .container {background: #ffffff;border: 1px solid #848284;padding: 4px;}
+
+#pulsantinews {width:655px;clear:both;text-align:justify;font: 14px Verdana, Arial, Helvetica, sans-serif;color: #666565;padding:1px 5px 1px 8px;}
+
+#topcommenti {margin-left:80px;width:590px;height:15px;background:url('images/topcommenti.jpg') no-repeat; padding:4px 0 0 20px;}
+
+#bottomcommenti {margin-left:80px;width:590px;height:50px;background:url('images/bottomcommenti.jpg') no-repeat;padding-left: 20px;}
+
+#commenti {margin-left:80px;width:600px;height:auto;overflow:hidden;padding:0px 5px 10px 5px;background:url('images/bordocommenti.jpg') repeat-y;}
+
+#avatar {float:left;width:150px;}
+
+.avatar img{width:120px;height:100px;background:url('images/no_avatar.jpg') no-repeat center;}
+
+.avatar {width:120px;height:100px;margin:0 auto;}
+
+.livello {margin:5px  auto 0 auto; width:120px; text-align:center;}
+
+#testocommento {width:440px;padding:0px 10px 10px 0px;float:right;text-align:justify;font: 14px Verdana, Arial, Helvetica, sans-serif;color: #666565;}

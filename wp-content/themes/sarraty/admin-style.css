@@ -1,0 +1,104 @@
+.asala_post_option_item.option-item {
+    margin-bottom: 14px;
+}
+.asala_post_option_item.option-item .label {
+    font-weight: bold;
+    padding-bottom: 6px;
+    display: block;
+    margin-left: 2px;
+}
+.asala_post_option_item input[type="text"] {
+    color: #777;
+    border: none;
+    border: solid 1px #EEE;
+    border-bottom: solid 1px #DDD;
+    background: white;
+    font: 13px/22px 'Merriweather', Georgia, serif;
+    width: 300px;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    display: block;
+}
+.asala_post_option_item textarea {
+    color: #777;
+    border: none;
+    border: solid 1px #EEE;
+    border-bottom: solid 1px #DDD;
+    background: white;
+    font: 13px/22px 'Merriweather', Georgia, serif;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    display: block;
+    height: 150px;
+}
+.asala_post_option_item select {
+    width: 200px;
+    max-width: 100%;
+    color: #777;
+    border: 0;
+    height: 30px;
+    border: 1px #E2E2E2 solid;
+}
+
+.ratenotice {
+	text-align:center;
+	padding: 90px 55px!important;
+}
+
+.ratenotice h1 {
+	font-size: 28px!important;
+	font-weight: 800!important;
+	line-height: 43px!important;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00afd1;
+}
+
+.ratenotice h2 {
+font-size: 28px!important;
+font-weight: 800!important;
+line-height: 43px!important;
+text-transform: uppercase;
+text-align: center;
+color: #555555;
+
+}
+
+.starsrating {
+}
+
+.ratinglink {
+	text-align: center;
+	clear: both;
+	display: block;
+	font-size: 23px;
+	margin-top: 16px;
+}
+
+#message2 {
+text-align: center;
+padding-bottom: 12px;
+}
+
+.post-new-php.post-type-project .link-control-tab, .post-new-php.post-type-project .quote-control-tab {
+	display: none;	
+}
+
+#aqpb-body .wp-picker-container {
+clear: both;
+display: block;
+margin-top: 4px;
+}

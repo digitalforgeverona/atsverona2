@@ -1,0 +1,25 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">bl_gallery</custom-type>
+        <custom-type translate="1">bl_testimonials</custom-type>
+        <custom-type translate="1">bl_faq</custom-type>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">create-portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">category-photo</taxonomy>
+        <taxonomy translate="1">category-project</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="yiw_theme_options_diverso">
+            <key name="blog_read_more_text" />
+            <key name="newsletter_form_title" />
+            <key name="newsletter_form_description" />
+            <key name="newsletter_form_label_email" />
+            <key name="newsletter_form_label_submit" />
+            <key name="footer_text_centered" />
+            <key name="copyright_text_left" />
+            <key name="copyright_text_right" />
+        </key>
+    </admin-texts>
+</wpml-config>

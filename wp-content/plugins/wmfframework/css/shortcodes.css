@@ -1,0 +1,133 @@
+/*Buttons*/
+.wmfautofix, .mce-floatpanel, .mce-floatpanel+div{height:auto!important; width:auto!important}
+.wp_themeSkin span.mce_wmff_slider{background-image:url(../js/icons/slider.png)!important; background-repeat:no-repeat; background-color:transparent; background-position:center center}
+.wp_themeSkin span.mce_wmff_gallery{background-image:url(../js/icons/gallery.png)!important; background-repeat:no-repeat; background-color:transparent; background-position:center center}
+.mce-i-wmff_slider{background-image:url(../js/icons/slider.png)!important; background-repeat:no-repeat; background-color:transparent; background-position:center center}
+.mce-i-wmff_gallery{background-image:url(../js/icons/gallery.png)!important; background-repeat:no-repeat; background-color:transparent; background-position:center center}
+.mceMenu label{display:block; margin:8px 0 0}
+
+.mceMenu input[type=text], .mce-menu input[type=text],
+.mce-menu label{display:block; margin:8px 0 0}
+.mce-menu select{clear:both; display:block; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; width:100%; min-width:160px; padding:3px; margin: 5px 0 0}
+.wmfbutton{background:#f3f3f3; background-image:-webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f4f4f4)); background-image:-webkit-linear-gradient(top,#fefefe,#f4f4f4); background-image:-moz-linear-gradient(top,#fefefe,#f4f4f4); background-image:-o-linear-gradient(top,#fefefe,#f4f4f4); background-image:linear-gradient(to bottom,#fefefe,#f4f4f4); border-color:#bbb; color:#333; text-shadow:0 1px 0 #fff; border-bottom-left-radius:3px; border-bottom-right-radius:3px; border-top-left-radius:3px; border-top-right-radius:3px}
+
+.wmfbutton{display:inline-block; text-decoration:none; font-size:12px; line-height:23px; height:24px; margin:0; padding:0 10px 1px; cursor:pointer; border-width:1px; border-style:solid; -webkit-border-radius:3px; -webkit-appearance:none; border-radius:3px; white-space:nowrap; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
+
+.wmfselect {
+clear: both;
+display: block;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+width: 100%;
+min-width: 160px;
+padding: 3px;
+margin: 5px 0 0;
+}
+.slider-meta-field{width:96%;margin-bottom:10px}
+
+input[type="checkbox"].ios-switch { 
+	position: absolute;
+	opacity: 0;
+}
+
+/* Normal Track */
+input[type="checkbox"].ios-switch + div {
+	vertical-align: middle;
+	width: 40px;
+	height: 20px;
+	border: 1px solid rgba(0,0,0,.4);
+	border-radius: 999px;
+	background-color: rgba(0, 0, 0, 0.1);
+	-webkit-transition-duration: .4s;
+	-webkit-transition-property: background-color, box-shadow;
+	box-shadow: inset 0 0 0 0px rgba(0,0,0,0.4);
+	margin-top: 15px;
+	margin-right: 1.2em;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+/* Checked Track (Blue) */
+input[type="checkbox"].ios-switch:checked + div {
+	width: 40px;
+	background-position: 0 0;
+	background-color: #3b89ec;
+	border: 1px solid #0e62cd;
+	box-shadow: inset 0 0 0 10px rgba(59,137,259,1);
+}
+
+/* Tiny Track */
+input[type="checkbox"].tinyswitch.ios-switch + div {
+	width: 34px;	height: 18px;
+}
+
+/* Big Track */
+input[type="checkbox"].bigswitch.ios-switch + div {
+	width: 50px;	height: 25px;
+}
+
+/* Green Track */
+input[type="checkbox"].green.ios-switch:checked + div {
+	background-color: #00e359;
+	border: 1px solid rgba(0, 162, 63,1);
+	box-shadow: inset 0 0 0 10px rgba(0,227,89,1);
+}
+
+/* Normal Knob */
+input[type="checkbox"].ios-switch + div > div {
+	float: left;
+	width: 18px; height: 18px;
+	border-radius: inherit;
+	background: #ffffff;
+	-webkit-transition-timing-function: cubic-bezier(.54,1.85,.5,1);
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: transform, background-color, box-shadow;
+	-moz-transition-timing-function: cubic-bezier(.54,1.85,.5,1);
+	-moz-transition-duration: 0.4s;
+	-moz-transition-property: transform, background-color;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+/* Checked Knob (Blue Style) */
+input[type="checkbox"].ios-switch:checked + div > div {
+	-webkit-transform: translate3d(20px, 0, 0);
+	-moz-transform: translate3d(20px, 0, 0);
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+
+/* Tiny Knob */
+input[type="checkbox"].tinyswitch.ios-switch + div > div {
+	width: 16px; height: 16px;
+	margin-top: 1px;
+}
+
+/* Checked Tiny Knob (Blue Style) */
+input[type="checkbox"].tinyswitch.ios-switch:checked + div > div {
+	-webkit-transform: translate3d(16px, 0, 0);
+	-moz-transform: translate3d(16px, 0, 0);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+
+/* Big Knob */
+input[type="checkbox"].bigswitch.ios-switch + div > div {
+	width: 23px; height: 23px;
+	margin-top: 1px;
+}
+
+/* Checked Big Knob (Blue Style) */
+input[type="checkbox"].bigswitch.ios-switch:checked + div > div {
+	-webkit-transform: translate3d(25px, 0, 0);
+	-moz-transform: translate3d(16px, 0, 0);
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172,1);
+}
+
+/* Green Knob */
+input[type="checkbox"].green.ios-switch:checked + div > div {
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 162, 63,1);
+}

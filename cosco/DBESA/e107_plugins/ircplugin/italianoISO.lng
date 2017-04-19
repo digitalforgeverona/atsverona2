@@ -1,0 +1,98 @@
+#
+#         This java file is a part of the
+#
+#          -  Plouf's Java IRC Client  -
+#
+#      Copyright (C) 2002 Philippe Detournay
+#
+#   This file is licensed under the GPL license
+#
+#        All contacts : theplouf@yahoo.com
+#
+#-------------------------------------------------------------------------
+#
+#  Traduzione italiana per PJIRC 2.0 a cura di:
+#      Riccardo "Zenigata" Marzi
+#
+#  Ultima revisione: 12/11/03
+#
+#
+#Contatti: http://www.zenigata.it     ispettore@zenigata.it  ICQ:6031644
+#
+#-------------------------------------------------------------------------
+#
+#
+#  Syntax :
+#    Comments begin with the # character. This character must be the first character of the line.
+#    A data line has three parts : the data id, the data id description, the data string.
+#      - Data id : An hexadecimal figure identifying the string.
+#      - Data description : Begins by [ and ends by ]. The description is not parsed and
+#                           can be any string.
+#      - Data string : The string itself. Parameters are specified using the %i syntax.
+#
+#  Trailing spaces can be added using the \s escape character.
+
+0001 [INTERPRETOR_NOT_ON_CHANNEL] Non sul canale
+0002 [INTERPRETOR_UNKNOWN_DCC] %1 : sottocomando dcc sconosciuto
+0003 [INTERPRETOR_INSUFFICIENT_PARAMETERS] %1 : parametri insufficienti
+0004 [INTERPRETOR_BAD_CONTEXT] %1 : impossibile eseguirlo nel contesto corrente 
+0005 [INTERPRETOR_CANNOT_CTCP_IN_DCCCHAT] Non puoi inviare codici CTCP via chat DCC
+0006 [INTERPRETOR_UNKNOWN_CONFIG] %1 : sottocomando di configurazione sconosciuto 
+0007 [INTERPRETOR_TIMESTAMP_ON] Indicazione orario attivata
+0008 [INTERPRETOR_TIMESTAMP_OFF] Indicazione orario disattivata
+0009 [INTERPRETOR_SMILEYS_ON] Faccine grafiche abilitate
+000a [INTERPRETOR_SMILEYS_OFF] Faccine grafiche disabilitate
+000b [INTERPRETOR_IGNORE_ON] Ora stai ignorando %1
+000c [INTERPRETOR_IGNORE_OFF] Non stai piu' ignorando %1
+000d [INTERPRETOR_MULTISERVER_DISABLED] Il supporto multiserver e' disabilitato 
+  
+0101 [DCC_WAITING_INCOMING] Sto attendendo la connessione in entrata...
+0102 [DCC_UNABLE_TO_OPEN_CONNECTION] Impossibile stabilire la connessione : %1
+0103 [DCC_CONNECTION_ESTABLISHED] Connessione DCC stabilita
+0104 [DCC_CONNECTION_CLOSED] Connesione chiusa
+0105 [DCC_ERROR] Errore : %1
+0106 [DCC_UNABLE_TO_SEND_TO] %1 : impossibile inviare a %2
+0107 [DCC_BAD_CONTEXT] Impossibile eseguire un comando dal seguente contesto 
+0108 [DCC_NOT_CONNECTED] Non connesso
+0109 [DCC_UNABLE_PASSIVE_MODE] Impossibile inizializzare il modo passivo
+010a [CTCP_PING_REPLY] [%1 risposta PING] : %2 seconds
+010b [DCC_STREAM_CLOSED] Flusso chiuso
+      
+0201 [IDENT_FAILED_LAUNCH] Impossibile lanciare il server ident : %1
+0202 [IDENT_REQUEST] Richiesta di ident da %1
+0203 [IDENT_ERROR] Si e' verificato un errore
+0204 [IDENT_REPLIED] Risponde %1
+0205 [IDENT_DEFAULT_USER] utente predefinito
+0206 [IDENT_NO_USER] Nessun utente per la risposta
+0207 [IDENT_RUNNING_ON_PORT] Il server ident e' attivo sulla porta %1
+0208 [IDENT_LEAVING] Il server ident sta chiudendo : %1
+0209 [IDENT_NONE] niente
+020a [IDENT_UNKNOWN] sconoscoiuto
+020b [IDENT_UNDEFINED] Risultato indefinito
+      
+0301 [FILE_SAVEAS] Salva come
+      
+0401 [ABOUT_ABOUT] Info
+0402 [ABOUT_PROGRAMMING] Programmazione
+0403 [ABOUT_DESIGN] Design
+0404 [ABOUT_THANKS] Un grazie a
+0405 [ABOUT_SUPPORT] per il supporto, le idee ed il test
+0406 [ABOUT_GPL] Questo programma e' distrubuito sotto la licenza GPL
+0501 [SERVER_UNABLE_TO_CONNECT] Impossibile connettersi : %1
+0502 [SERVER_UNABLE_TO_CONNECT_STILL] Impossibile connettersi a %1 : Tantativo di connessione a %2
+0503 [SERVER_DISCONNECTING] Disconnesione da %1
+0504 [SERVER_CONNECTING] Connessione...
+0505 [SERVER_NOT_CONNECTED] Non connesso
+0506 [SERVER_LOGIN] Ok, sto entrando...
+0507 [SERVER_DISCONNECTED] Disconnesso da %1
+0508 [SERVER_ERROR] Errore : %1
+     
+      
+071a [GUI_CHANGE_NICK] Cambia il nick in
+071b [GUI_COPY_WINDOW] Copia il testo
+
+0801 [ASL_MALE] Ragazzo, %1 anni, %2
+0802 [ASL_FEMALE] Ragazza, %1 anni, %2
+0803 [ASL_UNKNOWN] %1 anni da %2
+
+ffff [ERROR_NOT_DEFINED] Stringa non definita

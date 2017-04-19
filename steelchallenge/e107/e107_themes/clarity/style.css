@@ -1,0 +1,601 @@
+/************ Clarity - Theme by roofdog78 **************/
+
+body{
+color: #292B33;
+margin:0;
+padding:0;
+font: 11px Arial;
+line-height: 1.1em;
+}
+
+a {
+color: #477AB7;
+text-decoration: none;
+}
+
+a:hover {
+color: #00297C;
+text-decoration: none;
+}
+
+a img {
+border: 2px solid #777777;
+}
+
+a img:hover {
+border: 2px solid #6C910B;
+}
+
+#mainwrap{
+width: 84%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+border-right: 1px solid #999999;
+border-left: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+
+#topsection{
+background: #FFF url(images/caption_bg.png) repeat-x;
+padding: 6px 15px 5px 0;
+color: #292B33;
+font: 12.6px Arial;
+font-weight: bold;
+text-align: right;
+border-bottom: 1px solid #CFD7EC;
+}
+
+#headersection{
+background: #FFF url(images/logo.png) no-repeat;
+height: 105px;
+width: 100%;
+border-top: 1px solid #7D88A4;
+border-bottom: 1px solid #7D88A4;
+text-align: center;
+}
+
+#subnav{
+background: url(images/subnav_bg.png) repeat-x;
+width: 100%;
+padding: 8px 0;
+border-top: 1px solid #7D88A4;
+text-align: right;
+}
+
+#subnav .tbox{
+background: #FFF url(images/search_bg.png) repeat-x;	
+font-size: 10px;
+font-family: Arial;
+color: #292B33;
+border: 1px solid #7D88A4;
+padding: 1px 6px;
+}
+
+#subnav .button {
+color: #FFF;
+font: bold 11px Arial;
+border: 0px solid #888888;
+text-align: center;
+background: transparent;
+}
+
+#subnav .button:hover {
+color: #292B33;
+font: bold 11px Arial;
+cursor: pointer;
+border: 0px solid #333333;
+text-align: center;
+background: transparent;
+}
+
+#contentwrap{
+width: 100%;
+}
+
+#content{
+width: 100%;
+height: auto;
+margin: 0 0 0 0;
+vertical-align: top;
+}
+
+#leftside{
+width: 210px;
+margin-bottom: 10px;
+margin-top: 6px;
+background: #FFF;
+padding: 0;
+}
+
+#rightside{
+width: 100%;
+}
+
+#topmenu{
+width: 100%;
+height: auto;
+margin-bottom: 6px;
+}
+
+#bottom{
+width: 100%;
+}
+
+.left{
+width: 50%;
+}
+
+.right{
+width: 50%
+}
+
+.centercontent{
+width: 100%
+}
+
+#footer{
+width: 100%;
+height: 80px;
+background: #FFF;
+color: #BABABA;
+text-align: center;
+}
+
+#footer a{
+color: #BABABA;
+}
+
+#footer a:hover{
+color: #777777;
+}
+
+#footer a img{
+border: 0px;
+}
+
+#footer a img:hover{
+background: url(images/roof_hover.png);
+height: 25px;
+width: 102px;
+border: 0px;
+}
+
+/************ News classes **************/
+
+.news_table {
+width: 100%;
+margin-bottom: 15px;
+border: 1px solid #999999;
+}
+
+.news_caption {
+width: 100%;
+background: url(images/subnav_bg.png) repeat-x;
+padding: 8px 8px 8px 12px;
+color: #FFFFFF;
+font: bold 13px Arial;
+text-align: left;
+text-transform: uppercase;
+}
+
+.news_body {
+width: 100%;
+padding: 20px 10px 10px 10px;
+color: #292B33;
+font: 11px Arial, verdana;
+text-align: left;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.news_info {
+background-color: #EEEEEE;
+border-bottom: 1px solid #DDDDDD;
+font-size: 11px;
+font-weight: normal;
+}
+
+/***************** Menu Style classes  ****************/
+
+.menu_table {
+width: 100%;
+margin-bottom: 5px;
+}
+
+.menu_table3 {
+width: 210px;
+margin-top: 6px;
+margin-bottom: 4px;
+}
+
+.menu_caption {
+width: 100%;
+background: url(images/subnav_bg.png) repeat-x;
+padding: 8px 8px 8px 12px;
+color: #FFFFFF;
+font: bold 13px Arial;
+text-align: left;
+text-transform: uppercase;
+}
+
+.menu_body {
+width: 100%;
+padding: 20px 10px 10px 10px;
+color: #292B33;
+font: 11px Arial, verdana;
+text-align: left;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.menu_caption3 {
+width:210px;
+background: #FFF url(images/caption_bg.png) repeat-x;
+padding: 6px 6px 5px 8px;
+color: #292B33;
+font: 12.6px Arial;
+font-weight: bold;
+text-align: left;
+border-right: 1px solid #CFD7EC;
+border-top: 1px solid #CFD7EC;
+}
+
+.menu_body3 {
+width:210px;
+background: #EEEEEE;
+padding: 10px 8px 9px 8px;
+color: #292B33;
+font: 11px Arial;
+text-align: left;
+border-right: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.menu_caption2 {
+width: 100%;
+background: #FFF url(images/caption_bg.png) repeat-x;
+padding: 6px 6px 5px 8px;
+color: #292B33;
+font: 12.6px Arial;
+font-weight: bold;
+text-align: left;
+border-right: 1px solid #CFD7EC;
+border-left: 1px solid #CFD7EC;
+border-top: 1px solid #CFD7EC;
+}
+
+.menu_body2 {
+width: 100%;
+background: #EEEEEE;
+padding: 10px 8px 9px 8px;
+color: #292B33;
+font: 11px Arial;
+text-align: left;
+border-right: 1px solid #DDDDDD;
+border-left: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.menu_table2 {
+width: 100%;
+margin-bottom: 5px;
+border-top: 1px solid #999999;
+}
+
+.menu_body4 {
+width: 100%;
+background: #EEEEEE;
+padding: 10px 8px;
+color: #292B33;
+font: 11px Arial;
+text-align: center;
+}
+
+/*********** Chat Box/Comment/Login classes *************/
+
+#chatbox{
+font-weight: bold;
+text-align: left;
+}
+
+#chatbox .tbox, .helpbox{
+background: #FFF;	
+font-size: 11px;
+font-family: Arial;
+margin: 3px 0 5px 0;
+color: #292B33;
+border: 1px solid #DDDDDD;
+padding: 3px;
+width: 95%;
+}
+
+.cbheader{
+font-weight: normal;
+background-color: #EBEBEB;
+padding: 2px;
+border: 1px solid #DDDDDD;
+}
+
+#chatbox .button {
+margin-bottom: 7px;
+text-align: center;
+}
+
+#commentform .tbox, #commentform .helpbox{
+width: 350px; 
+border: 1px solid #DDDDDD; 
+}
+
+#login{
+text-align: left;
+}
+
+#login .tbox{
+width: 110px;
+background: #FFF;	
+font-size: 10px;
+font-family: Arial;
+color: #292B33;
+border: 1px solid #DDDDDD;
+padding: 1px 6px;
+margin-top: 6px;
+}
+
+#login .button {
+color: #477AB7;
+font: 11px Arial;
+border: 0px solid #888888;
+padding: 0;
+text-align: left;
+background: transparent;
+}
+
+#login .button:hover {
+color: #00297C;
+font: 11px Arial;
+cursor: pointer;
+border: 0px solid #333333;
+padding: 0;
+text-align: left;
+background: transparent;
+}
+
+/***************** Core classes ***********/
+
+.smalltext, .smallblacktext, .tbox, .button, .button:hover, .nextprev, .helpbox {
+font: normal 10px Arial, Verdana, Tahoma, sans-serif;
+text-align: left;
+color: #292B33;
+}
+
+h1 {
+font: 15px Arial, Verdana;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+color: #292B33;
+}
+
+h2 {
+font: 13px Arial, Verdana;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+color: #292B33;
+}
+
+h3 {
+font: 12px Arial, Verdana;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+color: #999999;
+}
+
+.button {
+color: #477AB7;
+font: 11px Arial;
+border: 0px solid #888888;
+text-align: center;
+background: transparent;
+}
+
+.button:hover {
+color: #00297C;
+font: 11px Arial;
+cursor: pointer;
+border: 0px solid #333333;
+text-align: center;
+background: transparent;
+}
+
+.indent {
+border: #DDDDDD 1px dashed;
+padding: 4px;
+margin: 0px;
+background-color: #EEEEEE;
+}
+
+.nextprev {
+border: 0px;
+text-align: center;
+padding: 2px;
+}
+
+.nextprev2 {
+border: 0px;
+text-align: center;
+padding: 2px;
+}
+
+.tbox, .helpbox{
+background: #FFF;	
+font-size: 10px;
+font-family: Arial;
+color: #292B33;
+border: 1px solid #DDDDDD;
+padding: 1px 6px;
+}
+
+code {
+border:0px dashed #999999;
+padding:8px;
+margin:10px
+}
+
+ul {
+padding-left: 8px;
+}
+
+/*************** Forum Classes *************/
+  
+.fborder, .border{
+border-top: 1px #DDDDDD solid;
+border-left: 1px #DDDDDD solid;
+border-right: 1px #DDDDDD solid;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+
+.forumheader {
+background-color: #EEEEEE;
+padding: 6px;
+border: 1px solid #DDDDDD;
+font-weight: bold;
+font-size: 12px;
+padding: 9px;
+}
+
+.fcaption {
+font-weight: bold;
+font-size: 12px;
+color: #292B33;
+padding: 10px 0 10px 0;
+}
+
+.forumheader2, .forumheader3 {
+text-align: left;
+padding: 6px;
+border-bottom: 1px #DDDDDD solid;
+border-right: 1px #DDDDDD solid;
+}
+
+.forumheader2 a{
+font-weight: bold;
+}
+
+td.forumheader4 {
+border: 1px #DDDDDD solid;
+}
+
+.forumheader5 {
+cursor: pointer;
+}
+
+.forumheader6 {
+background-color: #EEEEEE;
+border-left: 1px solid #DDDDDD;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.forumheader7 {
+background-color: #EEEEEE;
+border-right: 1px solid #DDDDDD;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+font-weight: bold;
+font-size: 12px;
+padding: 9px;
+}
+
+
+/*********** Nav Menu Classes ********** */
+
+div.menuBar, div.menuBar a.menuButton, div.menuButton, div.menuButton_over, div.menu, div.menu a.menuItem {
+font: normal 12px arial, verdana, tahoma, sans-serif;
+font-weight: bold;
+color: #292B33;
+}
+
+div.menuBar {
+background-color: #F7F9FA;
+background-image: url(images/nav_bg.png);
+background-repeat: repeat-x;
+border-top: 1px solid #fff;
+padding: 6px 0px;
+text-align: left;
+}
+
+div.emenuBar {
+background-color: #F7F9FA;
+border-top: 1px solid #fff;
+text-align: left;
+}
+
+div.menuBar a.menuButton, div.menuButton, div.menuButton_over {
+background-color: transparent;
+cursor: pointer;
+left: 0px;
+margin: 0px;
+padding: 6px 7px 6px 7px;
+position: relative;
+text-decoration: none;
+top: 0px;
+z-index: 100;
+}
+
+div.menuBar a.menuButton:hover, div.menuButton:hover, div.menuButton_over {
+color: #666666;
+background-color: transparent;
+}
+
+div.menuBar a.menuButtonActive, div.menuButtonActive, div.menuButtonActive:hover, div.menuBar a.menuButtonActive:hover {
+background-color: #fff;
+left: 1px;
+top: 1px;
+}
+
+div.menu {
+background-color: #FCFDFF;
+left: 0px;
+padding: 1px;
+position: absolute;
+top: 0px;
+visibility: hidden;
+z-index: 101;
+}
+
+div.menu a.menuItem {
+cursor: pointer;
+display: block;
+padding: 2px 11px 2px 0px;
+text-decoration: none;
+white-space: nowrap;
+}
+
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight {
+background-color: #F2F4FF;
+}
+
+div.menu a.menuItem span.menuItemBuffer, div.menu a.menuItem:hover span.menuItemBuffer {
+padding: 0px 2px;
+}
+
+div.menu a.menuItem span.menuItemText {
+padding: 0px 0px 0px 3px;
+}
+
+div.menu a.menuItem span.menuItemArrow {
+margin-right: -.75em;
+}
+
+div.menu div.menuItemSep {
+border-bottom: 1px solid #fff;
+margin: 4px 2px;
+}
+
+a.menuItem.header {
+border-bottom: 1px solid #b3b3b3;
+}

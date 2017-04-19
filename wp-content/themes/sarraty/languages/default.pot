@@ -1,0 +1,1521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sarraty\n"
+"POT-Creation-Date: 2014-03-15 07:16+0200\n"
+"PO-Revision-Date: 2014-03-15 07:16+0200\n"
+"Last-Translator: Ahmad Abou Hashem <abouhashem.ahmad@gmail.com>\n"
+"Language-Team: asalah\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11 ../404.php:29
+msgid "Not found"
+msgstr ""
+
+#: ../admin/classes/class.options_machine.php:605
+msgid "Last Backup : "
+msgstr ""
+
+#: ../admin/front-end/options.php:43 ../admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: ../admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: ../archive.php:13 ../archive.php:41
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:15 ../archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:15 ../archive.php:43
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:17 ../archive.php:45
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:17 ../archive.php:45
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:19 ../archive.php:47
+msgid "Archives"
+msgstr ""
+
+#: ../author.php:18 ../author.php:31
+msgid "All posts by: "
+msgstr ""
+
+#: ../category.php:11 ../category.php:29
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:10
+msgid "Pingback: "
+msgstr ""
+
+#: ../comments.php:10
+msgid "Edit"
+msgstr ""
+
+#: ../comments.php:28
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:46
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:65 ../comments.php:79
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:66 ../comments.php:80
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:67 ../comments.php:81
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:95
+msgid "Leave A Reply!"
+msgstr ""
+
+#: ../comments.php:101
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:102
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:103
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:105
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:106
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:107
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content.php:45
+msgid "Go to post"
+msgstr ""
+
+#: ../content.php:60 ../page-templates/woocommerce.php:84
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content.php:61 ../page-templates/woocommerce.php:85
+msgid "Pages:"
+msgstr ""
+
+#: ../footer.php:63
+msgid "Scroll To Top"
+msgstr ""
+
+#: ../framework/aqua/blocks/aq-column-block.php:20
+#: ../framework/aqua/blocks/aq-column-block.php:41
+msgid "Drag block items into this column box"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-block.php:36
+msgid ""
+"function AQ_Block::block should not be accessed directly. Output generated "
+"by the "
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-block.php:57
+msgid "There are no options for this block."
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:24
+#: ../framework/aqua/classes/class-aq-page-builder.php:25
+#: ../framework/aqua/functions/aqpb_config.php:14
+#: ../framework/aqua/functions/aqpb_config.php:15
+msgid "Page Builder"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:26
+#: ../framework/aqua/functions/aqpb_config.php:16
+msgid "aq-page-builder"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:268
+msgid ""
+"Drag block items from the left into this area to begin building your "
+"template."
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:500
+msgid "This template is empty"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:668
+msgid "Please select your template first!"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:685
+#, php-format
+msgid "You don't have any template yet. Let's %s create %s one!"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:690
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:724
+msgid "For more information:"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:725
+msgid ""
+"<a href=\"http://aquagraphite.com/api/documentation/aqua-page-builder\" "
+"target=\"_blank\">Documentation</a>"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:726
+msgid ""
+"<a href=\"http://aquagraphite.com/api/changelog/aqua-page-builder\" target="
+"\"_blank\">Changelog</a>"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-page-builder.php:732
+msgid "Overview"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:101
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:105
+msgid "An unknown error occurred"
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:119
+msgid "Correcting plugin folder name & activating plugin..."
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:128
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+#: ../framework/aqua/classes/class-aq-plugin-updater.php:129
+msgid "Plugin reactivated successfully."
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_blocks.php:222
+msgid "Drag block items into this box"
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_config.php:21
+msgid ""
+"The page builder allows you to create custom page templates which you can "
+"later use for your pages."
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_config.php:22
+msgid ""
+"To use the page builder, start by adding a new template. You can drag and "
+"drop the blocks on the left into the building area on the right of the "
+"screen. Each block has its own unique configuration which you can manually "
+"configure to suit your needs"
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_config.php:23
+msgid "Please refer to the"
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_config.php:23
+msgid " documentation page "
+msgstr ""
+
+#: ../framework/aqua/functions/aqpb_config.php:23
+msgid "for more information on how to use this feature."
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:19
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:67
+#: ../framework/aqua/view/view-builder-page.php:90
+msgid "The "
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:67
+msgid " page template has been successfully created"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:75
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:90
+msgid " page template has been updated"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:102
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:130
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:197
+msgid "Template Name"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:206
+msgid "Create Template"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:206
+#: ../framework/aqua/view/view-builder-page.php:263
+msgid "Save Template"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:220
+msgid "Delete Template"
+msgstr ""
+
+#: ../framework/aqua/view/view-builder-page.php:247
+msgid ""
+"To create a custom page template, give it a name above and click Create "
+"Template. Then choose blocks like text, widgets or tabs &amp; toggles from "
+"the left column to add to this template. You can drag and drop the blocks to "
+"put them in the order you want. Click on the small arrow at the corner of "
+"each block to reveal additional configuration options. You can also resize "
+"each block by clicking on either side of the block (Note that some blocks "
+"are not resizable) When you have finished building your custom page "
+"template, make sure you click the Save Template button."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:279
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: ../framework/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:290
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:155 ../functions.php:184
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:156 ../functions.php:185
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:157 ../functions.php:186
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:169 ../functions.php:198
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:171
+#: ../framework/tgm/class-tgm-plugin-activation.php:1840 ../functions.php:199
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:172
+#: ../framework/tgm/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1950
+#: ../framework/tgm/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1950
+#: ../framework/tgm/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/tgm/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:80
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:187
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:200
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:247
+msgid "Blog sidebar"
+msgstr ""
+
+#: ../functions.php:249
+msgid "An optional widget area for your blog page"
+msgstr ""
+
+#: ../functions.php:259
+msgid "Footer Area One"
+msgstr ""
+
+#: ../functions.php:261 ../functions.php:271 ../functions.php:281
+#: ../functions.php:291
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: ../functions.php:269
+msgid "Footer Area Two"
+msgstr ""
+
+#: ../functions.php:279
+msgid "Footer Area Three"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Footer Area four"
+msgstr ""
+
+#: ../functions.php:307 ../inc/postoptions.php:111 ../inc/postoptions.php:422
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../functions.php:328 ../index.php:13
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:468
+msgid "0 Comments"
+msgstr ""
+
+#: ../functions.php:486
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:487
+msgid "Facebook"
+msgstr ""
+
+#: ../functions.php:488
+msgid "Google Plus"
+msgstr ""
+
+#: ../functions.php:489
+msgid "Dribbble"
+msgstr ""
+
+#: ../functions.php:490
+msgid "Linkedin"
+msgstr ""
+
+#: ../functions.php:588 ../functions.php:643 ../inc/posts.php:51
+#: ../inc/posts.php:73
+msgid "Posted on"
+msgstr ""
+
+#: ../functions.php:639 ../inc/posts.php:48 ../inc/posts.php:69
+msgid "Read More..."
+msgstr ""
+
+#: ../header.php:25
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/postoptions.php:10
+#, php-format
+msgid "%s - Post Options."
+msgstr ""
+
+#: ../inc/postoptions.php:13
+#, php-format
+msgid "%s - Project Options."
+msgstr ""
+
+#: ../inc/postoptions.php:15
+#, php-format
+msgid "%s - Project Details."
+msgstr ""
+
+#: ../inc/postoptions.php:17
+#, php-format
+msgid "%s - Tetimonial Details."
+msgstr ""
+
+#: ../inc/postoptions.php:19
+#, php-format
+msgid "%s - Clients Details."
+msgstr ""
+
+#: ../inc/postoptions.php:21
+#, php-format
+msgid "%s - Team Member Details."
+msgstr ""
+
+#: ../inc/postoptions.php:23
+#, php-format
+msgid "%s - Product Options."
+msgstr ""
+
+#: ../inc/postoptions.php:90 ../inc/postoptions.php:401
+#: ../inc/postoptions.php:627
+msgid "Layout"
+msgstr ""
+
+#: ../inc/postoptions.php:429 ../inc/postoptions.php:638
+msgid "Page Title"
+msgstr ""
+
+#: ../inc/postoptions.php:439 ../inc/postoptions.php:648
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/postoptions.php:449
+msgid "Post Title"
+msgstr ""
+
+#: ../inc/postoptions.php:458
+msgid "Meta Info"
+msgstr ""
+
+#: ../inc/postoptions.php:468
+msgid "Author Box"
+msgstr ""
+
+#: ../inc/postoptions.php:478
+msgid "Author Name in Meta"
+msgstr ""
+
+#: ../inc/postoptions.php:488
+msgid "Post Share"
+msgstr ""
+
+#: ../inc/postoptions.php:499
+msgid "Post Tags Cloud"
+msgstr ""
+
+#: ../inc/postoptions.php:509
+msgid "Post date position"
+msgstr ""
+
+#: ../inc/postoptions.php:521
+msgid "Post Comments"
+msgstr ""
+
+#: ../inc/postoptions.php:544 ../inc/postoptions.php:688
+msgid "Custom page title background URL"
+msgstr ""
+
+#: ../inc/postoptions.php:550 ../inc/postoptions.php:701
+msgid "Page banner video background - mp4"
+msgstr ""
+
+#: ../inc/postoptions.php:556 ../inc/postoptions.php:707
+msgid "Page banner video background - m4v"
+msgstr ""
+
+#: ../inc/postoptions.php:562 ../inc/postoptions.php:713
+msgid "Page banner video background - webm"
+msgstr ""
+
+#: ../inc/postoptions.php:568 ../inc/postoptions.php:719
+msgid "Page banner video background - ogv/ogg"
+msgstr ""
+
+#: ../inc/postoptions.php:576 ../inc/postoptions.php:694
+msgid "Page title banner padding"
+msgstr ""
+
+#: ../inc/postoptions.php:658 ../single-project.php:82
+msgid "Project Details"
+msgstr ""
+
+#: ../inc/postoptions.php:668
+msgid "Project Social Like"
+msgstr ""
+
+#: ../inc/postoptions.php:678
+msgid "Other Projects"
+msgstr ""
+
+#: ../inc/postoptions.php:727
+msgid "Project Date"
+msgstr ""
+
+#: ../inc/postoptions.php:732
+msgid "Client Name"
+msgstr ""
+
+#: ../inc/postoptions.php:737 ../inc/postoptions.php:921
+msgid "Client URL"
+msgstr ""
+
+#: ../inc/postoptions.php:742
+msgid "Project Preview URL"
+msgstr ""
+
+#: ../inc/postoptions.php:747
+msgid "Project Preview Text"
+msgstr ""
+
+#: ../inc/postoptions.php:794
+msgid "Author Name"
+msgstr ""
+
+#: ../inc/postoptions.php:799
+msgid "Author Job"
+msgstr ""
+
+#: ../inc/postoptions.php:803
+msgid "Author Company"
+msgstr ""
+
+#: ../inc/postoptions.php:808
+msgid "Author Url"
+msgstr ""
+
+#: ../inc/postoptions.php:841
+msgid "Position"
+msgstr ""
+
+#: ../inc/postoptions.php:846
+msgid "Facebook URL"
+msgstr ""
+
+#: ../inc/postoptions.php:851
+msgid "Twitter URL"
+msgstr ""
+
+#: ../inc/postoptions.php:856
+msgid "Skill 1"
+msgstr ""
+
+#: ../inc/postoptions.php:861
+msgid "Skill 1 Percent"
+msgstr ""
+
+#: ../inc/postoptions.php:866
+msgid "Skill 2"
+msgstr ""
+
+#: ../inc/postoptions.php:871
+msgid "Skill 2 Percent"
+msgstr ""
+
+#: ../inc/postoptions.php:876
+msgid "Skill 3"
+msgstr ""
+
+#: ../inc/postoptions.php:881
+msgid "Skill 3 Percent"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:6
+msgctxt "post type general name"
+msgid "Clients"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:7
+msgctxt "post type singular name"
+msgid "Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:8
+msgctxt "Client"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:9
+msgid "Add New Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:10
+msgid "Edit Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:11
+msgid "New Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:12
+msgid "View Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:13
+msgid "Search Client"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:14
+msgid "No Client found"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:15
+msgid "No clients found in Trash"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:37 ../inc/posttypes/portfolio.php:40
+#: ../inc/posttypes/team.php:40 ../inc/posttypes/testimonials.php:38
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:38 ../inc/posttypes/portfolio.php:41
+#: ../inc/posttypes/team.php:41 ../inc/posttypes/testimonials.php:39
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:39 ../inc/posttypes/portfolio.php:42
+#: ../inc/posttypes/team.php:42 ../inc/posttypes/testimonials.php:40
+msgid "Search Types"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:40 ../inc/posttypes/portfolio.php:43
+#: ../inc/posttypes/team.php:43 ../inc/posttypes/testimonials.php:41
+msgid "All Tags"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:41 ../inc/posttypes/portfolio.php:44
+#: ../inc/posttypes/team.php:44 ../inc/posttypes/testimonials.php:42
+msgid "Parent Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:42 ../inc/posttypes/portfolio.php:45
+#: ../inc/posttypes/team.php:45 ../inc/posttypes/testimonials.php:43
+msgid "Parent Tag:"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:43 ../inc/posttypes/portfolio.php:46
+#: ../inc/posttypes/team.php:46 ../inc/posttypes/testimonials.php:44
+msgid "Edit Tags"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:44 ../inc/posttypes/portfolio.php:47
+#: ../inc/posttypes/team.php:47 ../inc/posttypes/testimonials.php:45
+msgid "Update Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:45 ../inc/posttypes/portfolio.php:48
+#: ../inc/posttypes/team.php:48 ../inc/posttypes/testimonials.php:46
+msgid "Add New Tag"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:46 ../inc/posttypes/portfolio.php:49
+#: ../inc/posttypes/team.php:49 ../inc/posttypes/testimonials.php:47
+msgid "New Tag Name"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:65
+#, php-format
+msgid "client updated. <a href=\"%s\">View client</a>"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:66 ../inc/posttypes/portfolio.php:69
+#: ../inc/posttypes/team.php:69 ../inc/posttypes/testimonials.php:67
+msgid "Custom field updated."
+msgstr ""
+
+#: ../inc/posttypes/clients.php:67 ../inc/posttypes/portfolio.php:70
+#: ../inc/posttypes/team.php:70 ../inc/posttypes/testimonials.php:68
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../inc/posttypes/clients.php:68
+msgid "client updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/clients.php:70
+#, php-format
+msgid "client restored to revision from %s"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:71
+#, php-format
+msgid "client published. <a href=\"%s\">View Client</a>"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:72
+msgid "client saved."
+msgstr ""
+
+#: ../inc/posttypes/clients.php:73
+#, php-format
+msgid "client submitted. <a target=\"_blank\" href=\"%s\">Preview Client</a>"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:74
+#, php-format
+msgid ""
+"client scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Client</a>"
+msgstr ""
+
+#. translators: Publish box date format, see http://php.net/date
+#: ../inc/posttypes/clients.php:76 ../inc/posttypes/portfolio.php:79
+#: ../inc/posttypes/team.php:79 ../inc/posttypes/testimonials.php:77
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../inc/posttypes/clients.php:77
+#, php-format
+msgid ""
+"client draft updated. <a target=\"_blank\" href=\"%s\">Preview client</a>"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:7
+msgctxt "post type general name"
+msgid "Projects"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:8
+msgctxt "post type singular name"
+msgid "Project"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:9
+msgctxt "project"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:10
+msgid "Add New Project"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:11
+msgid "Edit Project"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:12
+msgid "New Project"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:13
+msgid "View Project"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:14
+msgid "Search Projects"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:15
+msgid "No projects found"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:16
+msgid "No projects found in Trash"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:68
+#, php-format
+msgid "Project updated. <a href=\"%s\">View project</a>"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:71
+msgid "Project updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/portfolio.php:73
+#, php-format
+msgid "Project restored to revision from %s"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:74
+#, php-format
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:75
+msgid "Project saved."
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:76
+#, php-format
+msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:77
+#, php-format
+msgid ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview project</a>"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:80
+#, php-format
+msgid ""
+"Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:136
+msgid "Show All"
+msgstr ""
+
+#: ../inc/posttypes/portfolio.php:272 ../inc/posttypes/portfolio.php:398
+#: ../inc/widgets/project.php:53 ../page-templates/portfolio.php:144
+#: ../taxonomy-tagportfolio.php:105
+msgid "View more ..."
+msgstr ""
+
+#: ../inc/posttypes/team.php:7
+msgctxt "post type general name"
+msgid "Team Members"
+msgstr ""
+
+#: ../inc/posttypes/team.php:8
+msgctxt "post type singular name"
+msgid "Team Members"
+msgstr ""
+
+#: ../inc/posttypes/team.php:9
+msgctxt "Member"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/team.php:10
+msgid "Add New Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:11
+msgid "Edit Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:12
+msgid "New Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:13
+msgid "View Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:14
+msgid "Search Member"
+msgstr ""
+
+#: ../inc/posttypes/team.php:15
+msgid "No Members found"
+msgstr ""
+
+#: ../inc/posttypes/team.php:16
+msgid "No members found in Trash"
+msgstr ""
+
+#: ../inc/posttypes/team.php:68
+#, php-format
+msgid "Member updated. <a href=\"%s\">View member</a>"
+msgstr ""
+
+#: ../inc/posttypes/team.php:71
+msgid "Member updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/team.php:73
+#, php-format
+msgid "Member restored to revision from %s"
+msgstr ""
+
+#: ../inc/posttypes/team.php:74
+#, php-format
+msgid "Member published. <a href=\"%s\">View member</a>"
+msgstr ""
+
+#: ../inc/posttypes/team.php:75
+msgid "Member saved."
+msgstr ""
+
+#: ../inc/posttypes/team.php:76
+#, php-format
+msgid "Member submitted. <a target=\"_blank\" href=\"%s\">Preview member</a>"
+msgstr ""
+
+#: ../inc/posttypes/team.php:77
+#, php-format
+msgid ""
+"Member scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview member</a>"
+msgstr ""
+
+#: ../inc/posttypes/team.php:80
+#, php-format
+msgid ""
+"Member draft updated. <a target=\"_blank\" href=\"%s\">Preview member</a>"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:7
+msgctxt "post type general name"
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:8
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:9
+msgctxt "Testimonial"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:10
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:11
+msgid "Edit testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:12
+msgid "New testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:13
+msgid "View testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:14
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:15
+msgid "No testimonials found"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:16
+msgid "No testimonials found in Trash"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:18
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:66
+#, php-format
+msgid "Testimonial updated. <a href=\"%s\">View Testimonial</a>"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:69
+msgid "Testimonial updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../inc/posttypes/testimonials.php:71
+#, php-format
+msgid "Testimonial restored to revision from %s"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:72
+#, php-format
+msgid "Testimonial published. <a href=\"%s\">View Testimonial</a>"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:73
+msgid "Testimonial saved."
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:74
+#, php-format
+msgid ""
+"Testimonial submitted. <a target=\"_blank\" href=\"%s\">Preview Testimonial</"
+"a>"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:75
+#, php-format
+msgid ""
+"Testimonial scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Testimonial</a>"
+msgstr ""
+
+#: ../inc/posttypes/testimonials.php:78
+#, php-format
+msgid ""
+"Testimonial draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Testimonial</a>"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:21
+#: ../inc/posttypes/wp-pricing-table/index.php:32
+msgctxt ""
+msgid "Pricing Tables"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:22
+msgctxt ""
+msgid "Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:23
+#: ../inc/posttypes/wp-pricing-table/index.php:138
+msgctxt ""
+msgid "Add New"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:24
+msgctxt ""
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:25
+msgctxt ""
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:26
+msgctxt ""
+msgid "New Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:27
+msgctxt ""
+msgid "View Pricing Table"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:28
+msgctxt ""
+msgid "Search Pricing Tables"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:29
+msgctxt ""
+msgid "No Pricing Tables found"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:30
+msgctxt ""
+msgid "No Pricing Tables found in Trash"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:31
+msgctxt ""
+msgid "Parent Pricing Table:"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:136
+#: ../inc/posttypes/wp-pricing-table/index.php:147
+msgctxt ""
+msgid "Pricing Packages"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:137
+msgctxt ""
+msgid "Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:139
+msgctxt ""
+msgid "Add New Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:140
+msgctxt ""
+msgid "Edit Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:141
+msgctxt ""
+msgid "New Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:142
+msgctxt ""
+msgid "View Pricing Package"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:143
+msgctxt ""
+msgid "Search Pricing Packages"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:144
+msgctxt ""
+msgid "No Pricing Packages found"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:145
+msgctxt ""
+msgid "No Pricing Packages found in Trash"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:146
+msgctxt ""
+msgid "Parent Pricing Package:"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:363
+msgid "Pricing Table No"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:364
+msgid "Pricing Table Name"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:365
+#: ../inc/widgets/postlist.php:76 ../inc/widgets/project.php:95
+#: ../single-project.php:87
+msgid "Date"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:386
+msgid "Unknown"
+msgstr ""
+
+#: ../inc/posttypes/wp-pricing-table/index.php:444
+msgid "Buy Now"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:51
+msgid "Post List"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:56 ../inc/widgets/project.php:83
+#: ../inc/widgets/tweets.php:57
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:60
+msgid "Thumbnail"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:63
+msgid "Show"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:65
+msgid "Hide"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:69 ../inc/widgets/tweets.php:65
+msgid "Number Of Posts"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:73 ../inc/widgets/project.php:88
+msgid "Post Order"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:78
+msgid "Comment Count"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:80 ../inc/widgets/project.php:101
+msgid "Random"
+msgstr ""
+
+#: ../inc/widgets/postlist.php:84 ../inc/widgets/project.php:105
+#: ../single-project.php:112
+msgid "Tags"
+msgstr ""
+
+#: ../inc/widgets/project.php:78
+msgid "Project"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:52
+msgid "Tweets"
+msgstr ""
+
+#: ../inc/widgets/tweets.php:61
+msgid "Username"
+msgstr ""
+
+#: ../product-searchform.php:3
+msgid "Search for products"
+msgstr ""
+
+#: ../search.php:11 ../search.php:29
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search the blog"
+msgstr ""
+
+#: ../single-project.php:74
+msgid "Project Overview"
+msgstr ""
+
+#: ../single-project.php:100
+msgid "Client"
+msgstr ""
+
+#: ../single-project.php:124
+msgid "Live Preview"
+msgstr ""
+
+#: ../single-project.php:128
+msgid "Project URL"
+msgstr ""
+
+#: ../single-project.php:169
+msgid "All Projects"
+msgstr ""
+
+#: ../tag.php:11 ../tag.php:31
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""

@@ -1,0 +1,79 @@
+#
+#         This java file is a part of the
+#
+#          -  Plouf's Java IRC Client  -
+#
+#      Copyright (C) 2002 Philippe Detournay
+#
+#   This file is licensed under the GPL license
+#
+#        All contacts : theplouf@yahoo.com
+#
+#
+#  Syntax :
+#    Comments begin with the # character. This character must be the first character of the line.
+#    A data line has three parts : the data id, the data id description, the data string.
+#      - Data id : An hexadecimal figure identifying the string.
+#      - Data description : Begins by [ and ends by ]. The description is not parsed and
+#                           can be any string.
+#      - Data string : The string itself. Parameters are specified using the %i syntax.
+#
+#  Trailing spaces can be added using the \s escape character.
+#  
+#  Linguaggio tradotto in italiano da JoeBlack
+#  webnow@email.it
+#  
+#  
+
+8601 [SOURCE_YOU_KICKED] Sei stato allontanato dal canale %1 da %2
+8612 [SOURCE_AWAY] %1 è lontano dal PC (Away)
+86 lontano dal PC (Away)
+8613 [SOURCE_YOU_INVITED] %1 sei stato invitato da %2
+8602 [SOURCE_STATUS] Status
+8603 [SOURCE_CHANLIST] Canali sul server %1
+8604 [SOURCE_CHANLIST_RETREIVING] Lista dei canali...
+8605 [SOURCE_HAS_JOINED] %1 è entrato nella stanza %2
+8606 [SOURCE_HAS_LEFT] %1 ha lasciato la stanza %2
+8607 [SOURCE_HAS_BEEN_KICKED_BY] %1 è stato allontanato da %2
+8608 [SOURCE_HAS_QUIT] %1 ha chiuso
+8609 [SOURCE_TOPIC_IS] Il topic è %1
+860a [SOURCE_CHANGED_TOPIC] %1 Ha cambiato il topic in...( %2 )
+860b [SOURCE_CHANNEL_MODE] %1 ha settato il canale in %2
+860c [SOURCE_CHANNEL_MODE_IS] Il canale è in modo %1
+860d [SOURCE_USER_MODE] %1 ha impostato il mode %2 all'utente %3
+860e [SOURCE_KNOWN_AS] %1 ha cambiato nick in %2
+860f [SOURCE_YOUR_MODE] Mode cambiati in %1
+8610 [SOURCE_YOUR_NICK] Il tuo Nick adesso è %1
+8611 [SOURCE_INFO] Stato
+      
+8701 [GUI_WHOIS] Whois
+8702 [GUI_QUERY] Query
+8703 [GUI_KICK] Kick
+8704 [GUI_BAN] Ban
+8705 [GUI_KICKBAN] Kick + Ban
+8706 [GUI_OP] Op
+8707 [GUI_DEOP] DeOp
+8708 [GUI_VOICE] Voice
+8709 [GUI_DEVOICE] DeVoice
+870a [GUI_PING] Ping
+870b [GUI_VERSION] Version
+870c [GUI_TIME] Time
+870d [GUI_FINGER] Finger
+870e [GUI_RETREIVING_FILE] Ricevi file (%1 bytes)
+870f [GUI_SENDING_FILE] Invia file (%1 bytes)
+8710 [GUI_TERMINATED] %1 terminato
+8711 [GUI_FAILED] %1 fallito
+8712 [GUI_CLOSE] Chiudi
+8713 [GUI_DISCONNECT] Disconnetti
+8714 [GUI_CHANNELS] Canali
+8715 [GUI_HELP] Aiuto
+8716 [GUI_PRIVATE] Sezione privata
+8717 [GUI_PUBLIC] Sezione pubblica
+8718 [GUI_CONNECT] Connetti
+8719 [GUI_ABOUT] InfoChat
+871a [GUI_CHANGE_NICK] Cambia nick in
+871c [GUI_FONT] Font
+871d [GUI_FONT_WINDOW] Scegli il carattere
+871e [GUI_FONT_WINDOW_OK] Ok
+
+ffff [ERROR_NOT_DEFINED] Stringa indefinita

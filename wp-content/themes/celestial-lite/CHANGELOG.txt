@@ -1,0 +1,181 @@
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+Copyright 2012-2013 StyledThemes.com
+
+	
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+MAJOR version when you make major changes,
+MINOR version when you add a features or functions
+PATCH version when you make bug fixes or minor feature adjustments
+
+----
+
+(May 8, 2014) - Adjustments - Version 2.1.2
+[!] - Made one adjustment to the small blog image layout...wasn't floating correctly
+
+---- 
+
+(May 8, 2014) - Adjustments - Version 2.1.1
+[!] - Made adjustment to the horizontal rule css to clear other elements properly
+[*] - Made margin adjustment on the breadcrumbs row
+[*] - Adjusted the main content font size to be 13 px (0.813rem)
+[!] - Fixed footer widget link colour option settings
+[+] - Added theme setting to change footer list border colour
+[!] - Fixed the problem of right sidebar floating below content when hiding featured image on full post
+[*] - Updated the celestial-lite.pot language file
+[*] - Updated the style.css text domain to be celestial-lite
+
+
+(March 23, 2014) - Adjustments - Version 2.1.0
+[!] - Fixed missing theme setting for main menu margin positioning
+[*} - Recoded the social icon settings to turn on or off
+[+] - Added a theme option to disable the social bar background lines
+[*] - Updated function and text domains throughout the theme files
+[*] - Adjusted the height and width of the WP Header for large displays
+[+] - Added a style class to prevent the home link being active all the time
+[*] - Updated the celestial.pot language file
+
+----
+
+(March 6, 2014) - Adjustments - Version 2.0.9
+[!] - Fixed the issue of the call to action container loading when no widget published
+[*] - Fixed several naming errors that should be using "celestial" within several files
+[!] - Fixed post navigation error
+[*] - Updated the WP Gallery styling for WP 3.8.1
+[*] - Fixed page top spacing
+[*] - Changed the editor styles to represent all the actual theme styles
+[!] - Fixed some language strings with wrong text domain
+[*] - Updated the celestial.pot language file.
+
+----
+
+(January 22, 2014) - Adjustments - Version 2.0.8
+[!] - Fixed error message on post comments that were missing on last theme update
+
+----
+
+(January 21, 2014) - Adjustments - Version 2.0.7
+[!] - Fixed footer widgets being lost and an error showing up after updating to version 2.0.6
+
+----
+
+
+(January 14, 2014) - Adjustments - Version 2.0.6
+[*] - Changed and updated css in the style.css file. The biggest is the WP Gallery css
+[!] - Fixed the showcase and banner area by removing the max-height from the style.css preventing bigger images
+[!] - Fixed the sidebar column that was moving below content by removing an offset1 class
+[!] - Fixed issue of the showcase and banner images not centering
+[!] - Removed styling on smilies that were inheriting image bordering
+[*] - Changed the layout left and right column (sidebar) spacing from main content, taking out offset1 class; adjusted sidebar margins
+[*] - Removed the background colour on the mobile menu when hovering over menu items
+[*] - Changed the image container that was expanding 100% with a small image aligned left and showing a lot of background colour in the box
+[x] - Deleted a default showcase banner image from the header.php and changed it to a default WP Header image instead.
+[x] - Deleted a theme option setting that disabled a default banner image in exchange for the WP Header feature
+[+] - Added a new theme option to enable/disable Featured Image on full Single post view (disabled by default)
+[+] - Added sanitization to the theme customizer settings
+[*] - Updated the WP Gallery styling when using the cleaner gallery plugin
+[*] - Changed the naming of functions to use "celestial" as they were not correctly named.
+[+] - Added classes to the meta post info such as date, author, etc.
+
+----
+
+(November 21, 2013) - Adjustments - Version 1.9.6
+[!] - Fixed the issue of a users own logo not centering in mobile view
+[+] - Added the Alt tag to the user logo code (missing)
+
+----
+
+(October 6, 2013) - Adjustments - Version 1.9.5
+[!] - Fixed a missing bracket in the stylesheet
+[+] - Added a new full width page template with widgets and content
+
+----
+
+(September 26, 2013) - Adjustments - Version 1.9.4
+[*] - Completely rebuilt the main menu (from my Celestial Reloaded theme) for an issue with the new mobile ios 7
+[*] - Changed the Hide Showcase banner and Hide Showcase curve settings to function better
+[+] - Added ability to break and wrap long words
+[*] - Updated the language celestial.pot file
+
+
+---- 
+
+(July 25, 2013) - Adjustments - Version 1.9.3
+[+] - Added a note in the style.css description about the Child Theme included.
+
+
+----
+
+(July 25, 2013) - Adjustments - Version 1.9.2
+[+] - Added an installable child theme to the theme package in a folder called child-theme
+[*] - Updated the Readme.txt file
+
+----
+
+(July 20, 2013) - Bug fix - Version 1.9.1
+[!] - Fixed issue of blog with left sidebar chosen not showing for the full post, archive, search, tags, and author posts.
+[x] - Deleted some code meant for the Pro version was found in the Lite version
+
+----
+
+(February 24, 2013) - Bug fix and Improvements - Version 1.9
+[*] - Updated the Readme.txt file with better information
+[*] - Changed the search widget input field to float left instead of centered in mobile view with style.css
+[*] - Changed the search widget size to fit in the left sidebar better: searchform.php
+[+] - Added translation to dates in content.php, content-status.php, content-single.php, content-image.php, content-aside.php
+[*] - Updated the language .pot file
+
+----
+
+(February 6, 2013) - Bug fix and Improvements - Version 1.8
+[+] - Added a new page image.php for viewing gallery images (attachments) with image navigation for next and previous.
+[+] - Added "No Comments" message when comments are disabled
+[*] - Changed the default logo to a generic logo and message for the user to know they can use their own
+[*] - Changed the default copyright to a generic copyright notice as a message they can use their own
+
+----
+
+(February 5, 2013) - Bug fix - Version 1.7
+[!] - Fixed the comment form structure in the functions.php file which was breaking the layout in the page
+[+] - Added css for the recoded comments form to the style.css
+
+----
+
+(February 4, 2013) - Bug fix - Version 1.6
+[+] - Added information about child themes to the readme.txt and readme.html files for doing theme modifications
+
+-----
+
+(January 22, 2013) - Bug fix - Version 1.5
+[!] - Updated the front-page-widgets.php page template as the template name was missing
+
+-----
+
+(January 20, 2013) - Bug fix and improvements - Version 1.4
+[*] - Changed and updated the language files .pot and .mo
+[*] - Adjusted the footer menu to be one level only
+[*] - Fixed an empty post thumbnail container on single posts that showed when no featured image was used
+[+] - Added single post pagination for previous and next posts
+[*] - Updated file comment information
+[+] - Added a link for the site logo, both default and user logo
+
+----
+
+(January 16, 2013) - Bug fix and improvements - Version 1.3
+[*] - Recoded the showcase header area in the header.php file because of missing sidebar
+[*] - Changed the state of the demo banner from on to off as default setting
+[*] - Changed the language .pot and .mo with an updated string and added a new one in the theme-customizer.php file
+
+----
+
+(November 20, 2012) Version 1.0 Styled Themes <www.styledthemes.com>
+Initial Release	

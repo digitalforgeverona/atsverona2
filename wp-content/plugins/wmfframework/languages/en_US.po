@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WMF Framework\n"
+"POT-Creation-Date: 2014-08-27 14:34+0200\n"
+"PO-Revision-Date: 2014-08-27 14:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: Webbu <info@webbudesign.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gallery.php:224
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: gallery.php:249
+msgid "image"
+msgstr ""
+
+#: gallery.php:249
+msgid "of"
+msgstr ""
+
+#: gallery.php:250
+msgid "previous"
+msgstr ""
+
+#: gallery.php:251
+msgid "next"
+msgstr ""
+
+#: gallery.php:252
+msgid "close"
+msgstr ""
+
+#: gallery.php:253
+msgid "This content failed to load."
+msgstr ""
+
+#: gallery.php:254
+msgid "This image failed to load."
+msgstr ""
+
+#: gallery.php:255
+msgid "Start slideshow"
+msgstr ""
+
+#: gallery.php:256
+msgid "Stop slideshow"
+msgstr ""
+
+#: gallery.php:313
+msgid "WMF Gallery & Portfolio"
+msgstr ""
+
+#: gallery.php:314
+msgid "WMFGallery"
+msgstr ""
+
+#: gallery.php:315 slider.php:165
+msgid "Add New"
+msgstr ""
+
+#: gallery.php:316
+msgid "Add New Gallery/Portfolio Item"
+msgstr ""
+
+#: gallery.php:317 slider.php:167
+msgid "Edit"
+msgstr ""
+
+#: gallery.php:318
+msgid "Edit Gallery/Portfolio Item"
+msgstr ""
+
+#: gallery.php:319
+msgid "New Gallery/Portfolio Item"
+msgstr ""
+
+#: gallery.php:320 gallery.php:321
+msgid "View Gallery Item"
+msgstr ""
+
+#: gallery.php:322
+msgid "Search Gallery Item"
+msgstr ""
+
+#: gallery.php:323
+msgid "No gallery item found"
+msgstr ""
+
+#: gallery.php:324
+msgid "No gallery item found in Trash"
+msgstr ""
+
+#: gallery.php:344
+msgid "Shortcode for This Gallery"
+msgstr ""
+
+#: gallery.php:353 slider.php:203
+msgid "Please copy code below"
+msgstr ""
+
+#: gallery.php:360
+msgid "Gallery Options"
+msgstr ""
+
+#: gallery.php:388
+msgid "General Settings"
+msgstr ""
+
+#: gallery.php:391
+msgid "Columns"
+msgstr ""
+
+#: gallery.php:393
+msgid "1 Column"
+msgstr ""
+
+#: gallery.php:394
+msgid "2 Columns"
+msgstr ""
+
+#: gallery.php:395
+msgid "3 Columns"
+msgstr ""
+
+#: gallery.php:396
+msgid "4 Columns"
+msgstr ""
+
+#: gallery.php:399
+msgid "Image Type"
+msgstr ""
+
+#: gallery.php:401
+msgid "Normal"
+msgstr ""
+
+#: gallery.php:402
+msgid "Rounded"
+msgstr ""
+
+#: gallery.php:403
+msgid "Circle"
+msgstr ""
+
+#: gallery.php:404
+msgid "Thumbnail"
+msgstr ""
+
+#: gallery.php:407
+msgid "Post Per Page"
+msgstr ""
+
+#: gallery.php:407
+msgid "Only numeric. -1 is : unlimited & disable pagination."
+msgstr ""
+
+#: gallery.php:411
+msgid "Portfolio Settings"
+msgstr ""
+
+#: gallery.php:413
+msgid ""
+"Note: If any of portfolio setting enables. Then Image Type effect will be "
+"disable."
+msgstr ""
+
+#: gallery.php:417
+msgid "Show attachment title on the list"
+msgstr ""
+
+#: gallery.php:421
+msgid "Show attachment desc. on the list"
+msgstr ""
+
+#: gallery.php:425
+msgid "Link image to attachment link url"
+msgstr ""
+
+#: gallery.php:429
+msgid "Link Title to attachment link url"
+msgstr ""
+
+#: gallery.php:435
+msgid "Photo Swipe Settings (for Mobile)"
+msgstr ""
+
+#: gallery.php:438 gallery.php:462
+msgid "Auto Start Slide Show"
+msgstr ""
+
+#: gallery.php:442
+msgid "Allow User Zoom"
+msgstr ""
+
+#: gallery.php:446
+msgid "Slide Show Delay(ms)"
+msgstr ""
+
+#: gallery.php:450
+msgid "Colorbox Settings (for Desktop)"
+msgstr ""
+
+#: gallery.php:454
+msgid "Disable Colorbox"
+msgstr ""
+
+#: gallery.php:458
+msgid "Slide Show Feature"
+msgstr ""
+
+#: gallery.php:466
+msgid "Transition Effect"
+msgstr ""
+
+#: gallery.php:468
+msgid "None"
+msgstr ""
+
+#: gallery.php:469
+msgid "Elastic"
+msgstr ""
+
+#: gallery.php:470 slider.php:248
+msgid "Fade"
+msgstr ""
+
+#: gallery.php:473
+msgid "Slide Show Speed"
+msgstr ""
+
+#: gallery.php:473
+msgid "If slide show enabled."
+msgstr ""
+
+#: js/shortcodes.old.php:16 js/shortcodes.old.php:52 js/shortcodes.php:20
+#: metabox/fields.php:34
+msgid "Slider"
+msgstr ""
+
+#: js/shortcodes.old.php:30 js/shortcodes.php:29
+msgid "Select Slider"
+msgstr ""
+
+#: js/shortcodes.old.php:39 js/shortcodes.old.php:95 js/shortcodes.php:38
+#: js/shortcodes.php:78
+msgid "Insert"
+msgstr ""
+
+#: js/shortcodes.old.php:72 js/shortcodes.old.php:108 metabox/fields.php:207
+msgid "Gallery"
+msgstr ""
+
+#: js/shortcodes.old.php:86 js/shortcodes.php:69
+msgid "Select Gallery"
+msgstr ""
+
+#: js/shortcodes.php:60
+msgid "Gallery & Portfolio"
+msgstr ""
+
+#: metabox/fields.php:54
+msgid "Slider Images"
+msgstr ""
+
+#: metabox/fields.php:71
+msgid "Slider Circle Icon"
+msgstr ""
+
+#: metabox/fields.php:89
+msgid "Activate?"
+msgstr ""
+
+#: metabox/fields.php:92
+msgid "Have to enabled for work."
+msgstr ""
+
+#: metabox/fields.php:94
+msgid "Enable"
+msgstr ""
+
+#: metabox/fields.php:95
+msgid "Disable"
+msgstr ""
+
+#: metabox/fields.php:100
+msgid "Icon Name"
+msgstr ""
+
+#: metabox/fields.php:102
+msgid ""
+"Please write icon name here like sample above. You can find icon names from "
+"<a href=\"http://fontawesome.io/3.2.1/icons/\" target=\"_blank\">http://"
+"fontawesome.io/3.2.1/icons/</a>"
+msgstr ""
+
+#: metabox/fields.php:104
+msgid "icon-cloud"
+msgstr ""
+
+#: metabox/fields.php:109
+msgid "Icon Box BG Color"
+msgstr ""
+
+#: metabox/fields.php:112
+msgid "Circle top icon box background."
+msgstr ""
+
+#: metabox/fields.php:116
+msgid "Icon Color"
+msgstr ""
+
+#: metabox/fields.php:119
+msgid "Circle top icon box icon color."
+msgstr ""
+
+#: metabox/fields.php:123
+msgid "Icon Border Color"
+msgstr ""
+
+#: metabox/fields.php:126
+msgid "Circle top icon box border color."
+msgstr ""
+
+#: metabox/fields.php:131
+msgid "Icon Box Link URL"
+msgstr ""
+
+#: metabox/fields.php:133
+msgid ""
+"If want to include a link please fill box above. Ex:http://www.yoursite.com"
+msgstr ""
+
+#: metabox/fields.php:141
+msgid "Link Target"
+msgstr ""
+
+#: metabox/fields.php:146
+msgid "_blank"
+msgstr ""
+
+#: metabox/fields.php:147
+msgid "_parent"
+msgstr ""
+
+#: metabox/fields.php:148
+msgid "_self"
+msgstr ""
+
+#: metabox/fields.php:153
+msgid "Select a target"
+msgstr ""
+
+#: metabox/fields.php:227
+msgid "Gallery Images"
+msgstr ""
+
+#: metabox/fields.php:246
+msgid "Portfolio Box Settings"
+msgstr ""
+
+#: metabox/fields.php:265
+msgid "Portfolio Box BG Color"
+msgstr ""
+
+#: metabox/fields.php:268
+msgid "Background color for portfolio box"
+msgstr ""
+
+#: metabox/fields.php:272
+msgid "Portfolio Box Text Color"
+msgstr ""
+
+#: metabox/fields.php:275
+msgid "Text color for color for portfolio box"
+msgstr ""
+
+#: metabox/fields.php:280
+msgid "Portfolio Box Border Radius"
+msgstr ""
+
+#: metabox/fields.php:283
+msgid "Border radius for portfolio box"
+msgstr ""
+
+#: metabox/fields.php:285
+msgid " px"
+msgstr ""
+
+#: metabox/inc/field.php:70 metabox/inc/meta-box.php:414
+msgid "+"
+msgstr ""
+
+#: metabox/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: metabox/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: metabox/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: metabox/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: metabox/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: metabox/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: metabox/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: metabox/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: metabox/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: metabox/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: metabox/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: metabox/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: metabox/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: metabox/inc/fields/post.php:66 metabox/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: metabox/inc/meta-box.php:240
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: metabox/inc/meta-box.php:436
+msgid "&#8211;"
+msgstr ""
+
+#: slider.php:112
+msgid "Slider/Portfolio Link"
+msgstr ""
+
+#: slider.php:113
+msgid ""
+"Set a slider or portfolio page link for this attachment. If use this "
+"attachment in to a slider link will be slider link otherwise it will be "
+"gallery & portfolio link."
+msgstr ""
+
+#: slider.php:163
+msgid "WMF Slider"
+msgstr ""
+
+#: slider.php:164
+msgid "WMFSlider"
+msgstr ""
+
+#: slider.php:166
+msgid "Add New Slider Item"
+msgstr ""
+
+#: slider.php:168
+msgid "Edit Slider Item"
+msgstr ""
+
+#: slider.php:169
+msgid "New Slider Item"
+msgstr ""
+
+#: slider.php:170 slider.php:171
+msgid "View Slider Item"
+msgstr ""
+
+#: slider.php:172
+msgid "Search Slider Item"
+msgstr ""
+
+#: slider.php:173
+msgid "No slider item found"
+msgstr ""
+
+#: slider.php:174
+msgid "No slider item found in Trash"
+msgstr ""
+
+#: slider.php:194
+msgid "Shortcode for This Slider"
+msgstr ""
+
+#: slider.php:210
+msgid "Slide Show Options"
+msgstr ""
+
+#: slider.php:232
+msgid "Slider Shadow"
+msgstr ""
+
+#: slider.php:234
+msgid "No Effect"
+msgstr ""
+
+#: slider.php:235
+msgid "Lifted Corners"
+msgstr ""
+
+#: slider.php:236
+msgid "Perspective"
+msgstr ""
+
+#: slider.php:237
+msgid "Raised Box"
+msgstr ""
+
+#: slider.php:238
+msgid "Single Vertical Curve"
+msgstr ""
+
+#: slider.php:239
+msgid "Vertical Curves"
+msgstr ""
+
+#: slider.php:240
+msgid "Single Horizontal Curve"
+msgstr ""
+
+#: slider.php:241
+msgid "Horizontal Curves"
+msgstr ""
+
+#: slider.php:246
+msgid "Slider Animation"
+msgstr ""
+
+#: slider.php:249
+msgid "Slide"
+msgstr ""
+
+#: slider.php:252
+msgid "Slider Direction"
+msgstr ""
+
+#: slider.php:254
+msgid "Horizontal"
+msgstr ""
+
+#: slider.php:255
+msgid "Vertical"
+msgstr ""
+
+#: slider.php:258
+msgid "Easing Effect"
+msgstr ""
+
+#: slider.php:295
+msgid "Direction Navigation"
+msgstr ""
+
+#: slider.php:298
+msgid "Control Navigation"
+msgstr ""
+
+#: slider.php:301
+msgid "Animation Loop"
+msgstr ""
+
+#: slider.php:304
+msgid "Mouse Wheel"
+msgstr ""
+
+#: slider.php:307
+msgid "Slide Show Speed(ms)"
+msgstr ""
+
+#: slider.php:308
+msgid "Animation Speed(ms)"
+msgstr ""

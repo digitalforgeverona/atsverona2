@@ -1,0 +1,531 @@
+/* 
+	Definizione dei parametri standard,
+	istruzioni html
+*/
+body {
+	margin:0;
+	font-family: Tahoma, sans-serif;
+	color:#555555;
+	background-color:#FFFFFF;
+	text-align:left;
+}
+
+a {
+	color: #ff9148; 
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+a:active {
+
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: White;
+	background-color: #ff9148; 
+	border-bottom:1px solid #A0522D; 
+	border-left:1px solid #A0522D; 
+	border-right:1px solid #A0522D; 
+	border-top:1px solid #A0522D; 
+}
+
+td { /* Stabilisce l'allineamento a sinistra globale  dei moduli*/
+	padding: 0px;
+	text-align:left;
+}
+
+/* CITAZIONI */
+blockquote {
+	margin: 5px;
+	font-family: verdana, tahoma, arial, helvetica, sans-serif;
+	color: #4F5974;
+	
+	border: 1px dotted #d6d6d6;
+	background-color: #FFFACD;
+	font-size: smaller;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/* TITOLI dei Blocchi Centrali: Benvenuto, News, ecc. */
+h2{
+   color: #e0691a; 
+	font-weight: bold;
+	font-size: 120%;
+	}
+	
+h3 {
+	color: #444;
+	font-weight: bold;
+	margin-bottom: 2px;
+
+}
+img {
+	vertical-align: middle;
+	border: 0;
+}
+form {
+	margin: 2px 0px 0px 0px;
+}
+p {
+	margin-top: 0px
+}
+hr {
+	display:none;
+}
+
+/* 
+	Costruzione della struttura della pagina
+*/
+#contenitore {
+	margin: 10px auto;
+	width: 100%;
+}
+.fixlarghezza {
+	width: 100%
+}
+
+#header {
+	padding: 0;
+	margin: 0 auto;
+	height: 104px;
+	background-image: url(images/logo.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+
+
+#header h1 {
+	font-family: Tahoma, sans-serif;
+	font-size:150%;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	color: #ff9148; 
+	margin-bottom:10px;
+	text-align:left;
+}
+#header h2 {
+	font-family: Tahoma, sans-serif;
+	font-size:80%;
+	text-transform:uppercase;
+	text-align:right;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	color:#000000;
+}
+
+/* INSERISCO QUESTO PER IL CLOCK */
+#clock {
+   font-size:25%;
+	float: right;
+	width: 21%;
+	text-align: right;
+}
+
+.clock {
+	border: 0px inset #036;
+	padding-right: 5px;
+	color: #000;
+	text-align: right;
+	font-size:75%;
+}
+
+
+/* FONT MENU sinistro */
+#mensinistro {
+	font-size:75%;
+	float: left;
+	width: 21%;
+	text-align: right;	
+	background-color: #eeeeee; 
+	
+}
+.contentsinistro {
+	border: 1px  #eeeeee; 
+	padding: 5px;
+	color: #e0691a; 
+	text-align: left;
+}
+
+#main { /* main parziale per i due box in home*/
+	width: 78%;
+	text-align: left;
+	float: right;
+}
+
+#maingenerale { /* Apro il main per la costruzione blocco centrale */
+	width: 78%;
+	text-align: left;
+	float: right;
+}
+
+/* QUI SI DEFINISCE LA GRANDEZZA DEI FONT DEL TESTO DI TUTTO IL SITO */
+.contenuti {
+	border-top: #444 1px solid;
+	padding-left: 0px;
+	padding-right:  5px;
+	font-size: 90%; */
+	background-color: #fff;
+	color: #000;
+	text-align: left;
+}
+.menucentralesinistro {
+	float: left;
+	width: 28%;
+	font-size: 80%;
+   text-align:right;
+	padding-right:3px;
+}
+.menucentraledestro {
+	float: left;
+	width: 41%;
+	font-size: 100%;
+	text-align: right;
+}
+
+.menucentraleutenti { /* Box utenti centrale  IL FONT è FISSO*/
+	float: left;
+	width: 100%;
+	font-size: 13px;
+   text-align:left;
+	padding-right:3px;
+	padding-bottom:15px; /* da spazio prima di news*/
+}
+.menucentraleutentisinistro { /* Box utenti centrale sinistro*/
+	float: left;
+	width: 50%;
+   text-align:left;
+	padding-right:3px;
+}
+.menucentraleutentidestro { /* Box utenti centrale sinistro*/
+	float: right;
+	width: 48%;
+   text-align:left;
+	padding-right:3px;
+}
+
+
+#footer{
+	float:right;
+	text-align:center;
+	margin:auto;
+	width: 100%;  
+	padding: 10px 0 10px 0;
+	font: 70% verdana, tahoma, arial, helvetica, sans-serif;
+	color:#5d6e75; 
+	background-color: White;
+	border-top: #e1e1e1 1px solid;
+}
+
+/* 
+	Inizio barre di navigazione
+
+*/
+
+ul.navigation { /* UL NAVIGATION ADDED BY QUE~ */
+	font-size:80%;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.navigation li a {
+	display: block;
+	text-decoration: none;
+	padding: 0 1em;
+	height: 2em;
+	line-height: 2em;
+}
+ul.navigation li {
+	display: inline;
+}
+ul.navigation li a:link, ul.navigation li a:visited {
+   color: Gray;
+   background-color: transparent;
+}
+ul.navigation li a:hover {
+   color: #000;
+   background-color: #ff6;
+   border-bottom: 1px dashed #036;
+}
+
+#menu { /* MENU PRINCIPALE sotto Header */
+	padding-top:10px; 
+	padding-bottom:10px;
+	background-color: #ff9148; 
+	margin-bottom:1px; 
+	color: #FFFFF0; 
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+
+}
+#menu a {
+	color:#FFFFFF; 
+	text-decoration:none;
+	padding:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	
+}
+#menu a:hover {
+	border-bottom:1px solid #ffffff;
+	border-left:1px solid #728d40;
+	border-right:1px solid #e9ffb7;
+	padding-left:9px;
+	padding-right:9px;
+	color:#000000;
+	background-color:#FFFFFF; 
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+/* 
+	Strutture grafiche
+*/
+.logo {
+	float:right;
+	margin-right:30px;
+}
+.logoaltro {
+	float:right;
+	margin-right:30px;
+	position:absolute;
+	top:105px;
+	right:30px;
+}
+
+/* PULSANTI */
+.button {
+	background-color : #a9c0ce;
+    color : white;
+    font-weight : bold;
+    font-size : 11px;
+    margin-bottom : 5px; 
+	
+}
+.button a{
+	color: #FFF;
+	}
+.button a:hover{
+	color: #CFCFDF; /* GRIGIO */
+	text-decoration: none;
+}
+
+/* 
+	caratteristiche TESTO
+*/
+
+
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.smalltext {
+	font: 80% tahoma, verdana, arial, helvetica, sans-serif;
+	color:#5d6e75;
+}
+.smallblacktext { /* caratteristiche TESTO*/
+    background: none;
+	font: 80% tahoma, verdana, arial, helvetica, sans-serif;
+	color:#000;
+}
+.smalltextnews {
+	font: 70% tahoma, verdana, arial, helvetica, sans-serif;
+	color:#5d6e75;
+	background-color:white;
+}
+.testomedio {
+	font: 80% tahoma, verdana, arial, helvetica, sans-serif;
+	color:black;
+	background-color:white;
+}
+
+
+.indent{ /* quote forum*/
+	padding: 10px 10px 10px 10px;
+	margin: 5px;
+	font: 80% verdana, tahoma, arial, helvetica, sans-serif;
+	color: #4F5974;
+	border: 1px dotted #d6d6d6;
+	background-color: #FFFACD;
+}
+
+/* 
+	NEWS
+*/
+
+.headerfont { /* Titoli news e altro */
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 3px;
+	padding-top: 0px;
+	margin-left:5px;
+	margin-bottom:10px;
+	
+	
+}
+.coloremensin { /* COSTRUZIONE TITOLI menu a sinistra */
+	font-family: Tahoma, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	color: White; 
+	font-variant:small-caps; 
+	text-indent: 22px;
+	background-color: #7A7A7A; 
+	padding-top:8px; 
+	padding-bottom:8px;
+	background-image: url(images/title_background.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	
+}
+.colorenewsscuro { /* TITOLO News */
+	font-family: Tahoma, sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	color: White;
+	background-color: #7A7A7A; 
+	text-indent: 15px;
+	background-image: url(images/title_background.png);
+	
+}
+.sfondoriga2news { /* seconda riga news - Admin - data */
+	font-family: Arial,"Trebuchet MS", "Arial Narrow", sans-serif;
+	font-weight: bold;
+	font-size: 100%;
+	padding-bottom: 3px;
+	padding-top: 1px;
+	color:White; 
+	background-color: #7A7A7A; 
+	text-align:right;	
+	
+}
+.bodytable { /* FONT delle NEWS */
+	padding: 2px 25px;
+	font: 80% verdana, tahoma, arial, helvetica, sans-serif; 
+	color: #444;
+	background-color:white;
+	text-align:justify;
+}
+
+
+.itemdetails { /* LINETTA TRATTEGGIATA*/
+	text-align: right;
+	padding: 5px 0 0 0;
+	background: url(images/01_hdot.gif) top repeat-x;
+}
+.item1 {
+	padding: 0 0 0 13px;
+	margin: 0 0 0 12px;
+}
+.item2 {
+	padding: 0 0 0 13px;
+	margin: 0 0 0 12px;
+}
+.item3 {
+	padding: 0 0 0 15px;
+	margin: 0 0 0 12px;
+}
+.item4 {
+	padding: 0 0 0 15px;
+	margin: 0 0 0 12px;
+}
+
+/* 
+	Classi
+*/
+.tbox{ /* TBOX PER TUTTI I BOX DI INPUT e SEARCH*/
+	background-color: #FFFFFF;
+	border: #5e5d63 1px solid;
+	color: #000000;
+	font: 90% verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+/* 
+	FORUM
+*/
+.spacer { 
+	padding: 2px 0 2px 0;
+}
+.fborder {
+	border: #c1c1c1 1px solid;
+}
+.fcaption {
+	padding: 2px 0 2px 0;
+	font: 80% "Trebuchet MS", verdana, tahoma, arial, helvetica, sans-serif;
+	color:black;
+}
+.forumheader{
+background-color: #FFFFF0; 
+	font: 100% verdana, tahoma, arial, helvetica, sans-serif;
+	font-weight:normal;
+	color:#000;
+	padding: 4px;
+}
+.forumheader2{
+	background-color: #EFEFEF;
+	font: 95% verdana, tahoma, arial, helvetica, sans-serif;
+	font-weight:normal;
+	color:#000;
+	padding: 4px;
+	border: #C3BDBD 1px solid;
+}
+.forumheader3{
+	background-color: white;
+	font: 95% verdana, tahoma, arial, helvetica, sans-serif;
+	color:#000;
+	padding: 4px;
+	border: #ececf2 1px solid;
+}
+.forumborder{
+	border: #000080 1px solid;
+}
+
+/* 
+
+	NICETITLE ADDED BY QUE~
+
+*/
+
+.nicetitle {
+	font-weight: bold;
+	color: #3C3C3C;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 35em;
+	z-index: 20;
+	max-width: 60%;
+}
+.nicetitle-content{
+	overflow: hidden;
+	background: white;
+	border: 1px solid #333;
+	padding: 7px;
+}
+.nicetitle p{
+	margin: 0;
+	line-height: 120%;
+}
+.nicetitle p.destination {
+	font-weight: normal;
+	font-size: 0.7em;
+	color: #5E7743;
+}
+div.nicetitle p span.accesskey {
+	color: #FF7200;
+}
+/* END NICETITLE */

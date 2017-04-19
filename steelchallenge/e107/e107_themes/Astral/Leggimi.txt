@@ -1,0 +1,16 @@
++------------------------------------------------------------+
+|  Astral                     		 
+|  ****************                                                  
+|  KulleKulle - 2005                                            
+|
+|
+|  Traduzione italiana a cura di e107 Italian Team  © 2006
+|  http://www.e107italia.org    -    info@e107italia.org 
+|
+|
++-------------------------------------------------------------+
+
+
+ISTRUZIONI:
+
+- Scompattare il file .zip e caricare SOLO la cartella Astral nella directory e107_themes

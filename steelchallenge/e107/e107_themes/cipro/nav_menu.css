@@ -1,0 +1,117 @@
+div.menuBar,
+div.menuBar a.menuButton, div.menuButton, div.menuButton_over, 
+div.menu,
+div.menu a.menuItem {
+  font-family: Trebuchet MS, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+  color: #fff;
+}
+
+div.menuBar {
+  background: #2D2D2D url(images/bar.jpg);
+  padding-left: 0px; 
+  padding-right: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: left;
+}
+
+div.emenuBar {
+  background-image: url(images/navbar_bg.png);
+  background-repeat: repeat-x;
+  text-align: left;
+}
+
+div.menuBar a.menuButton, div.menuButton, div.menuButton_over {
+  background: trasparent;
+  color: #fff;
+  cursor: pointer; /* Defalt was -'default'*/
+  left: 0px;
+  margin-bottom: 10px;
+  padding-left: 10px; 
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px; 
+  position: relative;
+  text-decoration: none;
+  top: 0px;
+  z-index: 100;
+}
+
+div.menuBar a.menuButton:hover, div.menuButton:hover, div.menuButton_over {
+  background: trasparent;
+  padding-bottom: 3px;
+  color: #000000;
+}
+
+div.menuBar a.menuButtonActive, div.menuButtonActive, div.menuButtonActive:hover, 
+div.menuBar a.menuButtonActive:hover {
+  background: trasparent;
+  /*border-color: #a5a5a5 #ffffff #ffffff #a5a5a5;*/
+  color: #000000;
+  left: 1px;
+  top: 0px;
+}
+
+div.menu {
+  background: #000;
+  border-top: #000 1px solid;
+  border-left: #000 1px solid;
+  border-right: #000 1px solid;
+  border-bottom: #000 1px solid;
+  left: 0px;
+  /*padding: 1px 1px 1px 1px;*/
+  position: absolute;
+  top: 0px;
+  visibility: hidden;
+  z-index: 101;
+}
+
+div.menu a.menuItem {
+  color: #ffffff;
+  border-top: #000 0px solid;
+  border-bottom: #000 0px solid;
+  cursor: pointer;
+  display: block;
+  padding-left: 2px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight {
+  background: #9B68C2;
+  color: #000000;
+}
+
+div.menu a.menuItem span.menuItemBuffer {
+  padding: 0px 2px 0px 2px;
+  color: #ffffff;
+}
+
+div.menu a.menuItem:hover span.menuItemBuffer {
+  padding: 0px 2px 0px 2px;
+  color: #000000;
+}
+
+div.menu a.menuItem span.menuItemText {
+	padding: 0px 0px 0px 3px;
+}
+
+div.menu a.menuItem span.menuItemArrow {
+  margin-right: -.75em;
+}
+
+div.menu div.menuItemSep {
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #ffffff;
+  margin: 4px 2px;
+}
+
+a.menuItem.header {
+  border-bottom: 1px solid #b3b3b3;
+}

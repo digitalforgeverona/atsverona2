@@ -1,0 +1,3135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Biznez Lite v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-02 05:08:51+0000\n"
+"Last-Translator: admin <gunjan@techinfini.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:23
+#@ biznez
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: 404.php:44
+#@ biznez
+msgid "Page Not Found."
+msgstr ""
+
+#: 404.php:46
+#@ biznez
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_add.php:40
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_postmata.php:19
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:32
+#: SketchBoard/functions/sketch-metabox-posts.php:32
+#: SketchBoard/functions/sketch-metabox-posts.php:93
+#: SketchBoard/functions/sketch-seo.php:73
+#@ biznez
+msgid "This Feature are available in Theme Pro Version."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_add.php:40
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_postmata.php:19
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:32
+#: SketchBoard/functions/sketch-metabox-posts.php:32
+#: SketchBoard/functions/sketch-seo.php:73
+#@ biznez
+msgid "Click Here to Upgrade"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_add.php:46
+#@ biznez
+msgid "* Do not use spaces or special characters."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_add.php:69
+#@ biznez
+msgid "DEFAULT (GLOBAL) NB SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_add.php:77
+#@ biznez
+msgid "TABLE OF NOTIFICATION BARS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:16
+#@ biznez
+msgid "SELECT NOTIFICATION BAR"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:25
+#@ biznez
+msgid "Select Notification Bar to edit."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:51
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:241
+#@ biznez
+msgid "DEFAULT SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:60
+#@ biznez
+msgid "Default State :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:66
+#@ biznez
+msgid "Set the default state (Open/Close) of Notification bar."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:69
+#@ biznez
+msgid "Position :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:75
+#@ biznez
+msgid "Set the default position (Top/Bottom) of Notification bar."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:80
+#@ biznez
+msgid "Stay Time :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:81
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:270
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:275
+#@ biznez
+msgid "in Seconds"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:82
+#@ biznez
+msgid "Stay time will work with only 'Open' default state of Notification Bar. (default: 10 sec.)"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:85
+#@ biznez
+msgid "Background Color :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:94
+#@ biznez
+msgid "Message/Text to Display :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:95
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:294
+#@ biznez
+msgid "Can also Input HTML Text"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:98
+#@ biznez
+msgid "Message Font-Size :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:99
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:138
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:303
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:343
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:347
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:351
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:390
+#@ biznez
+msgid "in Pixel"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:102
+#@ biznez
+msgid "Message Font-Color :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:120
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:372
+#@ biznez
+msgid "LINK BUTTON SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:129
+#@ biznez
+msgid "Button URL :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:133
+#@ biznez
+msgid "Button Text :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:137
+#@ biznez
+msgid "Font-Size :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:141
+#@ biznez
+msgid "Button Font-Color :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:150
+#@ biznez
+msgid "Button BG-Color :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:159
+#@ biznez
+msgid "Button Target :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:177
+#@ biznez
+msgid "SOCIAL BUTTONS SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:186
+#@ biznez
+msgid "Facebook follow URL :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:191
+#@ biznez
+msgid "Twitter follow URL :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:196
+#@ biznez
+msgid "Linkedin follow URL :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:201
+#@ biznez
+msgid "Google+ follow URL :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:206
+#@ biznez
+msgid "RSS feed URL :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:211
+#@ biznez
+msgid "Facebook Like :"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:228
+#@ biznez
+msgid "Enable \"Extended Notification Bar\" "
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:232
+#@ biznez
+msgid "EXTENDED NOTIFICATION BAR SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:250
+#@ biznez
+msgid "Default State:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:259
+#@ biznez
+msgid "Disable Counter Message:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:269
+#@ biznez
+msgid "Message Open Time:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:270
+#@ biznez
+msgid "Extend Message Open Time Work With Only 'Open' state. And Extend Message will Open After This Time Duration. (default: 4 sec.)"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:274
+#@ biznez
+msgid "Message Close Time:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:275
+#@ biznez
+msgid "Extend Message Close Time Work With Only 'Open' state. And Extend Message will Close After This Time Duration. (default: 4 sec.)"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:279
+#@ biznez
+msgid "Message Template:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:284
+#@ biznez
+msgid "Mesaage/Text to Display:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:302
+#@ biznez
+msgid "Message Font-Size:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:306
+#@ biznez
+msgid "Message Font-Color:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:324
+#@ biznez
+msgid "IMAGE SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:333
+#@ biznez
+msgid "Image URL/PATH:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:342
+#@ biznez
+msgid "Image Width:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:346
+#@ biznez
+msgid "Image Height:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:350
+#@ biznez
+msgid "Image Border:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:354
+#@ biznez
+msgid "Image Border-Color:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:381
+#@ biznez
+msgid "Button URL:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:385
+#@ biznez
+msgid "Button Text:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:389
+#@ biznez
+msgid "Font-Size:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:393
+#@ biznez
+msgid "Button Font-Color:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:402
+#@ biznez
+msgid "Button BG-Color:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_edit.php:411
+#@ biznez
+msgid "Button Target:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_postmata.php:20
+#@ biznez
+msgid "Check this, if you want to disable Notification Bar for this post/page."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_postmata.php:23
+#@ biznez
+msgid "Add \"Notification Bar\" to this post/page.."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_postmata.php:35
+#@ biznez
+msgid "Notification Bar(s) not activated / created."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:13
+#@ biznez
+msgid "Enable \"Global Notification Bar\" "
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:20
+#@ biznez
+msgid "Default Notification Bar:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:29
+#@ biznez
+msgid "This Notification Bar will be used for all Posts,Pages and Categories until you have not selected in page/post editor."
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:35
+#@ biznez
+msgid "Where to show Default Notification Bar:"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:38
+#: template-sitemap.php:28
+#@ biznez
+msgid "Pages"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:39
+#@ biznez
+msgid "Posts"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:40
+#@ biznez
+msgid "Home Page"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:41
+#@ biznez
+msgid "Blog Page"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:42
+#: sidebar-footer.php:34
+#: template-sitemap.php:32
+#@ biznez
+msgid "Categories"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:43
+#@ biznez
+msgid "Custom Taxonomies"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:44
+#: sidebar-footer.php:49
+#@ biznez
+msgid "Tags"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:45
+#@ biznez
+msgid "Date Archive"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/admin/nb_settings.php:46
+#@ biznez
+msgid "Author Page"
+msgstr ""
+
+#: SketchBoard/functions/modules/nbar/inc/front/nb_front_func.php:40
+#@ biznez
+msgid "show/hide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:29
+#@ biznez
+msgid " Project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:33
+#@ biznez
+msgid "project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:37
+#@ biznez
+msgid "Add Project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:41
+#@ biznez
+msgid "Add New Project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:45
+#@ biznez
+msgid "Edit Project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:49
+#@ biznez
+msgid "New Project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:53
+#@ biznez
+msgid "All Projects"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:57
+#@ biznez
+msgid "View Project"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:157
+#@ biznez
+msgid "Project Categories"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:161
+#@ biznez
+msgid "Project Category"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:213
+#@ biznez
+msgid "Project Tags"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-project.php:217
+#@ biznez
+msgid "Project Tag"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:15
+#@ biznez
+msgid " Slides"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:17
+#@ biznez
+msgid "Slide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:19
+#@ biznez
+msgid "Add Slide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:21
+#@ biznez
+msgid "Add New Slide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:23
+#@ biznez
+msgid "Edit Slide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:25
+#@ biznez
+msgid "New Slide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:27
+#@ biznez
+msgid "All Slides"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-slider.php:29
+#@ biznez
+msgid "View Slide"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:16
+#@ biznez
+msgid " Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:17
+#@ biznez
+msgctxt "post type singular name"
+msgid "teammember"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:18
+#@ biznez
+msgctxt "team member"
+msgid "Add New"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:19
+#@ biznez
+msgid "Add New Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:20
+#@ biznez
+msgid "Edit Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:21
+#@ biznez
+msgid "New Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:22
+#@ biznez
+msgid "All Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:23
+#@ biznez
+msgid "View Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:24
+#@ biznez
+msgid "Search Team Member"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:25
+#@ biznez
+msgid "No Team Member found"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:26
+#@ biznez
+msgid "No Team Member found in Trash"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:28
+#@ biznez
+msgid " Team"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:65
+#@ biznez
+msgid "Content"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:71
+#@ biznez
+msgid "By (Name)"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:77
+#@ biznez
+msgid "Avatar"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:83
+#@ biznez
+msgid "Recommend width: 180px"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:89
+#@ biznez
+msgid "Job title"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:95
+#@ biznez
+msgid "Website"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:101
+#@ biznez
+msgid "Facebook Url"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:107
+#@ biznez
+msgid "Twitter Url"
+msgstr ""
+
+#: SketchBoard/functions/post-types/skt-post-type-team-member.php:113
+#@ biznez
+msgid "Dribbble Url"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:40
+#@ biznez
+msgid "Home"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:183
+#: SketchBoard/functions/sketch-metabox-posts.php:67
+#: author.php:26
+#@ biznez
+msgid "Author"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:191
+#@ biznez
+msgid "Tag"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:199
+#: searchform.php:6
+#@ biznez
+msgid "Search"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:205
+#@ biznez
+msgid "Error 404"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:107
+#@ biznez
+msgid "First Page"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:108
+#@ biznez
+msgid "Last Page"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:292
+#@ biznez
+msgid "Your contact Form has been submitted. Thank you."
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:296
+#@ biznez
+msgid "Please check if you've filled all the fields with valid information. Thank you."
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:8
+#: SketchBoard/functions/sketch-metabox-posts.php:9
+#@ biznez
+msgid "Type of post"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:34
+#: SketchBoard/functions/sketch-metabox-posts.php:95
+#@ biznez
+msgid "Standard"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:35
+#: SketchBoard/functions/sketch-metabox-posts.php:96
+#@ biznez
+msgid "Video"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:36
+#: SketchBoard/functions/sketch-metabox-posts.php:97
+#: SketchBoard/includes/options-medialibrary-uploader.php:289
+#@ biznez
+msgid "Gallery"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:37
+#: SketchBoard/functions/sketch-metabox-posts.php:65
+#@ biznez
+msgid "Quote"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:40
+#: SketchBoard/functions/sketch-metabox-posts.php:100
+#@ biznez
+msgid "you can use featured image or nothing..."
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:43
+#: SketchBoard/functions/sketch-metabox-posts.php:103
+#@ biznez
+msgid "Put the video Iframe Here and also add Featured image."
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:47
+#: SketchBoard/functions/sketch-metabox-posts.php:107
+#@ biznez
+msgid "you can use image attachment or nothing..."
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:48
+#: SketchBoard/functions/sketch-metabox-posts.php:108
+#@ biznez
+msgid "Slider bullets on/off"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:50
+#: SketchBoard/functions/sketch-metabox-posts.php:55
+#: SketchBoard/functions/sketch-metabox-posts.php:60
+#: SketchBoard/functions/sketch-metabox-posts.php:110
+#: SketchBoard/functions/sketch-metabox-posts.php:115
+#@ biznez
+msgid "true"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:51
+#: SketchBoard/functions/sketch-metabox-posts.php:56
+#: SketchBoard/functions/sketch-metabox-posts.php:61
+#: SketchBoard/functions/sketch-metabox-posts.php:111
+#: SketchBoard/functions/sketch-metabox-posts.php:116
+#@ biznez
+msgid "false"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:53
+#: SketchBoard/functions/sketch-metabox-posts.php:113
+#@ biznez
+msgid "Slider Auto Scroll on/off"
+msgstr ""
+
+#: SketchBoard/functions/sketch-metabox-posts.php:58
+#@ biznez
+msgid "Slider direction Navigation on/off"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:75
+#@ biznez
+msgid "Title"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:79
+#@ biznez
+msgid "characters. Most search engines use a maximum of 60 chars for the title."
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:83
+#@ biznez
+msgid "Description"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:87
+#@ biznez
+msgid "characters. Most search engines use a maximum of 160 chars for the description."
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:91
+#@ biznez
+msgid "Keywords (comma separated)"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:95
+#@ biznez
+msgid "Robots Meta NOINDEX"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:99
+#@ biznez
+msgid "Robots Meta NOFOLLOW"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:103
+#@ biznez
+msgid "Disable on this page/post"
+msgstr ""
+
+#: SketchBoard/functions/sketch-seo.php:108
+#@ biznez
+msgid "Set Page Layout (<b>This feature will work with 'Default Template'</b>)"
+msgstr ""
+
+#: SketchBoard/functions/sketch-theme-support.php:27
+#@ biznez
+msgid "Untitled"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:11
+#@ biznez
+msgid "Sketch Themes widget for flickr"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:12
+#@ biznez
+msgid "Flickr Widget -"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:85
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:207
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:60
+#: SketchBoard/functions/widgets/skt-vimeo-video-widget.php:49
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:56
+#@ biznez
+msgid "Title:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:86
+#@ biznez
+msgid "Flikr Id:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:87
+#@ biznez
+msgid "Get your Flikr ID:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:87
+#@ biznez
+msgid "http://idgettr.com/"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-flickr-widget.php:88
+#@ biznez
+msgid "Number Of Images: eg:2"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:20
+#@ biznez
+msgid "Get in Touch"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:26
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:213
+#@ biznez
+msgid "26px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:210
+#@ biznez
+msgid "Icon size"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:212
+#@ biznez
+msgid "16px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:214
+#@ biznez
+msgid "32px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:215
+#@ biznez
+msgid "48px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:220
+#@ biznez
+msgid "Link for Linkedin"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:223
+#@ biznez
+msgid "Link for Facebook"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:226
+#@ biznez
+msgid "Link for Twitter"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:229
+#@ biznez
+msgid "Link for Flickr"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:232
+#@ biznez
+msgid "Link for Google+"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:235
+#@ biznez
+msgid "Skype UserID"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:238
+#@ biznez
+msgid "Link for YouTube"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:241
+#@ biznez
+msgid "Link for Wordpress"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:244
+#@ biznez
+msgid "Link for Dribble"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:247
+#@ biznez
+msgid "Link for Pinterest"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:250
+#@ biznez
+msgid "Link for Vimeo"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:253
+#@ biznez
+msgid "Link for Deviantart"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:256
+#@ biznez
+msgid "Link for Tumblr"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:259
+#@ biznez
+msgid "Link for Stumbleupon"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:262
+#@ biznez
+msgid "Link for Picasa"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:265
+#@ biznez
+msgid "Link for Friendfeed"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:268
+#@ biznez
+msgid "Link for Slideshare"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:271
+#@ biznez
+msgid "Link for Behance"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:274
+#@ biznez
+msgid "Link for Github"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:277
+#@ biznez
+msgid "Link for Reddit"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:280
+#@ biznez
+msgid "Link for Foursquar"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:283
+#@ biznez
+msgid "Link for Digg"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:286
+#@ biznez
+msgid "Link for Delicious"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:58
+#@ biznez
+msgid "light"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:61
+#@ biznez
+msgid "Twitter Username:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:62
+#@ biznez
+msgid "Number Of Tweets: eg:4"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:63
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:62
+#@ biznez
+msgid "Select Theme:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:65
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:62
+#@ biznez
+msgid "Light"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-twiiter-widegt.php:66
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:62
+#@ biznez
+msgid "Dark"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-vimeo-video-widget.php:50
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:57
+#@ biznez
+msgid "Video ID:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-vimeo-video-widget.php:51
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:58
+#@ biznez
+msgid "Video Height:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-vimeo-video-widget.php:52
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:59
+#@ biznez
+msgid "Video Width:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-vimeo-video-widget.php:53
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:60
+#@ biznez
+msgid "AutoPlay:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:54
+#@ biznez
+msgid "dark"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-youtube-video-widget.php:61
+#@ biznez
+msgid "Show Player Controls:"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:144
+#@ biznez
+msgid "Biznez-lite Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:186
+#@ biznez
+msgid "To Activate All Features,Please Upgrade Theme.Click Here To Upgrade.</span>"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:195
+#@ biznez
+msgid "SketchThemes Admin Panel"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:203
+#: SketchBoard/includes/options-framework.php:208
+#@ biznez
+msgid "Save Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:204
+#@ biznez
+msgid "Restore Defaults"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:204
+#@ biznez
+msgid "Click OK to reset. Biznez lite theme settings will be lost!"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:234
+#@ biznez
+msgid "Default options restored."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:268
+#@ biznez
+msgid "Options saved."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:312
+#@ biznez
+msgid "Theme Options"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:26
+#@ biznez
+msgid "Theme Options Media"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:129
+#@ biznez
+msgid "Upload"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:152
+#@ biznez
+msgid "View File"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:289
+#@ biznez
+msgid "Previously Uploaded"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:232
+#@ biznez
+msgid "No Repeat"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:233
+#@ biznez
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:234
+#@ biznez
+msgid "Repeat Vertically"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:235
+#@ biznez
+msgid "Repeat All"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:248
+#@ biznez
+msgid "Top Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:249
+#@ biznez
+msgid "Top Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:250
+#@ biznez
+msgid "Top Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:251
+#@ biznez
+msgid "Middle Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:252
+#@ biznez
+msgid "Middle Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:253
+#@ biznez
+msgid "Middle Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:254
+#@ biznez
+msgid "Bottom Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:255
+#@ biznez
+msgid "Bottom Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:256
+#@ biznez
+msgid "Bottom Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:269
+#@ biznez
+msgid "Scroll Normally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:270
+#@ biznez
+msgid "Fixed in Place"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:344
+#: options.php:107
+#@ biznez
+msgid "Normal"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:345
+#@ biznez
+msgid "Italic"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:346
+#@ biznez
+msgid "Bold"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:347
+#@ biznez
+msgid "Bold Italic"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+#@ biznez
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+#@ biznez
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+#@ biznez
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:37
+#@ biznez
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:80
+#: author.php:69
+#: category.php:61
+#: home.php:30
+#: index.php:29
+#: search.php:36
+#: single.php:31
+#: tag.php:40
+#: template-blog.php:34
+#@ biznez
+msgid "Posted by "
+msgstr ""
+
+#: archive.php:80
+#: archive.php:81
+#: author.php:69
+#: author.php:70
+#: category.php:61
+#: category.php:62
+#: home.php:30
+#: home.php:31
+#: index.php:29
+#: index.php:30
+#: search.php:36
+#: search.php:37
+#: single.php:31
+#: single.php:32
+#: tag.php:40
+#: tag.php:41
+#: template-blog.php:34
+#: template-blog.php:35
+#@ default
+msgid "|"
+msgstr ""
+
+#: archive.php:82
+#: author.php:71
+#: category.php:63
+#: comments.php:13
+#: home.php:32
+#: index.php:31
+#: search.php:38
+#: single.php:33
+#: tag.php:42
+#: template-blog.php:36
+#@ biznez
+msgid "No Comments"
+msgstr ""
+
+#: archive.php:82
+#: author.php:71
+#: category.php:63
+#: home.php:32
+#: index.php:31
+#: search.php:38
+#: single.php:33
+#: tag.php:42
+#: template-blog.php:36
+#@ biznez
+msgid "1 Comment"
+msgstr ""
+
+#: archive.php:82
+#: author.php:71
+#: category.php:63
+#: comments.php:13
+#: home.php:32
+#: index.php:31
+#: search.php:38
+#: single.php:33
+#: tag.php:42
+#: template-blog.php:36
+#@ biznez
+msgid "% Comments "
+msgstr ""
+
+#: archive.php:105
+#: author.php:96
+#: category.php:87
+#: home.php:49
+#: index.php:47
+#: page.php:29
+#: search.php:54
+#: single.php:53
+#: tag.php:57
+#: template-about-page.php:26
+#: template-blog.php:53
+#: template-left-sidebar.php:31
+#: template-project-page.php:96
+#: template_full-width.php:46
+#@ biznez
+msgid "Not Found"
+msgstr ""
+
+#: attachment.php:13
+#, php-format
+#@ biznez
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: attachment.php:15
+#, php-format
+#@ biznez
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:25
+#, php-format
+#@ biznez
+msgid "<span class=\"%1$s\">by</span> %2$s"
+msgstr ""
+
+#: attachment.php:29
+#, php-format
+#@ biznez
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:35
+#, php-format
+#@ biznez
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: attachment.php:45
+#, php-format
+#@ biznez
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:48
+#@ biznez
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:54
+#: attachment.php:114
+#@ biznez
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:108
+#@ biznez
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: attachment.php:109
+#@ biznez
+msgid "Pages:"
+msgstr ""
+
+#: category.php:20
+#, php-format
+#@ biznez
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments-popup.php:10
+#@ biznez
+msgid "by"
+msgstr ""
+
+#: comments-popup.php:21
+#@ biznez
+msgid "No comments yet."
+msgstr ""
+
+#: comments-popup.php:24
+#@ biznez
+msgid "Leave a comment"
+msgstr ""
+
+#: comments-popup.php:25
+#@ biznez
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
+msgstr ""
+
+#: comments-popup.php:28
+#@ biznez
+msgid "Logged in as "
+msgstr ""
+
+#: comments-popup.php:31
+#: contact-page.php:126
+#@ biznez
+msgid "Name"
+msgstr ""
+
+#: comments-popup.php:39
+#@ biznez
+msgid "E-mail"
+msgstr ""
+
+#: comments-popup.php:44
+#@ biznez
+msgid "URL"
+msgstr ""
+
+#: comments-popup.php:50
+#@ biznez
+msgid "Your Comment"
+msgstr ""
+
+#: comments-popup.php:55
+#@ biznez
+msgid "Say It!"
+msgstr ""
+
+#: comments-popup.php:60
+#@ biznez
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments-popup.php:63
+#@ biznez
+msgid "Close this window."
+msgstr ""
+
+#: comments.php:3
+#@ biznez
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:5
+#@ biznez
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:13
+#@ biznez
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+#@ biznez
+msgid " so far:"
+msgstr ""
+
+#: comments.php:27
+#@ biznez
+msgid "Comments are closed."
+msgstr ""
+
+#: contact-page.php:110
+#@ biznez
+msgid "Page Does Not Exist"
+msgstr ""
+
+#: contact-page.php:116
+#@ biznez
+msgid "Please check if you have filled all the fields with valid information. Thank you."
+msgstr ""
+
+#: contact-page.php:120
+#@ biznez
+msgid "Email Successfully Sent!"
+msgstr ""
+
+#: contact-page.php:121
+#@ biznez
+msgid "Thank you "
+msgstr ""
+
+#: contact-page.php:121
+#@ biznez
+msgid "for contacting us! Your email was successfully sent and We will be in touch with you soon."
+msgstr ""
+
+#: contact-page.php:127
+#@ biznez
+msgid "Email Address"
+msgstr ""
+
+#: contact-page.php:128
+#@ biznez
+msgid "Subject"
+msgstr ""
+
+#: contact-page.php:129
+#@ biznez
+msgid "Message"
+msgstr ""
+
+#: contact-page.php:141
+#@ biznez
+msgid "Sending..."
+msgstr ""
+
+#: contact-page.php:170
+#@ biznez
+msgid "We are here"
+msgstr ""
+
+#: contact-page.php:177
+#@ biznez
+msgid "Office Address"
+msgstr ""
+
+#: contact-page.php:180
+#@ biznez
+msgid "BizNez."
+msgstr ""
+
+#: contact-page.php:181
+#@ biznez
+msgid "Forever Street 862"
+msgstr ""
+
+#: contact-page.php:182
+#@ biznez
+msgid "NSW - 125 - CA"
+msgstr ""
+
+#: contact-page.php:184
+#@ biznez
+msgid "Phone: 987-6543-210"
+msgstr ""
+
+#: contact-page.php:185
+#@ biznez
+msgid "Fax: 987-6543-210"
+msgstr ""
+
+#: front-page.php:147
+#: front-page.php:157
+#: front-page.php:167
+#: front-page.php:177
+#: front-page.php:197
+#: front-page.php:211
+#: front-page.php:225
+#: front-page.php:239
+#@ biznez
+msgid "creative"
+msgstr ""
+
+#: front-page.php:149
+#: front-page.php:159
+#: front-page.php:169
+#: front-page.php:179
+#: front-page.php:199
+#: front-page.php:213
+#: front-page.php:227
+#: front-page.php:241
+#@ biznez
+msgid "We have the most talented people in house that are excited to start with your new project. It is the drive that makes them creative."
+msgstr ""
+
+#: front-page.php:150
+#: front-page.php:160
+#: front-page.php:170
+#: front-page.php:180
+#: front-page.php:200
+#: front-page.php:214
+#: front-page.php:228
+#: front-page.php:242
+#@ biznez
+msgid "Read more"
+msgstr ""
+
+#: front-page.php:252
+#@ biznez
+msgid "Latest Works"
+msgstr ""
+
+#: front-page.php:293
+#@ biznez
+msgid "Testimonials"
+msgstr ""
+
+#: front-page.php:298
+#@ biznez
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet tortor id ligula vulputate volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+msgstr ""
+
+#: front-page.php:301
+#@ biznez
+msgid "Jack Dowd"
+msgstr ""
+
+#: front-page.php:302
+#@ biznez
+msgid "Stocker"
+msgstr ""
+
+#: front-page.php:308
+#@ biznez
+msgid "In non mollis tortor. Sed libero augue, venenatis vitae lobortis vel, lobortis id dolor. Curabitur iaculis varius elit, accumsan malesuada urna vulputate eget,lobortis id dolor."
+msgstr ""
+
+#: front-page.php:311
+#@ biznez
+msgid "Rene Merino"
+msgstr ""
+
+#: front-page.php:312
+#@ biznez
+msgid "Amaya Media"
+msgstr ""
+
+#: front-page.php:319
+#@ biznez
+msgid "Our Clients"
+msgstr ""
+
+#: front-page.php:362
+#@ biznez
+msgid "This is beautiful, Clean and easy to customize, unique, responsive Wordpress theme With lot&#39;s of shortcodes and features and perfectly suitable for any kind of business."
+msgstr ""
+
+#: front-page.php:363
+#@ biznez
+msgid "Download Theme"
+msgstr ""
+
+#: functions.php:117
+#@ biznez
+msgid "Primary Navigation"
+msgstr ""
+
+#: header.php:60
+#@ biznez
+msgid "Contact:"
+msgstr ""
+
+#: header.php:60
+#@ biznez
+msgid "123-456-7891"
+msgstr ""
+
+#: home.php:36
+#: template-blog.php:40
+#@ biznez
+msgid "Read More &rarr;"
+msgstr ""
+
+#: options.php:46
+#: options.php:92
+#: options.php:97
+#: options.php:145
+#@ biznez
+msgid "Yes"
+msgstr ""
+
+#: options.php:47
+#: options.php:93
+#: options.php:98
+#: options.php:146
+#@ biznez
+msgid "No"
+msgstr ""
+
+#: options.php:51
+#: options.php:62
+#@ biznez
+msgid "Image"
+msgstr ""
+
+#: options.php:52
+#: options.php:63
+#@ biznez
+msgid "Text"
+msgstr ""
+
+#: options.php:56
+#: options.php:67
+#: options.php:72
+#: options.php:77
+#: options.php:82
+#: options.php:87
+#: options.php:119
+#: options.php:124
+#: options.php:129
+#: options.php:134
+#: options.php:150
+#@ biznez
+msgid "Show"
+msgstr ""
+
+#: options.php:57
+#: options.php:68
+#: options.php:73
+#: options.php:78
+#: options.php:83
+#: options.php:88
+#: options.php:120
+#: options.php:125
+#: options.php:130
+#: options.php:135
+#: options.php:151
+#@ biznez
+msgid "Hide"
+msgstr ""
+
+#: options.php:102
+#@ biznez
+msgid "NormalSlider"
+msgstr ""
+
+#: options.php:103
+#@ biznez
+msgid "FullWidthSlider"
+msgstr ""
+
+#: options.php:108
+#@ biznez
+msgid "Center Content"
+msgstr ""
+
+#: options.php:112
+#: options.php:139
+#@ biznez
+msgid "Fade"
+msgstr ""
+
+#: options.php:113
+#@ biznez
+msgid "Horizontal Slide"
+msgstr ""
+
+#: options.php:114
+#@ biznez
+msgid "Vertical Slide"
+msgstr ""
+
+#: options.php:115
+#@ biznez
+msgid "Horizontal Push"
+msgstr ""
+
+#: options.php:140
+#@ biznez
+msgid "Slide Open"
+msgstr ""
+
+#: options.php:141
+#@ biznez
+msgid "None"
+msgstr ""
+
+#: options.php:155
+#@ biznez
+msgid "Left Image"
+msgstr ""
+
+#: options.php:156
+#@ biznez
+msgid "Right Image"
+msgstr ""
+
+#: options.php:157
+#@ biznez
+msgid "Top Image"
+msgstr ""
+
+#: options.php:161
+#@ biznez
+msgid "Open"
+msgstr ""
+
+#: options.php:162
+#@ biznez
+msgid "Close"
+msgstr ""
+
+#: options.php:167
+#@ biznez
+msgid "Bounce"
+msgstr ""
+
+#: options.php:168
+#@ biznez
+msgid "Drop"
+msgstr ""
+
+#: options.php:179
+#@ biznez
+msgid "General Settings"
+msgstr ""
+
+#: options.php:182
+#@ biznez
+msgid "Set Site-logo Type"
+msgstr ""
+
+#: options.php:183
+#: options.php:248
+#@ biznez
+msgid "Default ( Image )."
+msgstr ""
+
+#: options.php:189
+#@ biznez
+msgid "Logo Image"
+msgstr ""
+
+#: options.php:190
+#@ biznez
+msgid "This creates a Custom logo that previews the image."
+msgstr ""
+
+#: options.php:196
+#@ biznez
+msgid "Logo Text"
+msgstr ""
+
+#: options.php:197
+#@ biznez
+msgid "Logo Text field."
+msgstr ""
+
+#: options.php:204
+#@ biznez
+msgid "Logo ALT Text"
+msgstr ""
+
+#: options.php:205
+#@ biznez
+msgid "Logo ALT Text field."
+msgstr ""
+
+#: options.php:210
+#@ biznez
+msgid "Change favicon"
+msgstr ""
+
+#: options.php:211
+#@ biznez
+msgid "This creates a Custom favicon that previews the image."
+msgstr ""
+
+#: options.php:216
+#@ biznez
+msgid "Choose color"
+msgstr ""
+
+#: options.php:217
+#: options.php:223
+#@ biznez
+msgid "No color selected by default."
+msgstr ""
+
+#: options.php:222
+#@ biznez
+msgid "Change Header Background"
+msgstr ""
+
+#: options.php:239
+#@ biznez
+msgid "Breadcrumb By Default"
+msgstr ""
+
+#: options.php:240
+#@ biznez
+msgid "Default ( show )."
+msgstr ""
+
+#: options.php:247
+#@ biznez
+msgid "Breadcrumb Separator Type"
+msgstr ""
+
+#: options.php:255
+#@ biznez
+msgid "Change breadcrumb separator image (16px X 16px)"
+msgstr ""
+
+#: options.php:256
+#@ biznez
+msgid "This creates a Custom icon that previews the image."
+msgstr ""
+
+#: options.php:263
+#@ biznez
+msgid "Set breadcrumb separator text"
+msgstr ""
+
+#: options.php:264
+#@ biznez
+msgid "Enter text like \"-/\" or you want"
+msgstr ""
+
+#: options.php:271
+#@ biznez
+msgid "Show Custom Pagination"
+msgstr ""
+
+#: options.php:272
+#@ biznez
+msgid "Show custom pagination on blog page."
+msgstr ""
+
+#: options.php:279
+#@ biznez
+msgid "Check to Enable persistent header navigation menu."
+msgstr ""
+
+#: options.php:280
+#@ biznez
+msgid "Enable persistent header navigation menu."
+msgstr ""
+
+#: options.php:285
+#@ biznez
+msgid "Custom Style Settings"
+msgstr ""
+
+#: options.php:289
+#: options.php:320
+#: options.php:440
+#: options.php:1063
+#@ biznez
+msgid "Information"
+msgstr ""
+
+#: options.php:290
+#@ biznez
+msgid "All Custom Style Features below in this panel are available in Theme Pro Version."
+msgstr ""
+
+#: options.php:294
+#@ biznez
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:295
+#@ biznez
+msgid "Write Custom CSS in order to overwrite style CSS (without \"style\" tag)."
+msgstr ""
+
+#: options.php:301
+#@ biznez
+msgid "Custom Script"
+msgstr ""
+
+#: options.php:302
+#@ biznez
+msgid "Write Custom Script in order to fullfil your need (with \"script\" tag)."
+msgstr ""
+
+#: options.php:308
+#@ biznez
+msgid "Slider Configuration"
+msgstr ""
+
+#: options.php:311
+#@ biznez
+msgid "Select Slider Type"
+msgstr ""
+
+#: options.php:312
+#@ biznez
+msgid "Select Slider Type for Front Page."
+msgstr ""
+
+#: options.php:321
+#@ biznez
+msgid "All Slider Features below in this panel are available in Theme Pro Version."
+msgstr ""
+
+#: options.php:325
+#@ biznez
+msgid "Select Animation"
+msgstr ""
+
+#: options.php:326
+#@ biznez
+msgid "Select Animation Box."
+msgstr ""
+
+#: options.php:333
+#@ biznez
+msgid "Animation Speed"
+msgstr ""
+
+#: options.php:334
+#@ biznez
+msgid "how fast animtions are."
+msgstr ""
+
+#: options.php:339
+#@ biznez
+msgid "Timer Enable/Disable"
+msgstr ""
+
+#: options.php:340
+#@ biznez
+msgid "true or false to have the timer."
+msgstr ""
+
+#: options.php:347
+#@ biznez
+msgid "Advance Speed"
+msgstr ""
+
+#: options.php:348
+#@ biznez
+msgid " if timer is enabled, time between transitions."
+msgstr ""
+
+#: options.php:353
+#@ biznez
+msgid "StartClockOnMouseOut"
+msgstr ""
+
+#: options.php:354
+#@ biznez
+msgid "StartClockOnMouseOut."
+msgstr ""
+
+#: options.php:361
+#@ biznez
+msgid "Start Clock On MouseOut After"
+msgstr ""
+
+#: options.php:362
+#@ biznez
+msgid " how long after MouseOut should the timer start again."
+msgstr ""
+
+#: options.php:367
+#@ biznez
+msgid "DirectionNav"
+msgstr ""
+
+#: options.php:368
+#@ biznez
+msgid "DirectionNav Box."
+msgstr ""
+
+#: options.php:375
+#@ biznez
+msgid "Captions"
+msgstr ""
+
+#: options.php:376
+#@ biznez
+msgid "do you want captions?"
+msgstr ""
+
+#: options.php:383
+#@ biznez
+msgid "Caption Animation"
+msgstr ""
+
+#: options.php:384
+#@ biznez
+msgid "Select Caption Animation"
+msgstr ""
+
+#: options.php:391
+#@ biznez
+msgid "Caption Animation Speed"
+msgstr ""
+
+#: options.php:392
+#@ biznez
+msgid " if so how quickly should they animate in."
+msgstr ""
+
+#: options.php:397
+#@ biznez
+msgid "PauseOnHover"
+msgstr ""
+
+#: options.php:398
+#@ biznez
+msgid "PauseOnHover Box."
+msgstr ""
+
+#: options.php:405
+#@ biznez
+msgid "Bullets"
+msgstr ""
+
+#: options.php:406
+#@ biznez
+msgid "Bullets Enable/Disable."
+msgstr ""
+
+#: options.php:415
+#@ biznez
+msgid "SEO Settings"
+msgstr ""
+
+#: options.php:419
+#@ biznez
+msgid "Home Title"
+msgstr ""
+
+#: options.php:420
+#@ biznez
+msgid "As the name implies, this will be the title of your homepage. This is independent of any other option. If not set, the default blog title will get used.."
+msgstr ""
+
+#: options.php:426
+#@ biznez
+msgid "Home Description"
+msgstr ""
+
+#: options.php:427
+#@ biznez
+msgid "The META description for your homepage. Independent of any other options, the default is no META description at all if this is not set.."
+msgstr ""
+
+#: options.php:433
+#@ biznez
+msgid "Home Keywords (comma separated)"
+msgstr ""
+
+#: options.php:434
+#@ biznez
+msgid "A comma separated list of your most important keywords for your site that will be written as META keywords on your homepage. Don't stuff everything in here.."
+msgstr ""
+
+#: options.php:441
+#@ biznez
+msgid "All SEO Features below in this panel are available in Theme Pro Version."
+msgstr ""
+
+#: options.php:446
+#@ biznez
+msgid "Disable BizNez SEO Settings"
+msgstr ""
+
+#: options.php:447
+#@ biznez
+msgid "This option will disable theme seo setting options."
+msgstr ""
+
+#: options.php:453
+#@ biznez
+msgid "Canonical URLs"
+msgstr ""
+
+#: options.php:454
+#@ biznez
+msgid "This option will automatically generate Canonical URLS for your entire WordPress installation. This will help to prevent duplicate content penalties by Google."
+msgstr ""
+
+#: options.php:460
+#@ biznez
+msgid "Post Title Format"
+msgstr ""
+
+#: options.php:461
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t<b>#post_title# - The original title of the post</b>\n"
+"\t\t\t\t\t\t<b>#category_title# - The (main) category of the post</b>\n"
+"\t\t\t\t\t\t<b>#post_author_login# - This post's author' login</b>\n"
+"\t\t\t\t\t\t<b>#post_author_nicename# - This post's author' nicename</b>\n"
+"\t\t\t\t\t\t<b>#post_author_firstname# - This post's author' first name (capitalized)</b>\n"
+"\t\t\t\t\t\t#post_author_lastname# - This post's author' last name (capitalized)"
+msgstr ""
+
+#: options.php:475
+#@ biznez
+msgid "Page Title Format"
+msgstr ""
+
+#: options.php:476
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t<b>#page_title# - The original title of the page</b>\n"
+"\t\t\t\t\t\t<b>#page_author_login# - This page's author' login</b>\n"
+"\t\t\t\t\t\t<b>#page_author_nicename# - This page's author' nicename</b>\n"
+"\t\t\t\t\t\t<b>#page_author_firstname# - This page's author' first name (capitalized)</b>\n"
+"\t\t\t\t\t\t#page_author_lastname# - This page's author' last name (capitalized)"
+msgstr ""
+
+#: options.php:489
+#@ biznez
+msgid "Category Title Format"
+msgstr ""
+
+#: options.php:490
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t<b>#category_title# - The (main) category of the post</b>\n"
+"\t\t\t\t\t\t#category_description# - The description of the category"
+msgstr ""
+
+#: options.php:500
+#@ biznez
+msgid "Archive Title Format"
+msgstr ""
+
+#: options.php:501
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t#date# -  The original archive title given by wordpress, e.g. '2013' or '2013 June'"
+msgstr ""
+
+#: options.php:510
+#@ biznez
+msgid "Tag Title Format"
+msgstr ""
+
+#: options.php:511
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t#tag# -  The name of the tag"
+msgstr ""
+
+#: options.php:520
+#@ biznez
+msgid "Search Title Format"
+msgstr ""
+
+#: options.php:521
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t#search# -  What was searched for"
+msgstr ""
+
+#: options.php:530
+#@ biznez
+msgid "Meta Description Format"
+msgstr ""
+
+#: options.php:531
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t<b>#description# - The original description,</b>\n"
+"\t\t\t\t\t\t#wp_title# -  The original wordpress title, e.g. post_title for posts"
+msgstr ""
+
+#: options.php:541
+#@ biznez
+msgid "404 Title Format"
+msgstr ""
+
+#: options.php:542
+#@ biznez
+msgid ""
+"<b>The following macros are supported:</b>\n"
+"\t\t\t\t\t\t<b>#blog_title# - Your blog title</b>\n"
+"\t\t\t\t\t\t<b>#blog_description# - Your blog description</b>\n"
+"\t\t\t\t\t\t#request_url# - The original URL path, like '/url-that-does-not-exist/'"
+msgstr ""
+
+#: options.php:551
+#@ biznez
+msgid "Paged Format"
+msgstr ""
+
+#: options.php:552
+#@ biznez
+msgid ""
+"<b>This string gets appended/prepended to titles when they are for paged index pages (like home or archive pages).The following macros are supported:</b>\n"
+"\t\t\t\t\t#page# - The page number"
+msgstr ""
+
+#: options.php:559
+#@ biznez
+msgid "Use Categories for META keywords:"
+msgstr ""
+
+#: options.php:560
+#@ biznez
+msgid "Check this if you want your categories for a given post used as the META keywords for this post (in addition to any keywords and tags you specify on the post edit page)."
+msgstr ""
+
+#: options.php:566
+#@ biznez
+msgid "Use Tags for META keywords:"
+msgstr ""
+
+#: options.php:567
+#@ biznez
+msgid "Check this if you want your tags for a given post used as the META keywords for this post (in addition to any keywords you specify on the post edit page)."
+msgstr ""
+
+#: options.php:573
+#@ biznez
+msgid "Use noindex for Categories:"
+msgstr ""
+
+#: options.php:574
+#@ biznez
+msgid "Check this for excluding category pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: options.php:580
+#@ biznez
+msgid "Use noindex for Archives:"
+msgstr ""
+
+#: options.php:581
+#@ biznez
+msgid "Check this for excluding archive pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: options.php:587
+#@ biznez
+msgid "Use noindex for Tag Archives:"
+msgstr ""
+
+#: options.php:588
+#@ biznez
+msgid "Check this for excluding tag pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: options.php:594
+#@ biznez
+msgid "Exclude Pages:"
+msgstr ""
+
+#: options.php:595
+#@ biznez
+msgid "Enter any comma separated pages (ID) here to be excluded by theme SEO settings. This is helpful when using plugins which generate their own non-WordPress dynamic pages."
+msgstr ""
+
+#: options.php:601
+#@ biznez
+msgid "Google Webmaster (Verification) Tools:"
+msgstr ""
+
+#: options.php:602
+#: options.php:609
+#: options.php:616
+#@ biznez
+msgid "<b>Enter your verification code here to add a meta tag to your homepage to verify your site.</b>"
+msgstr ""
+
+#: options.php:608
+#@ biznez
+msgid "Bing Webmaster (Verification) Center:"
+msgstr ""
+
+#: options.php:615
+#@ biznez
+msgid "Pinterest Site Verification:"
+msgstr ""
+
+#: options.php:623
+#@ biznez
+msgid "Contact Page Settings"
+msgstr ""
+
+#: options.php:627
+#@ biznez
+msgid "Select Contact us page"
+msgstr ""
+
+#: options.php:628
+#@ biznez
+msgid "Contact us page"
+msgstr ""
+
+#: options.php:633
+#@ biznez
+msgid "Contact Google Map Latitude"
+msgstr ""
+
+#: options.php:634
+#: options.php:641
+#@ biznez
+msgid "To find latitude and longnitude right click on the google map at your desired location and from context menu select Whats here & you will get the latitude and longnitude at searchbox.."
+msgstr ""
+
+#: options.php:640
+#@ biznez
+msgid "Contact Google Map Longitude"
+msgstr ""
+
+#: options.php:646
+#@ biznez
+msgid "Contact Google Map Info window by default"
+msgstr ""
+
+#: options.php:647
+#@ biznez
+msgid "Default ( close )."
+msgstr ""
+
+#: options.php:654
+#@ biznez
+msgid "Contact Google Map Info Window Text. ( please donot use double quotes. )"
+msgstr ""
+
+#: options.php:655
+#@ biznez
+msgid "Enter Google Map Info Window Text."
+msgstr ""
+
+#: options.php:661
+#@ biznez
+msgid "Contact Google Map Marker Title"
+msgstr ""
+
+#: options.php:662
+#@ biznez
+msgid "Enter Contact Google Map Marker Title."
+msgstr ""
+
+#: options.php:668
+#@ biznez
+msgid "Contact Google Map Marker Image"
+msgstr ""
+
+#: options.php:669
+#@ biznez
+msgid "This creates a Marker image that previews the image."
+msgstr ""
+
+#: options.php:675
+#@ biznez
+msgid "Contact Google Map Marker Animation"
+msgstr ""
+
+#: options.php:676
+#@ biznez
+msgid "Default ( Bounce )."
+msgstr ""
+
+#: options.php:683
+#@ biznez
+msgid "Address Title"
+msgstr ""
+
+#: options.php:684
+#@ biznez
+msgid "Put Your Address Title here."
+msgstr ""
+
+#: options.php:689
+#@ biznez
+msgid "Address Area"
+msgstr ""
+
+#: options.php:690
+#@ biznez
+msgid "Put Your Address Here."
+msgstr ""
+
+#: options.php:695
+#@ biznez
+msgid "Phone Number"
+msgstr ""
+
+#: options.php:696
+#@ biznez
+msgid "Put Your Phone Number here to Show in Mobile View in Header."
+msgstr ""
+
+#: options.php:700
+#@ biznez
+msgid "Email Address for Contact Form"
+msgstr ""
+
+#: options.php:701
+#@ biznez
+msgid "Email Address for Contact Form."
+msgstr ""
+
+#: options.php:708
+#@ biznez
+msgid "Footer"
+msgstr ""
+
+#: options.php:711
+#@ biznez
+msgid "Copyright Text"
+msgstr ""
+
+#: options.php:712
+#: options.php:719
+#@ biznez
+msgid "You can use HTML for links etc.."
+msgstr ""
+
+#: options.php:718
+#@ biznez
+msgid "Powered by Text"
+msgstr ""
+
+#: options.php:725
+#@ biznez
+msgid "Google Analytics code:"
+msgstr ""
+
+#: options.php:726
+#@ biznez
+msgid "You can use Google Analytics code here."
+msgstr ""
+
+#: options.php:732
+#@ biznez
+msgid "About page"
+msgstr ""
+
+#: options.php:735
+#@ biznez
+msgid "Change Team Member Heading Text"
+msgstr ""
+
+#: options.php:736
+#@ biznez
+msgid "Change Team Member Heading Text."
+msgstr ""
+
+#: options.php:742
+#@ biznez
+msgid "Front Page Options"
+msgstr ""
+
+#: options.php:746
+#@ biznez
+msgid "Select Front us page"
+msgstr ""
+
+#: options.php:747
+#@ biznez
+msgid "This is Front us page template. it will not work if you set front page from reading setting."
+msgstr ""
+
+#: options.php:753
+#@ biznez
+msgid "Select blog page"
+msgstr ""
+
+#: options.php:754
+#@ biznez
+msgid "This is Blog page template. it will not work if you set blog/post page from reading setting."
+msgstr ""
+
+#: options.php:759
+#@ biznez
+msgid "Hide Feature Box on Front Page"
+msgstr ""
+
+#: options.php:760
+#: options.php:872
+#: options.php:932
+#: options.php:1033
+#@ biznez
+msgid "Radio select with default options \"hide\"."
+msgstr ""
+
+#: options.php:766
+#@ biznez
+msgid "Select Featured box Type"
+msgstr ""
+
+#: options.php:767
+#@ biznez
+msgid "Select Featured box for Front Page."
+msgstr ""
+
+#: options.php:775
+#@ biznez
+msgid "Featured Box 1 Heading:"
+msgstr ""
+
+#: options.php:776
+#@ biznez
+msgid "Enter Featured Box 1 Heading."
+msgstr ""
+
+#: options.php:781
+#@ biznez
+msgid "Featured Box 1 Icon"
+msgstr ""
+
+#: options.php:782
+#: options.php:806
+#: options.php:830
+#: options.php:854
+#: options.php:1002
+#: options.php:1007
+#: options.php:1012
+#: options.php:1017
+#: options.php:1022
+#: options.php:1027
+#@ biznez
+msgid "This creates a full size uploader that previews the image."
+msgstr ""
+
+#: options.php:786
+#@ biznez
+msgid "Featured Box 1 Content:"
+msgstr ""
+
+#: options.php:787
+#@ biznez
+msgid "Enter Featured Box 1 Content."
+msgstr ""
+
+#: options.php:792
+#@ biznez
+msgid "Featured Box 1 Link:"
+msgstr ""
+
+#: options.php:793
+#@ biznez
+msgid "Enter Featured Box 1 Link."
+msgstr ""
+
+#: options.php:799
+#@ biznez
+msgid "Featured Box 2 Heading:"
+msgstr ""
+
+#: options.php:800
+#@ biznez
+msgid "Enter Featured Box 2 Heading."
+msgstr ""
+
+#: options.php:805
+#@ biznez
+msgid "Featured Box 2 Icon"
+msgstr ""
+
+#: options.php:810
+#@ biznez
+msgid "Featured Box 2 Content:"
+msgstr ""
+
+#: options.php:811
+#@ biznez
+msgid "Enter Featured Box 2 Content."
+msgstr ""
+
+#: options.php:816
+#@ biznez
+msgid "Featured Box 2 Link:"
+msgstr ""
+
+#: options.php:817
+#@ biznez
+msgid "Enter Featured Box 2 Link."
+msgstr ""
+
+#: options.php:823
+#@ biznez
+msgid "Featured Box 3 Heading:"
+msgstr ""
+
+#: options.php:824
+#@ biznez
+msgid "Enter Featured Box 3 Heading."
+msgstr ""
+
+#: options.php:829
+#@ biznez
+msgid "Featured Box 3 Icon"
+msgstr ""
+
+#: options.php:834
+#@ biznez
+msgid "Featured Box 3 Content:"
+msgstr ""
+
+#: options.php:835
+#@ biznez
+msgid "Enter Featured Box 3 Content."
+msgstr ""
+
+#: options.php:840
+#@ biznez
+msgid "Featured Box 3 Link:"
+msgstr ""
+
+#: options.php:841
+#@ biznez
+msgid "Enter Featured Box 3 Link."
+msgstr ""
+
+#: options.php:847
+#@ biznez
+msgid "Featured Box 4 Heading:"
+msgstr ""
+
+#: options.php:848
+#@ biznez
+msgid "Enter Featured Box 4 Heading."
+msgstr ""
+
+#: options.php:853
+#@ biznez
+msgid "Featured Box 4 Icon"
+msgstr ""
+
+#: options.php:858
+#@ biznez
+msgid "Featured Box 4 Content:"
+msgstr ""
+
+#: options.php:859
+#@ biznez
+msgid "Enter Featured Box 4 Content."
+msgstr ""
+
+#: options.php:864
+#@ biznez
+msgid "Featured Box 4 Link:"
+msgstr ""
+
+#: options.php:865
+#@ biznez
+msgid "Enter Featured Box 4 Link."
+msgstr ""
+
+#: options.php:871
+#@ biznez
+msgid "Hide Latest Work on Front Page"
+msgstr ""
+
+#: options.php:878
+#@ biznez
+msgid "Change Latest Work Heading Text"
+msgstr ""
+
+#: options.php:879
+#@ biznez
+msgid "Change Latest Work Heading Text."
+msgstr ""
+
+#: options.php:884
+#@ biznez
+msgid "Check to Show circular Latest Work."
+msgstr ""
+
+#: options.php:885
+#@ biznez
+msgid "Show Latest Work in circular Format."
+msgstr ""
+
+#: options.php:889
+#: options.php:890
+#@ biznez
+msgid "Number of Post Display in Latest Work."
+msgstr ""
+
+#: options.php:895
+#@ biznez
+msgid "Show Auto Scroll in Carousel."
+msgstr ""
+
+#: options.php:896
+#@ biznez
+msgid "Show Auto Scroll."
+msgstr ""
+
+#: options.php:903
+#: options.php:904
+#@ biznez
+msgid "Pause on hover in Carousel."
+msgstr ""
+
+#: options.php:911
+#@ biznez
+msgid "Hide/Show Control Navigation"
+msgstr ""
+
+#: options.php:912
+#@ biznez
+msgid "Radio select with default options \"show\"."
+msgstr ""
+
+#: options.php:918
+#@ biznez
+msgid "delay in Carousel:"
+msgstr ""
+
+#: options.php:919
+#@ biznez
+msgid "delay Speed."
+msgstr ""
+
+#: options.php:924
+#@ biznez
+msgid "Transition Speed in Carousel:"
+msgstr ""
+
+#: options.php:925
+#@ biznez
+msgid "Transition Speed."
+msgstr ""
+
+#: options.php:931
+#@ biznez
+msgid "Hide Testimonial and Client Box."
+msgstr ""
+
+#: options.php:939
+#@ biznez
+msgid "Change Testimonial Heading Text"
+msgstr ""
+
+#: options.php:940
+#@ biznez
+msgid "Change Testimonial Heading Text."
+msgstr ""
+
+#: options.php:945
+#@ biznez
+msgid "Testimonial Box 1 Content:"
+msgstr ""
+
+#: options.php:946
+#@ biznez
+msgid "Enter Testimonial Box 1 Content."
+msgstr ""
+
+#: options.php:951
+#@ biznez
+msgid "Testimonial 1 author:"
+msgstr ""
+
+#: options.php:952
+#@ biznez
+msgid "Enter Testimonial 1 author."
+msgstr ""
+
+#: options.php:957
+#@ biznez
+msgid "Testimonial 1 author Link:"
+msgstr ""
+
+#: options.php:958
+#@ biznez
+msgid "Testimonial 1 author Link."
+msgstr ""
+
+#: options.php:963
+#@ biznez
+msgid "Testimonial 1 author Link Text:"
+msgstr ""
+
+#: options.php:964
+#@ biznez
+msgid "Testimonial 1 author Link text."
+msgstr ""
+
+#: options.php:969
+#@ biznez
+msgid "Testimonial Box 2 Content:"
+msgstr ""
+
+#: options.php:970
+#@ biznez
+msgid "Enter Testimonial Box 2 Content."
+msgstr ""
+
+#: options.php:975
+#@ biznez
+msgid "Testimonial 2 author:"
+msgstr ""
+
+#: options.php:976
+#@ biznez
+msgid "Enter Testimonial 2 author."
+msgstr ""
+
+#: options.php:981
+#@ biznez
+msgid "Testimonial 2 author Link:"
+msgstr ""
+
+#: options.php:982
+#@ biznez
+msgid "Testimonial 2 author Link."
+msgstr ""
+
+#: options.php:987
+#@ biznez
+msgid "Testimonial 2 author Link Text:"
+msgstr ""
+
+#: options.php:988
+#@ biznez
+msgid "Testimonial 2 author Link text."
+msgstr ""
+
+#: options.php:995
+#@ biznez
+msgid "Client Title:"
+msgstr ""
+
+#: options.php:996
+#@ biznez
+msgid "Enter Client Title."
+msgstr ""
+
+#: options.php:1001
+#@ biznez
+msgid "Our Client Image 1"
+msgstr ""
+
+#: options.php:1006
+#@ biznez
+msgid "Our Client Image 2"
+msgstr ""
+
+#: options.php:1011
+#@ biznez
+msgid "Our Client Image 3"
+msgstr ""
+
+#: options.php:1016
+#@ biznez
+msgid "Our Client Image 4"
+msgstr ""
+
+#: options.php:1021
+#@ biznez
+msgid "Our Client Image 5"
+msgstr ""
+
+#: options.php:1026
+#@ biznez
+msgid "Our Client Image 6"
+msgstr ""
+
+#: options.php:1032
+#@ biznez
+msgid "Hide Front Content Box."
+msgstr ""
+
+#: options.php:1039
+#@ biznez
+msgid "Front Content Box :"
+msgstr ""
+
+#: options.php:1040
+#@ biznez
+msgid "Front Content Box."
+msgstr ""
+
+#: options.php:1045
+#@ biznez
+msgid "Front Content Box Button Text:"
+msgstr ""
+
+#: options.php:1046
+#@ biznez
+msgid "Front Content Box Button Text."
+msgstr ""
+
+#: options.php:1050
+#@ biznez
+msgid "Front Content Box Button Link:"
+msgstr ""
+
+#: options.php:1051
+#@ biznez
+msgid "Front Content Box Button Link."
+msgstr ""
+
+#: options.php:1059
+#@ biznez
+msgid "Admin Login (Advanced)"
+msgstr ""
+
+#: options.php:1064
+#@ biznez
+msgid "All Admin Login Features below in this panel are available in Theme Pro Version."
+msgstr ""
+
+#: options.php:1068
+#@ biznez
+msgid "Admin Logo Background color"
+msgstr ""
+
+#: options.php:1069
+#@ biznez
+msgid "Change the admin login background color"
+msgstr ""
+
+#: options.php:1075
+#@ biznez
+msgid "Admin Login Logo"
+msgstr ""
+
+#: options.php:1076
+#@ biznez
+msgid "Change the admin login logo image."
+msgstr ""
+
+#: search.php:8
+#, php-format
+#@ biznez
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:4
+#@ biznez
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar-footer.php:6
+#: sidebar-woocommerce.php:9
+#: sidebar.php:14
+#@ biznez
+msgid "Archives"
+msgstr ""
+
+#: sidebar-footer.php:19
+#: sidebar.php:21
+#@ biznez
+msgid "Meta"
+msgstr ""
+
+#: single.php:39
+#@ biznez
+msgid "Tag:"
+msgstr ""
+
+#: tag.php:14
+#, php-format
+#@ biznez
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: template-about-page.php:33
+#@ biznez
+msgid "Our Team Member"
+msgstr ""
+
+#: template-project-page.php:37
+#@ biznez
+msgid "show all"
+msgstr ""
+
+#: template-sitemap.php:36
+#@ biznez
+msgid "Blog Entries"
+msgstr ""
+
+#: template-sitemap.php:62
+#@ biznez
+msgid "Posts Per Category"
+msgstr ""
+
+#: template_image-gallery.php:57
+#@ biznez
+msgid "&larr;Previous"
+msgstr ""
+
+#: template_image-gallery.php:58
+#@ biznez
+msgid "Next&rarr;"
+msgstr ""
+

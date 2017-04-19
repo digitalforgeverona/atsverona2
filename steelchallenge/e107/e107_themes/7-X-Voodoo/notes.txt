@@ -1,0 +1,21 @@
+Keep these in mind !!
+
+
+!!!! NOTES !!!!
+
+1. logo has an fixed size
+in the height so don't make it bigger then 
+HEIGHT : 116 PX
+
+2. 
+Upper right text Keep it short!!!!
+it is found here:
+ e107admin section---> button: "preferences"-------->Site Information
+
+the line: "Site Tagline:"
+ keep short what you fill in there else the theme will fuck up.
+ 
+ 
+best regards KulleKulle
+
+new : rename fresh-logo to logo after you finished with it and drop it in image folder !!

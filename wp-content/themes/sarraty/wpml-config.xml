@@ -1,0 +1,15 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">Project</custom-type>
+        <custom-type translate="1">Testimonial</custom-type>
+        <custom-type translate="1">Team Member</custom-type>
+        <custom-type translate="1">Pricing Table</custom-type>
+        <custom-type translate="1">Pricing Package</custom-type>
+        <custom-type translate="1">Client</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">Tags</taxonomy>
+    </taxonomies>     
+</wpml-config>
+
+

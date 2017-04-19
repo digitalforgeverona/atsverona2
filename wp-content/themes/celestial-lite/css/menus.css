@@ -1,0 +1,350 @@
+/* Menus
+-------------------------------------------------------------- */
+
+/* Main Menu Toggle */
+.menu-toggle {
+	padding: 6px 10px;
+	font-size: 11px;
+	line-height: 1.428571429;
+	font-weight: normal;
+	color: #7c7c7c;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+}
+.menu-toggle {
+    cursor: pointer;	
+}
+.menu-toggle:hover {
+	color: #5e5e5e;
+	background-color: #ebebeb;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+}
+.menu-toggle:active,
+.menu-toggle.toggled-on {
+	color: #757575;
+	background-color: #e1e1e1;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: -ms-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: linear-gradient(top, #ebebeb, #e1e1e1);
+	box-shadow: inset 0 0 8px 2px #c6c6c6, 0 1px 0 0 #f4f4f4;
+	border: none;
+}
+
+
+/* Navigation Menu */
+.main-navigation {
+	margin-top: 30px;
+	text-align: center;
+	list-style:none;
+}
+.main-navigation li {
+	list-style:none;
+	background-image:none;
+	margin-top: 20px;
+	padding-left:0;
+	font-family: ubuntu-light,abel,sans-serif;
+	font-size: 1em;
+	line-height: 1.42857143;
+}
+.main-navigation a {
+	color: #555555;
+	text-decoration: none;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	display: none;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+	display: inline-block;
+	margin-left:0;
+}
+.main-navigation ul.nav-menu.toggled-on ul.sub-menu {
+	margin-left:0;
+}
+.main-navigation ul.nav-menu.toggled-on ul.sub-menu li {
+	background:none;
+}
+
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: right;
+		width: 100%;
+	}
+	.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+	}
+	.main-navigation li a,
+	.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+	}
+	.main-navigation li a {
+		border-bottom: 0;
+		line-height: 3.692307692;
+		white-space: nowrap;
+	}
+	.main-navigation li a:hover {
+		color: #467fc2;
+	}
+	.main-navigation li {
+		margin: 0 0 0 1.438em;
+		position: relative;
+	}
+	.main-navigation ul.sub-menu li {
+		margin-left:0;
+	}
+	.main-navigation li ul {
+		display: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 100%;
+		right:-20px;  /* lets have the 2nd level a little to the right */
+		z-index: 9999; /* lets make the submenu float above sliders */
+	}
+	.main-navigation li ul ul {
+		top: 0;
+		right: 90%; /* lets have the 3rd level overlap the 2nd */
+	}
+	.main-navigation ul li:hover > ul {
+		display: block;
+		background-color: #f6f6f6; 
+		border-bottom:12px solid #467fc2;
+		border-radius:12px;
+		-webkit-box-shadow: 0px 7px 7px 3px rgba(0, 0, 0, .25);
+		box-shadow: 0px 7px 7px 3px rgba(0, 0, 0, .25)
+	}
+	.main-navigation li ul li a {
+		display: block;
+		font-size: 0.813em;
+		line-height: 1.7;
+		padding: 4px 20px;
+		width: 12em; /* adjust the submenu width */
+		white-space: normal;
+	}
+	.main-navigation li ul li:hover {
+		background-color: #ededed;
+	}
+	.main-navigation li ul li a:hover {
+		color: #e07fe6;
+	}
+	.main-navigation li ul li:first-child:hover { /* make the hover background match the submenu top corners */
+		border-radius:12px 12px 0 0;
+	}
+	.main-navigation li ul li:last-child:hover { /* make the hover background match the submenu bottom corners */
+		border-radius:0 0 12px 12px;
+	}	
+	/* make the main level menu items active with a colour */
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a,
+	.main-navigation .current_page_item > a,
+	.main-navigation .current_page_ancestor > a {
+		color: #467fc2;
+		font-weight:bold;
+	}	
+	/* remove the bold state on the home menu link */
+	.main-navigation li.home.current_page_item a {
+		font-weight: normal;
+	}
+	/* make the submenus active with a background */
+	.main-navigation ul.sub-menu li.current-menu-item > a,
+	.main-navigation ul.sub-menu li.current-menu-ancestor > a,
+	.main-navigation ul.sub-menu li.current_page_item > a,
+	.main-navigation ul.sub-menu li.current_page_ancestor > a {
+		color: #467fc2;
+		background-color: #ededed;
+	}
+	
+	/* make the active backgrounds match the top submenu corners */
+	.main-navigation ul.sub-menu li:first-child.current-menu-item > a,
+	.main-navigation ul.sub-menu li:first-child.current-menu-ancestor > a,
+	.main-navigation ul.sub-menu li:first-child.current_page_item > a,
+	.main-navigation ul.sub-menu li:first-child.current_page_ancestor > a {
+		border-radius:12px 12px 0 0;
+	}	
+	/* make the active backgrounds match the bottom submenu corners */
+	.main-navigation ul.sub-menu li:last-child.current-menu-item > a,
+	.main-navigation ul.sub-menu li:last-child.current-menu-ancestor > a,
+	.main-navigation ul.sub-menu li:last-child.current_page_item > a,
+	.main-navigation ul.sub-menu li:last-child.current_page_ancestor > a {
+		border-radius:0 0 12px 12px;
+	}	
+
+	.menu-toggle {
+		display: none;
+	}
+}	
+@media (min-width: 320px) and (max-width: 790px) {
+	#logo,
+	#socialbar,
+	#breadcrumbs {
+		text-align:center;
+	}
+	#socialbar #social-icons {
+		float:none;
+	}
+	.main-navigation {
+		margin-top: 0!important;
+	}
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		text-align: center;
+		
+	}
+	#site-navigation ul li:hover > ul {
+		border: none!important;
+		background: none!important;
+	}
+}	
+@media (min-width: 320px) and (max-width: 599px) {
+	.main-navigation {
+		margin-bottom: 1.250em;
+	}
+	.main-navigation li {
+		margin-top:12px;
+		font-size: 1em;
+		font-weight:400;
+		line-height: 1;
+	}
+	.main-navigation ul.sub-menu li {
+		font-size: 0.875em;
+		font-style: italic;
+	}
+	#site-navigation li:hover, #site-navigation a:hover {
+background: none!important;
+}
+}
+
+/*
+ * Footer Menu 
+ */
+#st-footer-menu.menu {
+	margin:0;
+}
+#st-footer-menu li {
+	display:inline;
+	margin:0 4px 0 0;
+	
+ }
+#st-footer-menu li:before { 
+	content:"\00B7";
+	padding-right:7px;
+}
+#st-footer-menu li:first-child:before {
+	content:"";
+}
+/*
+ * Pagination 
+ */
+ /*Pagination*/
+ .pagination {
+  height: 30px;
+  margin: 20px 0;
+}
+ul.page-numbers {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  margin-left: 0;
+  margin-bottom: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius:    5px;
+  border-radius:         5px;
+  
+  -webkit-box-shadow:    0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow:       0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow:            0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.page-numbers li {
+  display: inline;
+  font-size:11px;
+}
+.page-numbers a,
+.page-numbers span {
+  float: left;
+  padding: 0 6px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+.page-numbers li:first-child a,
+.page-numbers li:first-child span {
+  border-left-width: 1px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+.page-numbers li:last-child a,
+.page-numbers li:last-child span {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+a.page-numbers, 
+.page-numbers span {
+	display:inline-block;
+	line-height:20px;
+	padding:2px 5px;
+	cursor: pointer;
+	  color: #494f55;
+	  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	  background-color: #f5f5f5;
+	  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	  background-repeat: repeat-x;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);  
+	  *background-color: #e6e6e6;
+	  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	  
+	  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	  -moz-box-shadow:    inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	  box-shadow:         inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  
+}
+a.page-numbers:hover {
+  color: #494f55;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition:    background-position 0.1s linear;
+  -o-transition:      background-position 0.1s linear;
+  transition:         background-position 0.1s linear;
+}
+span.page-numbers.current {
+  background-color: #f5f5f5;
+  background-image:none;
+  cursor: default;
+}
+ul.page-numbers {background:none; border:none; padding:none; line:height:1;}

@@ -1,0 +1,38 @@
++------------------------------------------------------------+
+|  7-X-Voodoo                     		 
+|  ****************                                                  
+|  KulleKulle - 2005                                            
+|
+|
+|  Traduzione italiana a cura di e107 Italian Team  © 2006
+|  http://www.e107italia.org    -    info@e107italia.org 
+|
+|
++-------------------------------------------------------------+
+
+
+ISTRUZIONI:
+
+- Scompattare il file .zip e caricare SOLO la cartella 7-X-Voodoo nella directory e107_themes
+
+
+ATTENZIONE! 
+Per un corretto uso e funzionamento del Tema si tenga presente che:
+
+
+1. Il LOGO è impostato su dimensioni "fisse" in altezza (= height: 116 px)
+Non utilizzare un'immagine di altezza superiore!
+
+2. Se si desidera, si può utilizzare come LOGO anche l'immagine 'fresh-logo.gif' presente nella directory principale di 7-X-Voodoo.
+In tal caso, rinominarla come 'logo.gif' e spostarla nella cartella 'images' del tema. 
+
+3. Il blocco superiore di destra richiama il testo dei {SITETAG} del tuo sito
+definiti in: 
+Amministrazione ---> Preferenze ---> Informazioni ---> Tags del Sito 
+
+Si consiglia quindi di impostare un testo "breve" per evitare di "scompaginare" tutto il Layout!
+
+
+
+ 
+ 
